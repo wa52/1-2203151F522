@@ -4,12 +4,12 @@
   "returned": 120,
   "category_chunk_counts": {
     "identity": 3327,
-    "appearance": 2619,
-    "demeanor": 2565,
-    "social_reaction": 869,
-    "abnormality": 2572,
-    "occupation": 911,
-    "family": 1413
+    "appearance": 2474,
+    "demeanor": 2431,
+    "social_reaction": 777,
+    "abnormality": 2445,
+    "occupation": 842,
+    "family": 1365
   },
   "candidates": [
     {
@@ -2095,32 +2095,6 @@
       "score": 77
     },
     {
-      "chunk_id": "ch-0584-ck-001",
-      "chapter_id": "ch-0584",
-      "chapter_title": "第五百七十九章 讲道理不好吗？",
-      "line_start": 65147,
-      "line_end": 65173,
-      "character_mentions": 15,
-      "categories": {
-        "identity": [
-          "年轻人",
-          "陆辛"
-        ],
-        "appearance": [
-          "头发",
-          "模样",
-          "脸"
-        ],
-        "demeanor": [
-          "笑"
-        ],
-        "abnormality": [
-          "精神"
-        ]
-      },
-      "score": 77
-    },
-    {
       "chunk_id": "ch-0029-ck-002",
       "chapter_id": "ch-0029",
       "chapter_title": "第二十八章 逻辑链与核心关键",
@@ -2467,40 +2441,6 @@
       "score": 77
     },
     {
-      "chunk_id": "ch-0216-ck-001",
-      "chapter_id": "ch-0216",
-      "chapter_title": "第二百一十四章 是她？",
-      "line_start": 19746,
-      "line_end": 19774,
-      "character_mentions": 10,
-      "categories": {
-        "identity": [
-          "陆辛"
-        ],
-        "appearance": [
-          "模样",
-          "目光",
-          "眼睛",
-          "衬衫"
-        ],
-        "occupation": [
-          "公司",
-          "工作"
-        ],
-        "demeanor": [
-          "笑",
-          "老实"
-        ],
-        "abnormality": [
-          "异变",
-          "异常",
-          "污染",
-          "精神"
-        ]
-      },
-      "score": 77
-    },
-    {
       "chunk_id": "ch-0280-ck-001",
       "chapter_id": "ch-0280",
       "chapter_title": "第二百七十六章 彼此厌恶的头和身子",
@@ -2571,48 +2511,6 @@
       "score": 77
     },
     {
-      "chunk_id": "ch-0009-ck-002",
-      "chapter_id": "ch-0009",
-      "chapter_title": "第八章 红月亮小学",
-      "line_start": 715,
-      "line_end": 745,
-      "character_mentions": 7,
-      "categories": {
-        "identity": [
-          "陆辛"
-        ],
-        "appearance": [
-          "眼睛",
-          "脸"
-        ],
-        "occupation": [
-          "公司"
-        ],
-        "demeanor": [
-          "笑",
-          "老实",
-          "认真"
-        ],
-        "family": [
-          "妹妹",
-          "家人",
-          "母亲",
-          "父亲"
-        ],
-        "social_reaction": [
-          "看着他"
-        ],
-        "abnormality": [
-          "异变",
-          "怪物",
-          "精神",
-          "能力",
-          "观察"
-        ]
-      },
-      "score": 77
-    },
-    {
       "chunk_id": "ch-0214-ck-002",
       "chapter_id": "ch-0214",
       "chapter_title": "第二百一十二章 记得回来",
@@ -2658,6 +2556,31 @@
         ],
         "demeanor": [
           "笑"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0584-ck-001",
+      "chapter_id": "ch-0584",
+      "chapter_title": "第五百七十九章 讲道理不好吗？",
+      "line_start": 65147,
+      "line_end": 65173,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "模样",
+          "脸"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "abnormality": [
+          "精神"
         ]
       },
       "score": 76
@@ -3799,6 +3722,74 @@
         ],
         "abnormality": [
           "能力"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0313-ck-002",
+      "chapter_id": "ch-0313",
+      "chapter_title": "第三百零九章 友好的劝说",
+      "line_start": 31056,
+      "line_end": 31080,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "父亲"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "怪物",
+          "能力"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0350-ck-001",
+      "chapter_id": "ch-0350",
+      "chapter_title": "第三百四十六章 喝酒对身体不好，戒了吧",
+      "line_start": 35328,
+      "line_end": 35361,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "demeanor": [
+          "平静",
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "妹妹",
+          "父亲"
+        ],
+        "abnormality": [
+          "异常",
+          "污染",
+          "能力",
+          "观察"
         ]
       },
       "score": 74
