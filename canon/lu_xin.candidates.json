@@ -1,0 +1,3808 @@
+{
+  "character": "陆辛",
+  "candidate_count": 3327,
+  "returned": 120,
+  "category_chunk_counts": {
+    "identity": 3327,
+    "appearance": 2619,
+    "demeanor": 2565,
+    "social_reaction": 869,
+    "abnormality": 2572,
+    "occupation": 911,
+    "family": 1413
+  },
+  "candidates": [
+    {
+      "chunk_id": "ch-0835-ck-002",
+      "chapter_id": "ch-0835",
+      "chapter_title": "第八百三十章 魔术手法",
+      "line_start": 98657,
+      "line_end": 98692,
+      "character_mentions": 17,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "安静",
+          "普通",
+          "笑",
+          "老实",
+          "认真"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 102
+    },
+    {
+      "chunk_id": "ch-0014-ck-002",
+      "chapter_id": "ch-0014",
+      "chapter_title": "第十三章 工作积极性",
+      "line_start": 1166,
+      "line_end": 1187,
+      "character_mentions": 17,
+      "categories": {
+        "identity": [
+          "年轻人",
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "上班",
+          "公司",
+          "办公室",
+          "工作"
+        ],
+        "demeanor": [
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妹妹"
+        ]
+      },
+      "score": 97
+    },
+    {
+      "chunk_id": "ch-0221-ck-002",
+      "chapter_id": "ch-0221",
+      "chapter_title": "第二百一十九章 青港的娃娃",
+      "line_start": 20341,
+      "line_end": 20370,
+      "character_mentions": 17,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "安静",
+          "沉默",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 96
+    },
+    {
+      "chunk_id": "ch-0036-ck-002",
+      "chapter_id": "ch-0036",
+      "chapter_title": "第三十五章 小鹿老师",
+      "line_start": 2823,
+      "line_end": 2861,
+      "character_mentions": 18,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "模样",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "笑",
+          "认真"
+        ],
+        "social_reaction": [
+          "看着他"
+        ]
+      },
+      "score": 94
+    },
+    {
+      "chunk_id": "ch-0379-ck-002",
+      "chapter_id": "ch-0379",
+      "chapter_title": "第三百七十五章 最好的情报组织",
+      "line_start": 39038,
+      "line_end": 39069,
+      "character_mentions": 18,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "瘦",
+          "目光",
+          "眼睛"
+        ],
+        "demeanor": [
+          "沉默"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "危险",
+          "怪物"
+        ]
+      },
+      "score": 94
+    },
+    {
+      "chunk_id": "ch-0347-ck-001",
+      "chapter_id": "ch-0347",
+      "chapter_title": "第三百四十三章 大怪物",
+      "line_start": 34937,
+      "line_end": 34966,
+      "character_mentions": 17,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "沉默"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "危险",
+          "怪物",
+          "能力",
+          "观察"
+        ]
+      },
+      "score": 93
+    },
+    {
+      "chunk_id": "ch-0204-ck-001",
+      "chapter_id": "ch-0204",
+      "chapter_title": "第二百零二章 吃人的噩梦",
+      "line_start": 18332,
+      "line_end": 18359,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "公司",
+          "办公室",
+          "同事",
+          "工作"
+        ],
+        "demeanor": [
+          "沉默",
+          "认真"
+        ],
+        "family": [
+          "爸爸"
+        ],
+        "social_reaction": [
+          "同事",
+          "看着他"
+        ]
+      },
+      "score": 93
+    },
+    {
+      "chunk_id": "ch-0135-ck-002",
+      "chapter_id": "ch-0135",
+      "chapter_title": "第一百三十三章 跑不掉了",
+      "line_start": 11081,
+      "line_end": 11112,
+      "character_mentions": 19,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "身材"
+        ],
+        "family": [
+          "妈妈"
+        ],
+        "abnormality": [
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 92
+    },
+    {
+      "chunk_id": "ch-0441-ck-002",
+      "chapter_id": "ch-0441",
+      "chapter_title": "第四百三十七章 让世界开始憎恨",
+      "line_start": 47292,
+      "line_end": 47318,
+      "character_mentions": 16,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "怪物",
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 92
+    },
+    {
+      "chunk_id": "ch-0004-ck-002",
+      "chapter_id": "ch-0004",
+      "chapter_title": "第三章 你的咖啡还没喝",
+      "line_start": 243,
+      "line_end": 281,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "办公室",
+          "工作"
+        ],
+        "demeanor": [
+          "普通",
+          "笑"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "异常",
+          "精神",
+          "能力",
+          "观察"
+        ]
+      },
+      "score": 90
+    },
+    {
+      "chunk_id": "ch-0259-ck-003",
+      "chapter_id": "ch-0259",
+      "chapter_title": "第二百五十五章 003号文件",
+      "line_start": 24688,
+      "line_end": 24722,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "家里",
+          "父亲"
+        ],
+        "social_reaction": [
+          "看他"
+        ]
+      },
+      "score": 90
+    },
+    {
+      "chunk_id": "ch-0406-ck-005",
+      "chapter_id": "ch-0406",
+      "chapter_title": "第四百零二章 学习的好机会",
+      "line_start": 42606,
+      "line_end": 42637,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "瘦",
+          "眼睛",
+          "身材"
+        ],
+        "demeanor": [
+          "普通",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "父亲"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 90
+    },
+    {
+      "chunk_id": "ch-0039-ck-001",
+      "chapter_id": "ch-0039",
+      "chapter_title": "第三十八章 入职检测",
+      "line_start": 3027,
+      "line_end": 3068,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "occupation": [
+          "公司"
+        ],
+        "demeanor": [
+          "礼貌",
+          "笑",
+          "老实",
+          "认真"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "social_reaction": [
+          "别人",
+          "看着他"
+        ],
+        "abnormality": [
+          "危险",
+          "异变",
+          "怪物",
+          "污染"
+        ]
+      },
+      "score": 89
+    },
+    {
+      "chunk_id": "ch-0149-ck-002",
+      "chapter_id": "ch-0149",
+      "chapter_title": "第一百四十七章 找你很久了",
+      "line_start": 12492,
+      "line_end": 12526,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "礼貌",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹"
+        ],
+        "social_reaction": [
+          "看他",
+          "看着他"
+        ]
+      },
+      "score": 88
+    },
+    {
+      "chunk_id": "ch-0782-ck-007",
+      "chapter_id": "ch-0782",
+      "chapter_title": "第七百八十七章 嚣张的父亲",
+      "line_start": 90583,
+      "line_end": 90624,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作",
+          "工资"
+        ],
+        "demeanor": [
+          "平静",
+          "沉默",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "父亲"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "污染",
+          "能力"
+        ]
+      },
+      "score": 87
+    },
+    {
+      "chunk_id": "ch-0826-ck-002",
+      "chapter_id": "ch-0826",
+      "chapter_title": "第八百二十一章 吾乃神明",
+      "line_start": 97174,
+      "line_end": 97214,
+      "character_mentions": 16,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "平静",
+          "笑"
+        ],
+        "abnormality": [
+          "异常",
+          "污染"
+        ]
+      },
+      "score": 86
+    },
+    {
+      "chunk_id": "ch-0205-ck-003",
+      "chapter_id": "ch-0205",
+      "chapter_title": "第二百零三章 影响类能力者",
+      "line_start": 18490,
+      "line_end": 18527,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "公司",
+          "办公室",
+          "同事"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "家人"
+        ],
+        "social_reaction": [
+          "同事",
+          "看着他"
+        ],
+        "abnormality": [
+          "污染",
+          "能力"
+        ]
+      },
+      "score": 86
+    },
+    {
+      "chunk_id": "ch-0433-ck-005",
+      "chapter_id": "ch-0433",
+      "chapter_title": "第四百二十九章 灾厄博物馆",
+      "line_start": 46194,
+      "line_end": 46227,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "衣服"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "abnormality": [
+          "怪物",
+          "污染",
+          "精神",
+          "观察"
+        ]
+      },
+      "score": 86
+    },
+    {
+      "chunk_id": "ch-0087-ck-001",
+      "chapter_id": "ch-0087",
+      "chapter_title": "第八十五章 屠杀性武器",
+      "line_start": 6656,
+      "line_end": 6685,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "污染"
+        ]
+      },
+      "score": 85
+    },
+    {
+      "chunk_id": "ch-0832-ck-001",
+      "chapter_id": "ch-0832",
+      "chapter_title": "第八百二十七章 一个人的晚饭",
+      "line_start": 98181,
+      "line_end": 98211,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸",
+          "衣服"
+        ],
+        "family": [
+          "回家",
+          "家里"
+        ],
+        "social_reaction": [
+          "看他",
+          "看着他"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 85
+    },
+    {
+      "chunk_id": "ch-0040-ck-001",
+      "chapter_id": "ch-0040",
+      "chapter_title": "第三十九章 引导与提升",
+      "line_start": 3115,
+      "line_end": 3133,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "办公室",
+          "同事",
+          "工作"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "social_reaction": [
+          "同事"
+        ],
+        "abnormality": [
+          "异变",
+          "怪物",
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 85
+    },
+    {
+      "chunk_id": "ch-0503-ck-002",
+      "chapter_id": "ch-0503",
+      "chapter_title": "第四百九十八章 态度是大问题",
+      "line_start": 55009,
+      "line_end": 55040,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "脸",
+          "衣服"
+        ],
+        "demeanor": [
+          "平静",
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "污染"
+        ]
+      },
+      "score": 85
+    },
+    {
+      "chunk_id": "ch-0162-ck-003",
+      "chapter_id": "ch-0162",
+      "chapter_title": "第一百六十章 支援小队入场",
+      "line_start": 13940,
+      "line_end": 13971,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人"
+        ],
+        "abnormality": [
+          "污染",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 84
+    },
+    {
+      "chunk_id": "ch-0258-ck-004",
+      "chapter_id": "ch-0258",
+      "chapter_title": "第二百五十四章 礼物",
+      "line_start": 24577,
+      "line_end": 24605,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光"
+        ],
+        "occupation": [
+          "同事"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "回家",
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "social_reaction": [
+          "同事"
+        ]
+      },
+      "score": 84
+    },
+    {
+      "chunk_id": "ch-0595-ck-002",
+      "chapter_id": "ch-0595",
+      "chapter_title": "第五百九十章 废弃房里的电话铃声",
+      "line_start": 66596,
+      "line_end": 66626,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "demeanor": [
+          "安静",
+          "笑",
+          "老实"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "怪物"
+        ]
+      },
+      "score": 84
+    },
+    {
+      "chunk_id": "ch-0038-ck-002",
+      "chapter_id": "ch-0038",
+      "chapter_title": "第三十七章 安静的晚餐",
+      "line_start": 2976,
+      "line_end": 3006,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "年轻人",
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "父亲"
+        ],
+        "abnormality": [
+          "污染",
+          "能力"
+        ]
+      },
+      "score": 84
+    },
+    {
+      "chunk_id": "ch-0147-ck-003",
+      "chapter_id": "ch-0147",
+      "chapter_title": "第一百四十五章 微笑的居民",
+      "line_start": 12303,
+      "line_end": 12332,
+      "character_mentions": 16,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸",
+          "身材"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "安静",
+          "笑",
+          "认真"
+        ]
+      },
+      "score": 83
+    },
+    {
+      "chunk_id": "ch-0270-ck-002",
+      "chapter_id": "ch-0270",
+      "chapter_title": "第二百六十六章 请不要伤害我",
+      "line_start": 26023,
+      "line_end": 26058,
+      "character_mentions": 16,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "demeanor": [
+          "客气",
+          "平静",
+          "笑"
+        ],
+        "abnormality": [
+          "污染"
+        ]
+      },
+      "score": 83
+    },
+    {
+      "chunk_id": "ch-0721-ck-001",
+      "chapter_id": "ch-0721",
+      "chapter_title": "第七百一十六章 审判的力量",
+      "line_start": 82407,
+      "line_end": 82437,
+      "character_mentions": 16,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛"
+        ],
+        "occupation": [
+          "办公室"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "abnormality": [
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 83
+    },
+    {
+      "chunk_id": "ch-0181-ck-002",
+      "chapter_id": "ch-0181",
+      "chapter_title": "第一百七十九章 完成度“B”级",
+      "line_start": 15891,
+      "line_end": 15930,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "同事",
+          "工作"
+        ],
+        "demeanor": [
+          "平静",
+          "笑"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "social_reaction": [
+          "同事",
+          "看他"
+        ],
+        "abnormality": [
+          "污染",
+          "能力"
+        ]
+      },
+      "score": 83
+    },
+    {
+      "chunk_id": "ch-0217-ck-002",
+      "chapter_id": "ch-0217",
+      "chapter_title": "第二百一十五章 还没开始，就结束了",
+      "line_start": 19856,
+      "line_end": 19885,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸",
+          "衣服"
+        ],
+        "occupation": [
+          "同事"
+        ],
+        "demeanor": [
+          "客气",
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "家人"
+        ],
+        "social_reaction": [
+          "同事",
+          "看着他"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 83
+    },
+    {
+      "chunk_id": "ch-0580-ck-001",
+      "chapter_id": "ch-0580",
+      "chapter_title": "第五百七十五章 代号“地狱使者”",
+      "line_start": 64687,
+      "line_end": 64712,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "个子",
+          "目光",
+          "脸"
+        ],
+        "demeanor": [
+          "普通",
+          "认真"
+        ],
+        "family": [
+          "父亲"
+        ],
+        "social_reaction": [
+          "看他",
+          "觉得他"
+        ],
+        "abnormality": [
+          "污染",
+          "观察"
+        ]
+      },
+      "score": 83
+    },
+    {
+      "chunk_id": "ch-0042-ck-002",
+      "chapter_id": "ch-0042",
+      "chapter_title": "第四十一章 多项检测",
+      "line_start": 3277,
+      "line_end": 3303,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妹妹",
+          "父亲"
+        ],
+        "abnormality": [
+          "危险",
+          "异变",
+          "精神",
+          "能力",
+          "观察"
+        ]
+      },
+      "score": 82
+    },
+    {
+      "chunk_id": "ch-0405-ck-002",
+      "chapter_id": "ch-0405",
+      "chapter_title": "第四百零一章 死亡之路",
+      "line_start": 42391,
+      "line_end": 42428,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妹妹",
+          "父亲"
+        ],
+        "abnormality": [
+          "危险",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 82
+    },
+    {
+      "chunk_id": "ch-0720-ck-003",
+      "chapter_id": "ch-0720",
+      "chapter_title": "第七百一十五章 眼睛里的倒计时",
+      "line_start": 82344,
+      "line_end": 82385,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "上班"
+        ],
+        "demeanor": [
+          "安静",
+          "平静",
+          "沉默",
+          "笑",
+          "认真"
+        ],
+        "abnormality": [
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 82
+    },
+    {
+      "chunk_id": "ch-0201-ck-002",
+      "chapter_id": "ch-0201",
+      "chapter_title": "第一百九十九章 前途无量的年轻人",
+      "line_start": 18054,
+      "line_end": 18079,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "年轻人",
+          "陆辛"
+        ],
+        "appearance": [
+          "个子",
+          "瘦",
+          "目光",
+          "脸",
+          "身材"
+        ],
+        "occupation": [
+          "公司",
+          "同事",
+          "工作"
+        ],
+        "demeanor": [
+          "普通",
+          "老实"
+        ],
+        "social_reaction": [
+          "同事"
+        ],
+        "abnormality": [
+          "精神"
+        ]
+      },
+      "score": 82
+    },
+    {
+      "chunk_id": "ch-0610-ck-002",
+      "chapter_id": "ch-0610",
+      "chapter_title": "第六百零五章 双头老人",
+      "line_start": 68591,
+      "line_end": 68624,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "年轻人",
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "沉默",
+          "认真"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "异常",
+          "怪物",
+          "污染",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 82
+    },
+    {
+      "chunk_id": "ch-0826-ck-001",
+      "chapter_id": "ch-0826",
+      "chapter_title": "第八百二十一章 吾乃神明",
+      "line_start": 97143,
+      "line_end": 97174,
+      "character_mentions": 17,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛"
+        ],
+        "abnormality": [
+          "异常",
+          "怪物",
+          "精神"
+        ]
+      },
+      "score": 81
+    },
+    {
+      "chunk_id": "ch-0034-ck-001",
+      "chapter_id": "ch-0034",
+      "chapter_title": "第三十三章 信息通报",
+      "line_start": 2645,
+      "line_end": 2675,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "上班",
+          "公司",
+          "办公室",
+          "工作"
+        ],
+        "demeanor": [
+          "安静",
+          "老实"
+        ],
+        "abnormality": [
+          "污染"
+        ]
+      },
+      "score": 81
+    },
+    {
+      "chunk_id": "ch-0184-ck-002",
+      "chapter_id": "ch-0184",
+      "chapter_title": "第一百八十二章 就是，很热情",
+      "line_start": 16235,
+      "line_end": 16263,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "公司"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "家里",
+          "爸爸"
+        ]
+      },
+      "score": 81
+    },
+    {
+      "chunk_id": "ch-0392-ck-001",
+      "chapter_id": "ch-0392",
+      "chapter_title": "第三百八十八章 他们的希望",
+      "line_start": 40558,
+      "line_end": 40589,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "同事"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "social_reaction": [
+          "同事"
+        ],
+        "abnormality": [
+          "观察"
+        ]
+      },
+      "score": 81
+    },
+    {
+      "chunk_id": "ch-0031-ck-001",
+      "chapter_id": "ch-0031",
+      "chapter_title": "第三十章 精神量级预估",
+      "line_start": 2429,
+      "line_end": 2454,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "年轻人",
+          "陆辛"
+        ],
+        "demeanor": [
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "异变",
+          "怪物",
+          "污染",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 81
+    },
+    {
+      "chunk_id": "ch-0192-ck-002",
+      "chapter_id": "ch-0192",
+      "chapter_title": "第一百九十章 多好的家庭啊",
+      "line_start": 17033,
+      "line_end": 17059,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "回家",
+          "妈妈",
+          "妹妹",
+          "父亲"
+        ],
+        "abnormality": [
+          "危险",
+          "怪物",
+          "精神"
+        ]
+      },
+      "score": 81
+    },
+    {
+      "chunk_id": "ch-0510-ck-001",
+      "chapter_id": "ch-0510",
+      "chapter_title": "第五百零五章 治疗自己的最好办法",
+      "line_start": 55796,
+      "line_end": 55827,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光"
+        ],
+        "demeanor": [
+          "安静",
+          "平静",
+          "沉默",
+          "笑",
+          "老实"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "social_reaction": [
+          "别人",
+          "看着他"
+        ]
+      },
+      "score": 81
+    },
+    {
+      "chunk_id": "ch-0102-ck-001",
+      "chapter_id": "ch-0102",
+      "chapter_title": "第一百章 哭泣的小男孩",
+      "line_start": 7930,
+      "line_end": 7966,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "安静",
+          "普通",
+          "认真"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "social_reaction": [
+          "看他",
+          "看着他"
+        ],
+        "abnormality": [
+          "污染"
+        ]
+      },
+      "score": 80
+    },
+    {
+      "chunk_id": "ch-0216-ck-002",
+      "chapter_id": "ch-0216",
+      "chapter_title": "第二百一十四章 是她？",
+      "line_start": 19774,
+      "line_end": 19798,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "公司"
+        ],
+        "demeanor": [
+          "普通",
+          "笑",
+          "老实"
+        ],
+        "abnormality": [
+          "精神"
+        ]
+      },
+      "score": 80
+    },
+    {
+      "chunk_id": "ch-0674-ck-003",
+      "chapter_id": "ch-0674",
+      "chapter_title": "第六百六十九章 精神病人大集会",
+      "line_start": 76527,
+      "line_end": 76549,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "普通"
+        ],
+        "family": [
+          "妹妹",
+          "父亲"
+        ],
+        "abnormality": [
+          "污染",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 80
+    },
+    {
+      "chunk_id": "ch-0162-ck-002",
+      "chapter_id": "ch-0162",
+      "chapter_title": "第一百六十章 支援小队入场",
+      "line_start": 13909,
+      "line_end": 13940,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "客气",
+          "认真"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0189-ck-001",
+      "chapter_id": "ch-0189",
+      "chapter_title": "第一百八十七章 当然是好人",
+      "line_start": 16663,
+      "line_end": 16693,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "父亲"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "怪物"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0248-ck-002",
+      "chapter_id": "ch-0248",
+      "chapter_title": "第二百四十六章 代号为“暴君”",
+      "line_start": 23368,
+      "line_end": 23394,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛"
+        ],
+        "demeanor": [
+          "平静",
+          "笑"
+        ],
+        "family": [
+          "家人"
+        ],
+        "abnormality": [
+          "异常"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0362-ck-004",
+      "chapter_id": "ch-0362",
+      "chapter_title": "第三百五十八章 你不是神",
+      "line_start": 36998,
+      "line_end": 37030,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妹妹",
+          "家人"
+        ],
+        "abnormality": [
+          "怪物"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0587-ck-004",
+      "chapter_id": "ch-0587",
+      "chapter_title": "第五百八十二章 寄生物品，我也有",
+      "line_start": 65670,
+      "line_end": 65699,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "demeanor": [
+          "普通",
+          "老实",
+          "谨慎"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0757-ck-003",
+      "chapter_id": "ch-0757",
+      "chapter_title": "第七百五十二章 陆辛与娃娃的私人空间",
+      "line_start": 87239,
+      "line_end": 87273,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸",
+          "衣服"
+        ],
+        "demeanor": [
+          "安静",
+          "笑"
+        ],
+        "abnormality": [
+          "怪物",
+          "观察"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0370-ck-003",
+      "chapter_id": "ch-0370",
+      "chapter_title": "第三百六十六章 背负神明力量的人",
+      "line_start": 37923,
+      "line_end": 37957,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "年轻人",
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "笑",
+          "认真"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0585-ck-003",
+      "chapter_id": "ch-0585",
+      "chapter_title": "第五百八十章 六眼脸谱",
+      "line_start": 65374,
+      "line_end": 65403,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "年轻人",
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "普通",
+          "笑"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0279-ck-005",
+      "chapter_id": "ch-0279",
+      "chapter_title": "第二百七十五章 可怕的目的",
+      "line_start": 27233,
+      "line_end": 27262,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人"
+        ],
+        "abnormality": [
+          "精神",
+          "观察"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0365-ck-001",
+      "chapter_id": "ch-0365",
+      "chapter_title": "第三百六十一章 温馨的催眠曲",
+      "line_start": 37272,
+      "line_end": 37302,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "模样",
+          "脸"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "妹妹",
+          "父亲"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "怪物",
+          "污染"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0468-ck-001",
+      "chapter_id": "ch-0468",
+      "chapter_title": "第四百六十三章 简直太不专业了",
+      "line_start": 50672,
+      "line_end": 50704,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "脸",
+          "身材"
+        ],
+        "occupation": [
+          "公司",
+          "工作"
+        ],
+        "demeanor": [
+          "礼貌",
+          "笑",
+          "老实",
+          "认真"
+        ],
+        "abnormality": [
+          "危险"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0768-ck-003",
+      "chapter_id": "ch-0768",
+      "chapter_title": "第七百六十三章 诞生了终极的东西",
+      "line_start": 88558,
+      "line_end": 88591,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "礼貌",
+          "笑",
+          "老实"
+        ],
+        "family": [
+          "妈妈"
+        ],
+        "abnormality": [
+          "怪物",
+          "精神"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0865-ck-001",
+      "chapter_id": "ch-0865",
+      "chapter_title": "第八百六十章 直面最初，精神洗礼",
+      "line_start": 103468,
+      "line_end": 103500,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妹妹",
+          "父亲"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "危险",
+          "污染",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 79
+    },
+    {
+      "chunk_id": "ch-0311-ck-002",
+      "chapter_id": "ch-0311",
+      "chapter_title": "第三百零七章 看他们玩的多开心",
+      "line_start": 30807,
+      "line_end": 30832,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "父亲"
+        ],
+        "abnormality": [
+          "怪物",
+          "能力",
+          "观察"
+        ]
+      },
+      "score": 78
+    },
+    {
+      "chunk_id": "ch-0485-ck-003",
+      "chapter_id": "ch-0485",
+      "chapter_title": "第四百八十章 娃娃学坏了",
+      "line_start": 53009,
+      "line_end": 53041,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "安静",
+          "笑",
+          "认真"
+        ]
+      },
+      "score": 78
+    },
+    {
+      "chunk_id": "ch-0564-ck-001",
+      "chapter_id": "ch-0564",
+      "chapter_title": "第五百五十九章 为什么是我呢？",
+      "line_start": 62570,
+      "line_end": 62599,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "demeanor": [
+          "沉默",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "父亲"
+        ]
+      },
+      "score": 78
+    },
+    {
+      "chunk_id": "ch-0387-ck-003",
+      "chapter_id": "ch-0387",
+      "chapter_title": "第三百八十三章 娃娃与家人",
+      "line_start": 40062,
+      "line_end": 40098,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "瘦",
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "回家",
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ]
+      },
+      "score": 78
+    },
+    {
+      "chunk_id": "ch-0477-ck-002",
+      "chapter_id": "ch-0477",
+      "chapter_title": "第四百七十二章 我们特清部不收礼",
+      "line_start": 51937,
+      "line_end": 51975,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "上班",
+          "办公室",
+          "同事",
+          "工作"
+        ],
+        "demeanor": [
+          "普通",
+          "笑"
+        ],
+        "social_reaction": [
+          "同事"
+        ],
+        "abnormality": [
+          "污染"
+        ]
+      },
+      "score": 78
+    },
+    {
+      "chunk_id": "ch-0369-ck-003",
+      "chapter_id": "ch-0369",
+      "chapter_title": "第三百六十五章 月蚀研究院",
+      "line_start": 37823,
+      "line_end": 37850,
+      "character_mentions": 16,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "办公室"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0584-ck-001",
+      "chapter_id": "ch-0584",
+      "chapter_title": "第五百七十九章 讲道理不好吗？",
+      "line_start": 65147,
+      "line_end": 65173,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "年轻人",
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "模样",
+          "脸"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "abnormality": [
+          "精神"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0029-ck-002",
+      "chapter_id": "ch-0029",
+      "chapter_title": "第二十八章 逻辑链与核心关键",
+      "line_start": 2313,
+      "line_end": 2341,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "occupation": [
+          "办公室",
+          "工作"
+        ],
+        "demeanor": [
+          "安静",
+          "客气",
+          "笑",
+          "老实"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "污染"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0056-ck-001",
+      "chapter_id": "ch-0056",
+      "chapter_title": "第五十五章 月蚀研究院",
+      "line_start": 4321,
+      "line_end": 4344,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "公司",
+          "办公室",
+          "工作"
+        ],
+        "demeanor": [
+          "安静",
+          "老实",
+          "认真"
+        ],
+        "abnormality": [
+          "观察"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0087-ck-002",
+      "chapter_id": "ch-0087",
+      "chapter_title": "第八十五章 屠杀性武器",
+      "line_start": 6685,
+      "line_end": 6707,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "瘦",
+          "眼睛",
+          "衣服",
+          "衬衫"
+        ],
+        "occupation": [
+          "上班",
+          "公司"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "污染"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0129-ck-003",
+      "chapter_id": "ch-0129",
+      "chapter_title": "第一百二十七章 黑水镇子",
+      "line_start": 10535,
+      "line_end": 10574,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "同事"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妈妈"
+        ],
+        "social_reaction": [
+          "同事",
+          "看着他"
+        ],
+        "abnormality": [
+          "怪物",
+          "精神"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0180-ck-003",
+      "chapter_id": "ch-0180",
+      "chapter_title": "第一百七十八章 你这样的肯定不是神",
+      "line_start": 15810,
+      "line_end": 15839,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "眼睛",
+          "脸"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0220-ck-002",
+      "chapter_id": "ch-0220",
+      "chapter_title": "第二百一十八章 挺不正常的",
+      "line_start": 20222,
+      "line_end": 20252,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "沉默",
+          "认真"
+        ],
+        "abnormality": [
+          "异常",
+          "精神",
+          "观察"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0363-ck-001",
+      "chapter_id": "ch-0363",
+      "chapter_title": "第三百五十九章 最可怕的污染",
+      "line_start": 37034,
+      "line_end": 37059,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "怪物",
+          "精神"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0710-ck-003",
+      "chapter_id": "ch-0710",
+      "chapter_title": "第七百零五章 一个导弹下来青港全灭的课程",
+      "line_start": 81150,
+      "line_end": 81184,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "模样",
+          "目光",
+          "脸",
+          "身材"
+        ],
+        "demeanor": [
+          "安静",
+          "笑",
+          "老实"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0723-ck-002",
+      "chapter_id": "ch-0723",
+      "chapter_title": "第七百一十八章 高墙外的执行人",
+      "line_start": 82700,
+      "line_end": 82733,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈"
+        ],
+        "social_reaction": [
+          "看他"
+        ],
+        "abnormality": [
+          "污染",
+          "观察"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0849-ck-004",
+      "chapter_id": "ch-0849",
+      "chapter_title": "第八百四十四章 温馨的家庭",
+      "line_start": 100821,
+      "line_end": 100862,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "衬衫"
+        ],
+        "occupation": [
+          "职员"
+        ],
+        "demeanor": [
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "家人"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "怪物"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0100-ck-002",
+      "chapter_id": "ch-0100",
+      "chapter_title": "第九十八章 深入调查",
+      "line_start": 7805,
+      "line_end": 7834,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "危险",
+          "异变",
+          "怪物",
+          "污染",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0216-ck-001",
+      "chapter_id": "ch-0216",
+      "chapter_title": "第二百一十四章 是她？",
+      "line_start": 19746,
+      "line_end": 19774,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "目光",
+          "眼睛",
+          "衬衫"
+        ],
+        "occupation": [
+          "公司",
+          "工作"
+        ],
+        "demeanor": [
+          "笑",
+          "老实"
+        ],
+        "abnormality": [
+          "异变",
+          "异常",
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0280-ck-001",
+      "chapter_id": "ch-0280",
+      "chapter_title": "第二百七十六章 彼此厌恶的头和身子",
+      "line_start": 27266,
+      "line_end": 27299,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸",
+          "衣服"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "abnormality": [
+          "怪物",
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0383-ck-003",
+      "chapter_id": "ch-0383",
+      "chapter_title": "第三百七十九章 第三次家庭会议",
+      "line_start": 39590,
+      "line_end": 39618,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸",
+          "身材"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "abnormality": [
+          "怪物"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0009-ck-002",
+      "chapter_id": "ch-0009",
+      "chapter_title": "第八章 红月亮小学",
+      "line_start": 715,
+      "line_end": 745,
+      "character_mentions": 7,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "公司"
+        ],
+        "demeanor": [
+          "笑",
+          "老实",
+          "认真"
+        ],
+        "family": [
+          "妹妹",
+          "家人",
+          "母亲",
+          "父亲"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "异变",
+          "怪物",
+          "精神",
+          "能力",
+          "观察"
+        ]
+      },
+      "score": 77
+    },
+    {
+      "chunk_id": "ch-0214-ck-002",
+      "chapter_id": "ch-0214",
+      "chapter_title": "第二百一十二章 记得回来",
+      "line_start": 19552,
+      "line_end": 19582,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "上班",
+          "办公室"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0477-ck-003",
+      "chapter_id": "ch-0477",
+      "chapter_title": "第四百七十二章 我们特清部不收礼",
+      "line_start": 51975,
+      "line_end": 52013,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "公司",
+          "办公室"
+        ],
+        "demeanor": [
+          "笑"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0783-ck-002",
+      "chapter_id": "ch-0783",
+      "chapter_title": "第七百八十八章 离开的父亲与暂作休息的妈妈",
+      "line_start": 90669,
+      "line_end": 90707,
+      "character_mentions": 15,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "父亲"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0034-ck-002",
+      "chapter_id": "ch-0034",
+      "chapter_title": "第三十三章 信息通报",
+      "line_start": 2675,
+      "line_end": 2696,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "上班",
+          "公司",
+          "办公室",
+          "工作",
+          "工资"
+        ],
+        "demeanor": [
+          "笑",
+          "老实"
+        ],
+        "social_reaction": [
+          "看着他"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0084-ck-002",
+      "chapter_id": "ch-0084",
+      "chapter_title": "第八十三章 精神寄生物品",
+      "line_start": 6481,
+      "line_end": 6508,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "目光",
+          "脸"
+        ],
+        "demeanor": [
+          "普通",
+          "笑",
+          "老实"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "异常",
+          "污染"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0218-ck-002",
+      "chapter_id": "ch-0218",
+      "chapter_title": "第二百一十六章 她从天上掉了下来",
+      "line_start": 19956,
+      "line_end": 19987,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "同事",
+          "工作"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妹妹",
+          "家人"
+        ],
+        "social_reaction": [
+          "同事"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0301-ck-004",
+      "chapter_id": "ch-0301",
+      "chapter_title": "第二百九十七章 我是来举报的",
+      "line_start": 29782,
+      "line_end": 29803,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "模样",
+          "瘦",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "办公室",
+          "经理"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妹妹"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0305-ck-003",
+      "chapter_id": "ch-0305",
+      "chapter_title": "第三百零一章 要是妈妈在就好了",
+      "line_start": 30194,
+      "line_end": 30222,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛"
+        ],
+        "demeanor": [
+          "安静",
+          "沉默",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "异常"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0395-ck-002",
+      "chapter_id": "ch-0395",
+      "chapter_title": "第三百九十一章 自己的责任",
+      "line_start": 40951,
+      "line_end": 40983,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹"
+        ],
+        "abnormality": [
+          "怪物",
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0553-ck-002",
+      "chapter_id": "ch-0553",
+      "chapter_title": "第五百四十八章 “祂”回来了",
+      "line_start": 61067,
+      "line_end": 61099,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸",
+          "身材"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "abnormality": [
+          "异常"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0645-ck-004",
+      "chapter_id": "ch-0645",
+      "chapter_title": "第六百四十章 妈妈的电话",
+      "line_start": 73004,
+      "line_end": 73041,
+      "character_mentions": 12,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "个子",
+          "模样",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "公司",
+          "办公室"
+        ],
+        "family": [
+          "妈妈"
+        ],
+        "abnormality": [
+          "异常",
+          "精神"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0414-ck-004",
+      "chapter_id": "ch-0414",
+      "chapter_title": "第四百一十章 谢谢你呀",
+      "line_start": 43730,
+      "line_end": 43756,
+      "character_mentions": 9,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "目光",
+          "眼睛"
+        ],
+        "occupation": [
+          "同事"
+        ],
+        "demeanor": [
+          "平静",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "social_reaction": [
+          "同事"
+        ],
+        "abnormality": [
+          "污染",
+          "能力"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0774-ck-001",
+      "chapter_id": "ch-0774",
+      "chapter_title": "第七百七十九章 阴冷的海边小镇",
+      "line_start": 89265,
+      "line_end": 89298,
+      "character_mentions": 9,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "瘦",
+          "目光",
+          "衣服"
+        ],
+        "demeanor": [
+          "安静",
+          "笑",
+          "老实"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "异常",
+          "能力"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0775-ck-001",
+      "chapter_id": "ch-0775",
+      "chapter_title": "第七百八十章 终极——盗火者",
+      "line_start": 89415,
+      "line_end": 89447,
+      "character_mentions": 9,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "模样",
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "安静",
+          "平静",
+          "沉默",
+          "礼貌"
+        ],
+        "family": [
+          "妈妈",
+          "家人",
+          "父亲"
+        ],
+        "abnormality": [
+          "异常"
+        ]
+      },
+      "score": 76
+    },
+    {
+      "chunk_id": "ch-0229-ck-002",
+      "chapter_id": "ch-0229",
+      "chapter_title": "第二百二十七章 压力疏导与排谴课程",
+      "line_start": 21201,
+      "line_end": 21237,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "同事"
+        ],
+        "demeanor": [
+          "客气",
+          "笑"
+        ],
+        "social_reaction": [
+          "同事"
+        ],
+        "abnormality": [
+          "污染"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0296-ck-001",
+      "chapter_id": "ch-0296",
+      "chapter_title": "第二百九十二章 调查结果确认",
+      "line_start": 29137,
+      "line_end": 29168,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "怪物"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0344-ck-002",
+      "chapter_id": "ch-0344",
+      "chapter_title": "第三百四十章 不能再杀人了",
+      "line_start": 34547,
+      "line_end": 34580,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "危险"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0643-ck-003",
+      "chapter_id": "ch-0643",
+      "chapter_title": "第六百三十八章 为了世界的文明和秩序",
+      "line_start": 72731,
+      "line_end": 72763,
+      "character_mentions": 14,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "occupation": [
+          "公司"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "abnormality": [
+          "怪物",
+          "污染",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0017-ck-001",
+      "chapter_id": "ch-0017",
+      "chapter_title": "第十六章 怪事",
+      "line_start": 1399,
+      "line_end": 1429,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "笑",
+          "老实",
+          "认真"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "abnormality": [
+          "精神"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0078-ck-002",
+      "chapter_id": "ch-0078",
+      "chapter_title": "第七十七章 不必闹成这样",
+      "line_start": 5986,
+      "line_end": 6013,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "经理"
+        ],
+        "family": [
+          "妹妹",
+          "爸爸"
+        ],
+        "social_reaction": [
+          "觉得他"
+        ],
+        "abnormality": [
+          "危险",
+          "怪物",
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0107-ck-003",
+      "chapter_id": "ch-0107",
+      "chapter_title": "第一百零五章 同意！同意！同意！",
+      "line_start": 8451,
+      "line_end": 8482,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "demeanor": [
+          "平静",
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "父亲"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "怪物",
+          "精神"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0278-ck-004",
+      "chapter_id": "ch-0278",
+      "chapter_title": "第二百七十四章 只有脑袋是自己的",
+      "line_start": 27039,
+      "line_end": 27073,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "沉默",
+          "老实",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0292-ck-001",
+      "chapter_id": "ch-0292",
+      "chapter_title": "第二百八十八章 到底谁是怪物？",
+      "line_start": 28657,
+      "line_end": 28689,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "abnormality": [
+          "怪物",
+          "污染",
+          "能力"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0316-ck-003",
+      "chapter_id": "ch-0316",
+      "chapter_title": "第三百一十二章 既然举报没用",
+      "line_start": 31431,
+      "line_end": 31467,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "公司",
+          "同事",
+          "经理"
+        ],
+        "demeanor": [
+          "普通",
+          "笑",
+          "认真"
+        ],
+        "social_reaction": [
+          "同事"
+        ],
+        "abnormality": [
+          "异常"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0347-ck-002",
+      "chapter_id": "ch-0347",
+      "chapter_title": "第三百四十三章 大怪物",
+      "line_start": 34966,
+      "line_end": 34999,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "普通"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "social_reaction": [
+          "看着他"
+        ],
+        "abnormality": [
+          "怪物",
+          "污染",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0481-ck-002",
+      "chapter_id": "ch-0481",
+      "chapter_title": "第四百七十六章 最高保密等级",
+      "line_start": 52467,
+      "line_end": 52503,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "公司",
+          "工作",
+          "工资"
+        ],
+        "demeanor": [
+          "客气",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "家里"
+        ],
+        "abnormality": [
+          "精神"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0639-ck-003",
+      "chapter_id": "ch-0639",
+      "chapter_title": "第六百三十四章 中心城夏虫",
+      "line_start": 72251,
+      "line_end": 72286,
+      "character_mentions": 11,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "家人",
+          "父亲"
+        ],
+        "abnormality": [
+          "异常",
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0588-ck-002",
+      "chapter_id": "ch-0588",
+      "chapter_title": "第五百八十三章 藏杖人的恩赐",
+      "line_start": 65760,
+      "line_end": 65795,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "年轻人",
+          "陆辛"
+        ],
+        "appearance": [
+          "模样",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "低调",
+          "普通",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹"
+        ],
+        "abnormality": [
+          "异常",
+          "怪物",
+          "精神"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0510-ck-004",
+      "chapter_id": "ch-0510",
+      "chapter_title": "第五百零五章 治疗自己的最好办法",
+      "line_start": 55894,
+      "line_end": 55927,
+      "character_mentions": 8,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "安静",
+          "沉默",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人",
+          "父亲"
+        ],
+        "abnormality": [
+          "污染",
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 75
+    },
+    {
+      "chunk_id": "ch-0382-ck-003",
+      "chapter_id": "ch-0382",
+      "chapter_title": "第三百七十八章 我是新人，不懂规矩",
+      "line_start": 39468,
+      "line_end": 39505,
+      "character_mentions": 16,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "demeanor": [
+          "笑"
+        ],
+        "family": [
+          "回家"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0220-ck-001",
+      "chapter_id": "ch-0220",
+      "chapter_title": "第二百一十八章 挺不正常的",
+      "line_start": 20187,
+      "line_end": 20222,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "头发",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑",
+          "认真"
+        ],
+        "abnormality": [
+          "异常"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0267-ck-002",
+      "chapter_id": "ch-0267",
+      "chapter_title": "第二百六十三章 怪小孩",
+      "line_start": 25671,
+      "line_end": 25701,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸",
+          "衣服"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑"
+        ],
+        "social_reaction": [
+          "看着他"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0361-ck-001",
+      "chapter_id": "ch-0361",
+      "chapter_title": "第三百五十七章 大怪物",
+      "line_start": 36761,
+      "line_end": 36792,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "demeanor": [
+          "沉默"
+        ],
+        "family": [
+          "妹妹",
+          "父亲"
+        ],
+        "abnormality": [
+          "怪物",
+          "污染",
+          "精神"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0764-ck-001",
+      "chapter_id": "ch-0764",
+      "chapter_title": "第七百五十九章 深渊王国",
+      "line_start": 88038,
+      "line_end": 88070,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "demeanor": [
+          "客气",
+          "普通",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妈妈"
+        ],
+        "abnormality": [
+          "精神",
+          "能力"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0895-ck-006",
+      "chapter_id": "ch-0895",
+      "chapter_title": "第八百九十章 阻止献祭的方法",
+      "line_start": 109505,
+      "line_end": 109529,
+      "character_mentions": 13,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "demeanor": [
+          "平静",
+          "普通"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "精神",
+          "能力",
+          "观察"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0011-ck-002",
+      "chapter_id": "ch-0011",
+      "chapter_title": "第十章 好多的玩具",
+      "line_start": 931,
+      "line_end": 959,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "眼睛",
+          "脸"
+        ],
+        "occupation": [
+          "工作"
+        ],
+        "demeanor": [
+          "沉默",
+          "笑",
+          "认真"
+        ],
+        "family": [
+          "妹妹"
+        ],
+        "social_reaction": [
+          "别人",
+          "望着他",
+          "看着他"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0108-ck-002",
+      "chapter_id": "ch-0108",
+      "chapter_title": "第一百零六章 送你一个大玩具",
+      "line_start": 8518,
+      "line_end": 8557,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "目光",
+          "眼睛",
+          "脸"
+        ],
+        "demeanor": [
+          "普通",
+          "沉默",
+          "笑"
+        ],
+        "family": [
+          "妈妈",
+          "妹妹",
+          "家人"
+        ],
+        "social_reaction": [
+          "别人"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 74
+    },
+    {
+      "chunk_id": "ch-0183-ck-004",
+      "chapter_id": "ch-0183",
+      "chapter_title": "第一百八十一章 酒鬼大爷",
+      "line_start": 16158,
+      "line_end": 16192,
+      "character_mentions": 10,
+      "categories": {
+        "identity": [
+          "陆辛"
+        ],
+        "appearance": [
+          "脸"
+        ],
+        "occupation": [
+          "同事",
+          "工作"
+        ],
+        "demeanor": [
+          "客气",
+          "笑"
+        ],
+        "family": [
+          "回家",
+          "妈妈",
+          "家人",
+          "爸爸"
+        ],
+        "social_reaction": [
+          "同事"
+        ],
+        "abnormality": [
+          "能力"
+        ]
+      },
+      "score": 74
+    }
+  ],
+  "note": "Metadata only: no novel passages are copied into this public candidate report."
+}

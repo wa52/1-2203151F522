@@ -1,0 +1,13 @@
+{
+  "chapter_count": 897,
+  "chunk_count": 3893,
+  "first_chapter": "引子",
+  "last_chapter": "第八百九十二章 新的时代会总来（大结局）",
+  "chunk_chars": {
+    "min": 28,
+    "max": 947,
+    "avg": 819.91
+  },
+  "index_path": "rag/private/chunks.jsonl",
+  "index_committed": false
+}
