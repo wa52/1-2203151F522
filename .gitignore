@@ -1,0 +1,6 @@
+# Local full-text retrieval index. It contains copyrighted novel text and must not be committed.
+rag/private/
+
+# Python
+__pycache__/
+*.pyc
