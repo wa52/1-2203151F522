@@ -1,0 +1,428 @@
+{
+  "schema_version": "0.1",
+  "character_id": "CHAR-LUXIN",
+  "name": "陆辛",
+  "source": {
+    "corpus": "cleaned/novel.cleaned.txt",
+    "index": "rag/private/chunks.jsonl",
+    "public_index_committed": false
+  },
+  "hard_facts": [
+    {
+      "id": "age",
+      "fact": "陆辛年龄为23岁。",
+      "status": "TEXT_CONFIRMED_IN_COPY",
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "chapter_id": "ch-0197",
+          "chapter_title": "第一百九十五章 单兵的秘密",
+          "chunk_id": "ch-0197-ck-001",
+          "line_start": 17595,
+          "line_end": 17622,
+          "reason": "陆辛与明确年龄表达同一 chunk; matched=23岁,年龄：23"
+        },
+        {
+          "chapter_id": "ch-0006",
+          "chapter_title": "第五章 D级特殊污染源——036",
+          "chunk_id": "ch-0006-ck-002",
+          "line_start": 481,
+          "line_end": 504,
+          "reason": "陆辛与明确年龄表达同一 chunk; matched=二十三岁"
+        },
+        {
+          "chapter_id": "ch-0045",
+          "chapter_title": "第四十四章 究竟什么颜色",
+          "chunk_id": "ch-0045-ck-003",
+          "line_start": 3524,
+          "line_end": 3556,
+          "reason": "陆辛与明确年龄表达同一 chunk; matched=年龄：23"
+        },
+        {
+          "chapter_id": "ch-0010",
+          "chapter_title": "第九章 特别行动组——编外人员",
+          "chunk_id": "ch-0010-ck-001",
+          "line_start": 799,
+          "line_end": 824,
+          "reason": "陆辛与明确年龄表达同一 chunk; matched=年龄：23"
+        },
+        {
+          "chapter_id": "ch-0068",
+          "chapter_title": "第六十七章 恐惧情绪",
+          "chunk_id": "ch-0068-ck-002",
+          "line_start": 5258,
+          "line_end": 5281,
+          "reason": "陆辛与明确年龄表达同一 chunk; matched=二十三岁"
+        },
+        {
+          "chapter_id": "ch-0324",
+          "chapter_title": "第三百二十章 终于找到他了",
+          "chunk_id": "ch-0324-ck-004",
+          "line_start": 32331,
+          "line_end": 32355,
+          "reason": "陆辛与明确年龄表达同一 chunk; matched=23岁"
+        }
+      ]
+    },
+    {
+      "id": "office_work",
+      "fact": "陆辛存在持续、反复出现的公司/办公室上班生活。",
+      "status": "TEXT_CONFIRMED_IN_COPY",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "chapter_id": "ch-0034",
+          "chapter_title": "第三十三章 信息通报",
+          "chunk_id": "ch-0034-ck-002",
+          "line_start": 2675,
+          "line_end": 2696,
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作,工资"
+        },
+        {
+          "chapter_id": "ch-0213",
+          "chapter_title": "第二百一十一章 熬出头了",
+          "chunk_id": "ch-0213-ck-002",
+          "line_start": 19422,
+          "line_end": 19455,
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作,同事"
+        },
+        {
+          "chapter_id": "ch-0166",
+          "chapter_title": "第一百六十四章 那个带枪上班的男人回来了",
+          "chunk_id": "ch-0166-ck-003",
+          "line_start": 14387,
+          "line_end": 14416,
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作,同事"
+        },
+        {
+          "chapter_id": "ch-0462",
+          "chapter_title": "第四百五十七章 最佳员工",
+          "chunk_id": "ch-0462-ck-001",
+          "line_start": 49929,
+          "line_end": 49958,
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,同事,工资"
+        },
+        {
+          "chapter_id": "ch-0703",
+          "chapter_title": "第六百九十八章 体检是一件大事",
+          "chunk_id": "ch-0703-ck-001",
+          "line_start": 80174,
+          "line_end": 80205,
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,同事,工资"
+        },
+        {
+          "chapter_id": "ch-0265",
+          "chapter_title": "第二百六十一章 你可千万不能走",
+          "chunk_id": "ch-0265-ck-003",
+          "line_start": 25444,
+          "line_end": 25474,
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作,工资"
+        },
+        {
+          "chapter_id": "ch-0014",
+          "chapter_title": "第十三章 工作积极性",
+          "chunk_id": "ch-0014-ck-002",
+          "line_start": 1166,
+          "line_end": 1187,
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作"
+        },
+        {
+          "chapter_id": "ch-0034",
+          "chapter_title": "第三十三章 信息通报",
+          "chunk_id": "ch-0034-ck-001",
+          "line_start": 2645,
+          "line_end": 2675,
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作"
+        }
+      ]
+    },
+    {
+      "id": "first_chapter_commute_home",
+      "fact": "第一章中陆辛经历通勤并回到住所。",
+      "status": "TEXT_CONFIRMED_IN_COPY",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-001",
+          "line_start": 20,
+          "line_end": 45,
+          "reason": "第一章场景命中: 列车,车厢,月亮台站"
+        }
+      ]
+    },
+    {
+      "id": "family_scene",
+      "fact": "开篇家庭场景中，叙事以妹妹、妈妈/母亲、爸爸/父亲等称谓呈现陆辛的家人。",
+      "status": "TEXT_CONFIRMED_IN_COPY",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-001",
+          "line_start": 20,
+          "line_end": 45,
+          "reason": "第一章场景命中: 妹妹,妈妈,爸爸,家人"
+        },
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-002",
+          "line_start": 45,
+          "line_end": 63,
+          "reason": "第一章场景命中: 妹妹,妈妈,爸爸,家人"
+        },
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-003",
+          "line_start": 63,
+          "line_end": 84,
+          "reason": "第一章场景命中: 妹妹,妈妈,母亲,爸爸"
+        },
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-004",
+          "line_start": 84,
+          "line_end": 102,
+          "reason": "第一章场景命中: 妈妈,爸爸,家人"
+        }
+      ],
+      "scope_warning": "这只是场景与称谓事实，不据此提前判定全书关于家人的最终本体解释。"
+    }
+  ],
+  "performance_evidence": [
+    {
+      "id": "ordinary_presentation",
+      "trait": "日常叙事中存在“普通”与工作生活并置的证据，可用于降低主角光环。",
+      "status": "SOFT_TRAIT_EVIDENCE",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "chapter_id": "ch-0860",
+          "chapter_title": "第八百五十五章 如有反抗，立时击毙",
+          "chunk_id": "ch-0860-ck-004",
+          "line_start": 102898,
+          "line_end": 102929,
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=年轻人,安静,认真,笑,公司"
+        },
+        {
+          "chapter_id": "ch-0835",
+          "chapter_title": "第八百三十章 魔术手法",
+          "chunk_id": "ch-0835-ck-002",
+          "line_start": 98657,
+          "line_end": 98692,
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=老实,安静,认真,笑"
+        },
+        {
+          "chapter_id": "ch-0201",
+          "chapter_title": "第一百九十九章 前途无量的年轻人",
+          "chunk_id": "ch-0201-ck-002",
+          "line_start": 18054,
+          "line_end": 18079,
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=年轻人,老实,公司,工作"
+        },
+        {
+          "chapter_id": "ch-0849",
+          "chapter_title": "第八百四十四章 温馨的家庭",
+          "chunk_id": "ch-0849-ck-003",
+          "line_start": 100787,
+          "line_end": 100821,
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=老实,笑,公司,工作"
+        },
+        {
+          "chapter_id": "ch-0076",
+          "chapter_title": "第七十五章 污染与被污染",
+          "chunk_id": "ch-0076-ck-002",
+          "line_start": 5832,
+          "line_end": 5858,
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=年轻人,安静,笑,工作"
+        },
+        {
+          "chapter_id": "ch-0485",
+          "chapter_title": "第四百八十章 娃娃学坏了",
+          "chunk_id": "ch-0485-ck-002",
+          "line_start": 52976,
+          "line_end": 53009,
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=安静,认真,笑,工作"
+        },
+        {
+          "chapter_id": "ch-0010",
+          "chapter_title": "第九章 特别行动组——编外人员",
+          "chunk_id": "ch-0010-ck-002",
+          "line_start": 824,
+          "line_end": 849,
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=年轻人,认真,笑,工作"
+        },
+        {
+          "chapter_id": "ch-0581",
+          "chapter_title": "第五百七十六章 火种开采公司",
+          "chunk_id": "ch-0581-ck-003",
+          "line_start": 64836,
+          "line_end": 64862,
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=认真,笑,公司,工作"
+        }
+      ],
+      "warning": "不能把“普通”直接转换成固定脸型、发型或颜值等级。"
+    },
+    {
+      "id": "calm_in_home_scene",
+      "trait": "第一章家庭异常场景中有克制/平静的行为反差证据。",
+      "status": "SCENE_PERFORMANCE_EVIDENCE",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-001",
+          "line_start": 20,
+          "line_end": 45,
+          "reason": "第一章场景命中: 吃饭"
+        },
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-002",
+          "line_start": 45,
+          "line_end": 63,
+          "reason": "第一章场景命中: 吃饭"
+        },
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-004",
+          "line_start": 84,
+          "line_end": 102,
+          "reason": "第一章场景命中: 吃饭"
+        }
+      ],
+      "warning": "这是具体场景表演锚点，不能推导为‘没有情感’。"
+    }
+  ],
+  "visual_evidence_candidates": {
+    "status": "SOURCE_REVIEW_REQUIRED",
+    "evidence": [
+      {
+        "chapter_id": "ch-0059",
+        "chapter_title": "第五十八章 红色玫瑰花",
+        "chunk_id": "ch-0059-ck-002",
+        "line_start": 4568,
+        "line_end": 4591,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,身材,瘦,衣服"
+      },
+      {
+        "chapter_id": "ch-0786",
+        "chapter_title": "第七百九十一章 你愿意做我的使者吗？",
+        "chunk_id": "ch-0786-ck-003",
+        "line_start": 91115,
+        "line_end": 91150,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,脸,模样,身材,衣服,外套"
+      },
+      {
+        "chapter_id": "ch-0848",
+        "chapter_title": "第八百四十三章 穿上了衣服的三号",
+        "chunk_id": "ch-0848-ck-004",
+        "line_start": 100664,
+        "line_end": 100699,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=眼睛,脸,模样,身材,瘦,衣服"
+      },
+      {
+        "chapter_id": "ch-0308",
+        "chapter_title": "第三百零四章 可爱的大眼睛",
+        "chunk_id": "ch-0308-ck-004",
+        "line_start": 30561,
+        "line_end": 30579,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,目光,模样,身材,瘦"
+      },
+      {
+        "chapter_id": "ch-0883",
+        "chapter_title": "第八百七十八章 愤怒的小孩长不大",
+        "chunk_id": "ch-0883-ck-002",
+        "line_start": 106886,
+        "line_end": 106917,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,模样,身材,瘦"
+      },
+      {
+        "chapter_id": "ch-0710",
+        "chapter_title": "第七百零五章 一个导弹下来青港全灭的课程",
+        "chunk_id": "ch-0710-ck-003",
+        "line_start": 81150,
+        "line_end": 81184,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,目光,脸,模样,身材"
+      },
+      {
+        "chapter_id": "ch-0301",
+        "chapter_title": "第二百九十七章 我是来举报的",
+        "chunk_id": "ch-0301-ck-004",
+        "line_start": 29782,
+        "line_end": 29803,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,模样,瘦"
+      },
+      {
+        "chapter_id": "ch-0734",
+        "chapter_title": "第七百二十九章 老楼里的怪物陆辛",
+        "chunk_id": "ch-0734-ck-007",
+        "line_start": 84300,
+        "line_end": 84331,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=眼睛,目光,脸,身材,瘦"
+      },
+      {
+        "chapter_id": "ch-0201",
+        "chapter_title": "第一百九十九章 前途无量的年轻人",
+        "chunk_id": "ch-0201-ck-002",
+        "line_start": 18054,
+        "line_end": 18079,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=目光,脸,身材,个子,瘦"
+      },
+      {
+        "chapter_id": "ch-0775",
+        "chapter_title": "第七百八十章 终极——盗火者",
+        "chunk_id": "ch-0775-ck-001",
+        "line_start": 89415,
+        "line_end": 89447,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,目光,脸,模样"
+      },
+      {
+        "chapter_id": "ch-0149",
+        "chapter_title": "第一百四十七章 找你很久了",
+        "chunk_id": "ch-0149-ck-003",
+        "line_start": 12526,
+        "line_end": 12554,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,模样,身材"
+      },
+      {
+        "chapter_id": "ch-0612",
+        "chapter_title": "第六百零七章 曹烨的代价",
+        "chunk_id": "ch-0612-ck-001",
+        "line_start": 68799,
+        "line_end": 68831,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,模样,衣服"
+      }
+    ],
+    "allowed_use": "供 Canon Agent 定向读取，提取文本明确的外貌描述。",
+    "not_yet_locked": [
+      "face_shape",
+      "hairstyle",
+      "eye_shape",
+      "body_proportions",
+      "height",
+      "default_clothing",
+      "attractiveness"
+    ]
+  },
+  "forbidden_inferences": [
+    "不能因为主角身份自动强化成英雄式构图或强者脸。",
+    "不能把单个高压/战斗场景中的危险感当成日常固定气质。",
+    "不能把第一章平静反应概括成没有情感。",
+    "没有具体原文证据前，不锁定发型、脸型、眼型、身材和默认服装。",
+    "家人的场景可见性必须按具体观察者与章节处理，不能从单一视点推出全局规则。"
+  ],
+  "next_review": [
+    "读取 visual_evidence_candidates 中前 12 个 chunk，人工/Canon Agent 提取明确外貌句。",
+    "为每个外貌事实要求至少一个精确 chunk 证据；冲突描述保留时间/场景版本。",
+    "把确认后的视觉事实同步到 Character Evolution Loop 的 locked/modifiable 状态。"
+  ]
+}
