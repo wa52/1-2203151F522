@@ -7,6 +7,7 @@ on:
       - "cleaned/novel.cleaned.txt"
       - "tools/build_canon_rag.py"
       - "tools/build_lu_xin_profile.py"
+      - "tools/export_character_contract.py"
       - ".github/workflows/build-canon-rag.yml"
 
 permissions:
@@ -26,6 +27,9 @@ jobs:
       - name: Build Lu Xin Canon Profile
         run: |
           python tools/build_lu_xin_profile.py
+      - name: Export Character Evolution contract
+        run: |
+          python tools/export_character_contract.py
 
       - name: Validate local retrieval
         run: |
@@ -42,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/canon_index_report.json canon/lu_xin.candidates.json canon/lu_xin.profile.json
+          git add reports/canon_index_report.json canon/lu_xin.candidates.json canon/lu_xin.profile.json canon/lu_xin.character_contract.json
           if git diff --cached --quiet; then
             echo "No metadata changes"
             exit 0
