@@ -34,6 +34,10 @@ jobs:
           python tools/build_canon_rag.py search "陆辛 公司 办公室 同事 上班 工作" --top-k 5 --preview-chars 180
           python tools/build_canon_rag.py search "陆辛 礼貌 客气 平静 安静 认真" --top-k 5 --preview-chars 180
           python tools/build_canon_rag.py search "陆辛 妹妹 妈妈 爸爸 家人 回家" --top-k 5 --preview-chars 180
+          python tools/build_canon_rag.py show ch-0201-ck-002 --focus 陆辛 --preview-chars 420
+          python tools/build_canon_rag.py show ch-0059-ck-002 --focus 陆辛 --preview-chars 420
+          python tools/build_canon_rag.py show ch-0036-ck-002 --focus 陆辛 --preview-chars 420
+          python tools/build_canon_rag.py show ch-0040-ck-001 --focus 陆辛 --preview-chars 420
       - name: Commit metadata only
         run: |
           git config user.name "github-actions[bot]"
