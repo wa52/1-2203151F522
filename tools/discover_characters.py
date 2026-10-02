@@ -166,6 +166,11 @@ def discover(
             ),
             2,
         )
+        recommended = (
+            (candidate_kind == "personal_name" and subjects >= 5 and score >= 70)
+            or (candidate_kind == "title_or_role_name" and subjects >= 5 and score >= 65)
+            or (candidate_kind == "alias_or_codename" and subjects >= 15 and spread >= 10 and score >= 70)
+        )
         candidates.append(
             {
                 "name": name,
@@ -179,6 +184,7 @@ def discover(
                 "score": score,
                 "first_seen": first_seen[name],
                 "review_required": True,
+                "recommended_for_canon_review": recommended,
             }
         )
 
@@ -201,6 +207,7 @@ def discover(
             "Raw 2-3 character frequency alone is not sufficient for character discovery.",
         ],
         "candidate_count": min(limit, len(candidates)),
+        "recommended_count": sum(1 for item in candidates[:limit] if item["recommended_for_canon_review"]),
         "candidates": candidates[:limit],
     }
 
