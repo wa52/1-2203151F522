@@ -8,6 +8,7 @@ on:
       - "tools/build_canon_rag.py"
       - "tools/build_lu_xin_profile.py"
       - "tools/export_character_contract.py"
+      - "tools/discover_characters.py"
       - ".github/workflows/build-canon-rag.yml"
 
 permissions:
@@ -30,6 +31,9 @@ jobs:
       - name: Export Character Evolution contract
         run: |
           python tools/export_character_contract.py
+      - name: Discover character candidates
+        run: |
+          python tools/discover_characters.py
 
       - name: Validate local retrieval
         run: |
@@ -46,11 +50,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/canon_index_report.json canon/lu_xin.candidates.json canon/lu_xin.profile.json canon/lu_xin.character_contract.json
+          git add reports/canon_index_report.json canon/lu_xin.candidates.json canon/lu_xin.profile.json canon/lu_xin.character_contract.json canon/character_discovery.json
           if git diff --cached --quiet; then
             echo "No metadata changes"
             exit 0
           fi
-          git commit -m "Build Canon RAG metadata for Lu Xin"
+          git commit -m "Build Canon RAG metadata and character discovery"
           git pull --rebase origin main
           git push
