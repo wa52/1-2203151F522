@@ -8,6 +8,7 @@
     "Raw 2-3 character frequency alone is not sufficient for character discovery."
   ],
   "candidate_count": 80,
+  "recommended_count": 14,
   "candidates": [
     {
       "name": "陆辛",
@@ -24,7 +25,8 @@
         "chapter_title": "第二章 街角咖啡店",
         "chunk_id": "ch-0003-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "陈菁",
@@ -41,7 +43,8 @@
         "chapter_title": "第五章 D级特殊污染源——036",
         "chunk_id": "ch-0006-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "韩冰",
@@ -58,7 +61,8 @@
         "chapter_title": "第三十四章 041号分析报告",
         "chunk_id": "ch-0035-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "白教授",
@@ -75,7 +79,8 @@
         "chapter_title": "第三十一章 失控风险",
         "chunk_id": "ch-0032-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "壁虎",
@@ -92,7 +97,8 @@
         "chapter_title": "第三十八章 入职检测",
         "chunk_id": "ch-0039-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "安博士",
@@ -109,7 +115,8 @@
         "chapter_title": "第三百六十七章 七个台阶理论",
         "chunk_id": "ch-0371-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "夏虫",
@@ -126,7 +133,8 @@
         "chapter_title": "第三百一十九章 代号1021——血肉怪物",
         "chunk_id": "ch-0323-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "老院长",
@@ -143,7 +151,8 @@
         "chapter_title": "第七百二十二章 力之试炼降临",
         "chunk_id": "ch-0727-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "秦燃",
@@ -160,7 +169,8 @@
         "chapter_title": "第十四章 我的枪很正经",
         "chunk_id": "ch-0015-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "二号",
@@ -177,7 +187,8 @@
         "chapter_title": "第六百四十八章 孤儿院的二号",
         "chunk_id": "ch-0653-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "苏先生",
@@ -194,7 +205,8 @@
         "chapter_title": "第一百六十二章 单兵的秘密",
         "chunk_id": "ch-0164-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "沈部长",
@@ -211,7 +223,8 @@
         "chapter_title": "第一百九十五章 单兵的秘密",
         "chunk_id": "ch-0197-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "有人",
@@ -228,7 +241,8 @@
         "chapter_title": "第二章 街角咖啡店",
         "chunk_id": "ch-0003-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "于是他",
@@ -245,7 +259,8 @@
         "chapter_title": "第八十章 工作流程没问题",
         "chunk_id": "ch-0081-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "直接",
@@ -262,7 +277,8 @@
         "chapter_title": "第一百六十五章 任务报告",
         "chunk_id": "ch-0167-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "没有人",
@@ -279,7 +295,8 @@
         "chapter_title": "第二百九十五章 地狱小组",
         "chunk_id": "ch-0299-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "小声",
@@ -296,7 +313,8 @@
         "chapter_title": "第八章 红月亮小学",
         "chunk_id": "ch-0009-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "一直",
@@ -313,7 +331,8 @@
         "chapter_title": "第三十一章 失控风险",
         "chunk_id": "ch-0032-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "在他",
@@ -330,7 +349,8 @@
         "chapter_title": "第一百五十九章 毕竟是家人",
         "chunk_id": "ch-0161-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "只好",
@@ -347,7 +367,8 @@
         "chapter_title": "第四百六十章 眼睛里的虫子",
         "chunk_id": "ch-0465-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "在陆辛",
@@ -364,7 +385,8 @@
         "chapter_title": "第五章 D级特殊污染源——036",
         "chunk_id": "ch-0006-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "高婷",
@@ -381,7 +403,8 @@
         "chapter_title": "第二百九十二章 调查结果确认",
         "chunk_id": "ch-0296-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": true
     },
     {
       "name": "平静",
@@ -398,7 +421,8 @@
         "chapter_title": "第一百五十一章 不该收的礼物",
         "chunk_id": "ch-0153-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "但还是",
@@ -415,7 +439,8 @@
         "chapter_title": "第一百二十九章 劳务市场",
         "chunk_id": "ch-0131-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "像是",
@@ -432,7 +457,8 @@
         "chapter_title": "第四十六章 工作机器",
         "chunk_id": "ch-0047-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "仿佛",
@@ -449,7 +475,8 @@
         "chapter_title": "第五百八十三章 藏杖人的恩赐",
         "chunk_id": "ch-0588-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "也没有",
@@ -466,7 +493,8 @@
         "chapter_title": "第十章 好多的玩具",
         "chunk_id": "ch-0011-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "并且",
@@ -483,7 +511,8 @@
         "chapter_title": "第二百三十七章 潜意识怪物",
         "chunk_id": "ch-0239-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "快速",
@@ -500,7 +529,8 @@
         "chapter_title": "第五百四十二章 深渊偷渡者",
         "chunk_id": "ch-0547-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "肖副总",
@@ -517,7 +547,8 @@
         "chapter_title": "第二百章 我叫陆辛",
         "chunk_id": "ch-0202-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "周围",
@@ -534,7 +565,8 @@
         "chapter_title": "第二百八十三章 妈妈的烦躁",
         "chunk_id": "ch-0287-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "都没有",
@@ -551,7 +583,8 @@
         "chapter_title": "第二百九十二章 调查结果确认",
         "chunk_id": "ch-0296-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "车头",
@@ -568,7 +601,8 @@
         "chapter_title": "第二百八十五章 死了都要爱",
         "chunk_id": "ch-0289-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "红蛇",
@@ -585,7 +619,8 @@
         "chapter_title": "第五百二十章 父女相认，感人至深",
         "chunk_id": "ch-0525-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "都微微",
@@ -602,7 +637,8 @@
         "chapter_title": "第一百九十六章 他的“家人”",
         "chunk_id": "ch-0198-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "沉声",
@@ -619,7 +655,8 @@
         "chapter_title": "第一百二十三章 尽量不要伤害他",
         "chunk_id": "ch-0125-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "才忽然",
@@ -636,7 +673,8 @@
         "chapter_title": "第一百九十章 多好的家庭啊",
         "chunk_id": "ch-0192-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "这时候",
@@ -653,7 +691,8 @@
         "chapter_title": "第一百零三章 人脸缝合怪",
         "chunk_id": "ch-0105-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "只能",
@@ -670,7 +709,8 @@
         "chapter_title": "第三百五十三章 行政厅与研究院",
         "chunk_id": "ch-0357-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "但陆辛",
@@ -687,7 +727,8 @@
         "chapter_title": "第四百三十七章 让世界开始憎恨",
         "chunk_id": "ch-0441-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "在她",
@@ -704,7 +745,8 @@
         "chapter_title": "第二百二十二章 青港核武",
         "chunk_id": "ch-0224-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "回头",
@@ -721,7 +763,8 @@
         "chapter_title": "第三百八十六章 微笑的小镇",
         "chunk_id": "ch-0390-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "酒鬼",
@@ -738,7 +781,8 @@
         "chapter_title": "第一百八十三章 神秘组织",
         "chunk_id": "ch-0185-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "冷漠",
@@ -755,7 +799,8 @@
         "chapter_title": "第七百九十八章 这就是创世硬盘",
         "chunk_id": "ch-0803-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "的一声",
@@ -772,7 +817,8 @@
         "chapter_title": "第一百二十四章 出城！出城！出城！",
         "chunk_id": "ch-0126-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "八号",
@@ -789,7 +835,8 @@
         "chapter_title": "第六百九十章 同学聚会",
         "chunk_id": "ch-0695-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "才轻轻",
@@ -806,7 +853,8 @@
         "chapter_title": "第二百五十三章 做人的仪式感",
         "chunk_id": "ch-0256-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "这一",
@@ -823,7 +871,8 @@
         "chapter_title": "第四百三十六章 给这世界一个微笑",
         "chunk_id": "ch-0440-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "所有",
@@ -840,7 +889,8 @@
         "chapter_title": "第三百三十四章 满院的壁虎",
         "chunk_id": "ch-0338-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "或是",
@@ -857,7 +907,8 @@
         "chapter_title": "第七百零二章 代号为暴君的小孩",
         "chunk_id": "ch-0707-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "最后",
@@ -874,7 +925,8 @@
         "chapter_title": "第一百七十四章 你违法了",
         "chunk_id": "ch-0176-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "还没",
@@ -891,7 +943,8 @@
         "chapter_title": "第二百九十章 优雅的脚步声",
         "chunk_id": "ch-0294-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "好奇",
@@ -908,7 +961,8 @@
         "chapter_title": "第三十八章 入职检测",
         "chunk_id": "ch-0039-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "用力",
@@ -925,7 +979,8 @@
         "chapter_title": "第二百零五章 无实物表演",
         "chunk_id": "ch-0207-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "但我",
@@ -942,7 +997,8 @@
         "chapter_title": "第三百七十二章 心灵美，才是真的美",
         "chunk_id": "ch-0376-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "影子",
@@ -959,7 +1015,8 @@
         "chapter_title": "第二百四十六章 代号为“暴君”",
         "chunk_id": "ch-0248-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "在他们",
@@ -976,7 +1033,8 @@
         "chapter_title": "第一百一十四章 为了你的安全",
         "chunk_id": "ch-0116-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "转身",
@@ -993,7 +1051,8 @@
         "chapter_title": "第六百三十五章 联盟最强雇佣兵",
         "chunk_id": "ch-0640-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "也都",
@@ -1010,7 +1069,8 @@
         "chapter_title": "第五百七十九章 讲道理不好吗？",
         "chunk_id": "ch-0584-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "三号",
@@ -1027,7 +1087,8 @@
         "chapter_title": "第八百四十四章 温馨的家庭",
         "chunk_id": "ch-0849-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "陈勋",
@@ -1044,7 +1105,8 @@
         "chapter_title": "第三百一十七章 继续自己的工作",
         "chunk_id": "ch-0321-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "周围人",
@@ -1061,7 +1123,8 @@
         "chapter_title": "第二章 街角咖啡店",
         "chunk_id": "ch-0003-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "在这",
@@ -1078,7 +1141,8 @@
         "chapter_title": "第六百一十九章 这是我对规则的尊重",
         "chunk_id": "ch-0624-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "这么",
@@ -1095,7 +1159,8 @@
         "chapter_title": "第九十九章 融入他们",
         "chunk_id": "ch-0101-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "这种",
@@ -1112,7 +1177,8 @@
         "chapter_title": "第一百零四章 你们退出",
         "chunk_id": "ch-0106-ck-003"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "无法",
@@ -1129,7 +1195,8 @@
         "chapter_title": "第八百七十七章 大家都很开心",
         "chunk_id": "ch-0882-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "不会",
@@ -1146,7 +1213,8 @@
         "chapter_title": "第二百五十三章 做人的仪式感",
         "chunk_id": "ch-0256-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "正在",
@@ -1163,7 +1231,8 @@
         "chapter_title": "第一百一十四章 为了你的安全",
         "chunk_id": "ch-0116-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "顿时",
@@ -1180,7 +1249,8 @@
         "chapter_title": "第五百一十二章 无眠的酒店",
         "chunk_id": "ch-0517-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "一下子",
@@ -1197,7 +1267,8 @@
         "chapter_title": "第一百七十三章 怎么才来？",
         "chunk_id": "ch-0175-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "一起",
@@ -1214,7 +1285,8 @@
         "chapter_title": "第一百八十三章 神秘组织",
         "chunk_id": "ch-0185-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "一片",
@@ -1231,7 +1303,8 @@
         "chapter_title": "第十五章 生意照做",
         "chunk_id": "ch-0016-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "让他",
@@ -1248,7 +1321,8 @@
         "chapter_title": "第七百九十二章 记载了最初秘密的地方",
         "chunk_id": "ch-0797-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "瞬间",
@@ -1265,7 +1339,8 @@
         "chapter_title": "第五百六十二章 拔除黑沼城的黑草",
         "chunk_id": "ch-0567-ck-008"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "则是",
@@ -1282,7 +1357,8 @@
         "chapter_title": "第一百三十五章 你不正常",
         "chunk_id": "ch-0137-ck-001"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "但他",
@@ -1299,7 +1375,8 @@
         "chapter_title": "第八十七章 全城暴乱",
         "chunk_id": "ch-0089-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "不可",
@@ -1316,7 +1393,8 @@
         "chapter_title": "第八百七十七章 大家都很开心",
         "chunk_id": "ch-0882-ck-004"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "也在",
@@ -1333,7 +1411,8 @@
         "chapter_title": "第六百四十二章 火种的开采模式",
         "chunk_id": "ch-0647-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "仔细",
@@ -1350,7 +1429,8 @@
         "chapter_title": "第四百八十一章 我们的生活",
         "chunk_id": "ch-0486-ck-002"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     },
     {
       "name": "甚至还",
@@ -1367,7 +1447,8 @@
         "chapter_title": "第五百五十六章 你就是怪物",
         "chunk_id": "ch-0561-ck-006"
       },
-      "review_required": true
+      "review_required": true,
+      "recommended_for_canon_review": false
     }
   ]
 }
