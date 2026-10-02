@@ -33,7 +33,15 @@ STOPWORDS = {
     "当然了", "下一刻", "但如今", "看起来", "或者说", "哗啦",
     "轻声", "低声", "大声", "笑着", "认真", "忽然", "突然", "微微", "缓缓", "冷冷",
     "男人", "女人", "女孩", "男孩", "老人", "年轻人", "对方", "众人", "所有人",
+    "一边", "静静的", "猛得", "点了", "认真的", "摇了", "而是", "同时", "然后他",
+    "他一边", "慢慢的", "他微微", "立刻", "继续", "他才", "呆呆的", "下意识",
+    "好奇的", "他轻轻", "然后才", "微一", "忍不住", "再次", "急忙", "皱了",
+    "父亲", "母亲", "爸爸", "妈妈", "妹妹", "哥哥", "姐姐", "弟弟", "孩子",
 }
+
+BAD_PREFIXES = ("他", "她", "它", "向", "又", "再", "便", "就", "然后")
+BAD_SUFFIX_CHARS = set("的地得了也才忙便就又着")
+TITLE_SUFFIXES = ("教授", "博士", "院长", "老师", "队长", "主任", "局长", "先生", "小姐")
 
 VERBISH_SUFFIXES = (
     "说道", "说着", "问道", "笑道", "声道", "低声", "轻声", "点头", "摇头",
@@ -62,6 +70,10 @@ def plausible_subject(token: str) -> bool:
     if token in STOPWORDS:
         return False
     if any(token.endswith(suffix) for suffix in VERBISH_SUFFIXES):
+        return False
+    if any(token.startswith(prefix) and len(token) > len(prefix) for prefix in BAD_PREFIXES):
+        return False
+    if token[-1] in BAD_SUFFIX_CHARS:
         return False
     if len(set(token)) == 1:
         return False
@@ -140,6 +152,8 @@ def discover(
             continue
 
         surname_like = name[0] in COMMON_SURNAMES
+        title_like = any(name.endswith(suffix) for suffix in TITLE_SUFFIXES)
+        candidate_kind = "personal_name" if surname_like else ("title_or_role_name" if title_like else "alias_or_codename")
         # Direct subject-attribution evidence is more important than raw frequency.
         score = round(
             min(
@@ -161,6 +175,7 @@ def discover(
                 "subject_action_hits": subjects,
                 "self_intro_hits": intros,
                 "surname_like": surname_like,
+                "candidate_kind": candidate_kind,
                 "score": score,
                 "first_seen": first_seen[name],
                 "review_required": True,
