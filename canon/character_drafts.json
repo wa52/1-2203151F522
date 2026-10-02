@@ -1,0 +1,272 @@
+{
+  "schema_version": "character-drafts/1",
+  "source_schema": "character-discovery/2",
+  "policy": [
+    "Drafts are discovery metadata, not Canon.",
+    "No appearance or personality fact is created from frequency statistics.",
+    "registry_ready remains false until an evidence-bound Canon Contract exists."
+  ],
+  "draft_count": 13,
+  "drafts": [
+    {
+      "draft_id": "char-324b85881b",
+      "name": "陆辛",
+      "candidate_kind": "personal_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 100.0,
+      "mention_count": 19864,
+      "chapter_count": 861,
+      "subject_action_hits": 848,
+      "self_intro_hits": 1,
+      "first_seen": {
+        "chapter_id": "ch-0003",
+        "chapter_title": "第二章 街角咖啡店",
+        "chunk_id": "ch-0003-ck-001"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-a234801629",
+      "name": "陈菁",
+      "candidate_kind": "personal_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 100.0,
+      "mention_count": 2273,
+      "chapter_count": 291,
+      "subject_action_hits": 114,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0006",
+        "chapter_title": "第五章 D级特殊污染源——036",
+        "chunk_id": "ch-0006-ck-004"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-4fd4b3a324",
+      "name": "韩冰",
+      "candidate_kind": "personal_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 100.0,
+      "mention_count": 1634,
+      "chapter_count": 235,
+      "subject_action_hits": 82,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0035",
+        "chapter_title": "第三十四章 041号分析报告",
+        "chunk_id": "ch-0035-ck-001"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-ad9c55a717",
+      "name": "白教授",
+      "candidate_kind": "title_or_role_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 100.0,
+      "mention_count": 1077,
+      "chapter_count": 178,
+      "subject_action_hits": 70,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0032",
+        "chapter_title": "第三十一章 失控风险",
+        "chunk_id": "ch-0032-ck-003"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-a7b1936f53",
+      "name": "壁虎",
+      "candidate_kind": "alias_or_codename",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 100.0,
+      "mention_count": 1988,
+      "chapter_count": 255,
+      "subject_action_hits": 42,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0039",
+        "chapter_title": "第三十八章 入职检测",
+        "chunk_id": "ch-0039-ck-001"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-ae56494a65",
+      "name": "安博士",
+      "candidate_kind": "personal_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 100.0,
+      "mention_count": 599,
+      "chapter_count": 73,
+      "subject_action_hits": 37,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0371",
+        "chapter_title": "第三百六十七章 七个台阶理论",
+        "chunk_id": "ch-0371-ck-001"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-9bbbc9b8db",
+      "name": "夏虫",
+      "candidate_kind": "personal_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 100.0,
+      "mention_count": 942,
+      "chapter_count": 103,
+      "subject_action_hits": 31,
+      "self_intro_hits": 1,
+      "first_seen": {
+        "chapter_id": "ch-0323",
+        "chapter_title": "第三百一十九章 代号1021——血肉怪物",
+        "chunk_id": "ch-0323-ck-003"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-69bc176c17",
+      "name": "老院长",
+      "candidate_kind": "title_or_role_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 100.0,
+      "mention_count": 593,
+      "chapter_count": 101,
+      "subject_action_hits": 25,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0727",
+        "chapter_title": "第七百二十二章 力之试炼降临",
+        "chunk_id": "ch-0727-ck-002"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-fd3eee26f7",
+      "name": "秦燃",
+      "candidate_kind": "personal_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 98.0,
+      "mention_count": 591,
+      "chapter_count": 86,
+      "subject_action_hits": 9,
+      "self_intro_hits": 2,
+      "first_seen": {
+        "chapter_id": "ch-0015",
+        "chapter_title": "第十四章 我的枪很正经",
+        "chunk_id": "ch-0015-ck-001"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-eddb895105",
+      "name": "二号",
+      "candidate_kind": "alias_or_codename",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 94.0,
+      "mention_count": 719,
+      "chapter_count": 223,
+      "subject_action_hits": 18,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0653",
+        "chapter_title": "第六百四十八章 孤儿院的二号",
+        "chunk_id": "ch-0653-ck-002"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-096af298b6",
+      "name": "苏先生",
+      "candidate_kind": "personal_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 82.0,
+      "mention_count": 388,
+      "chapter_count": 96,
+      "subject_action_hits": 9,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0164",
+        "chapter_title": "第一百六十二章 单兵的秘密",
+        "chunk_id": "ch-0164-ck-004"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-01af81abcf",
+      "name": "沈部长",
+      "candidate_kind": "personal_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 82.0,
+      "mention_count": 303,
+      "chapter_count": 81,
+      "subject_action_hits": 9,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0197",
+        "chapter_title": "第一百九十五章 单兵的秘密",
+        "chunk_id": "ch-0197-ck-003"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    },
+    {
+      "draft_id": "char-d0cff80c3b",
+      "name": "高婷",
+      "candidate_kind": "personal_name",
+      "status": "CANON_REVIEW_REQUIRED",
+      "discovery_score": 71.2,
+      "mention_count": 204,
+      "chapter_count": 36,
+      "subject_action_hits": 12,
+      "self_intro_hits": 0,
+      "first_seen": {
+        "chapter_id": "ch-0296",
+        "chapter_title": "第二百九十二章 调查结果确认",
+        "chunk_id": "ch-0296-ck-002"
+      },
+      "canon_contract": null,
+      "base_state": null,
+      "registry_ready": false,
+      "next_action": "Build an evidence-bound Canon Profile/Contract before character generation."
+    }
+  ]
+}
