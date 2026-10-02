@@ -254,7 +254,7 @@ def clean_text(text: str) -> tuple[str, dict, list[dict]]:
 
 
 CHAPTER_HEADING_RE = re.compile(
-    r"(?m)^\\s*(?:第[零〇一二三四五六七八九十百千万两\\d]+章(?:\\s|$)|引子(?:\\s|$)|序章(?:\\s|$)|番外(?:\\s|$))"
+    r"(?m)^\s*(?:第[零〇一二三四五六七八九十百千万两\d]+章[^\n]*|引子[^\n]*|序章[^\n]*|番外[^\n]*)$"
 )
 
 
@@ -268,7 +268,7 @@ def validate_cleaned_text(text: str) -> dict:
         1
         for ch in text
         if unicodedata.category(ch) in {"Cc", "Cf", "Cs"}
-        and ch not in {"\\n", "\\t"}
+        and ch not in {"\n", "\t"}
     )
     return {
         "line_count": len(text.splitlines()),
