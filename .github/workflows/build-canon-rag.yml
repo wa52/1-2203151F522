@@ -6,6 +6,7 @@ on:
     paths:
       - "cleaned/novel.cleaned.txt"
       - "tools/build_canon_rag.py"
+      - "tools/build_lu_xin_profile.py"
       - ".github/workflows/build-canon-rag.yml"
 
 permissions:
@@ -22,6 +23,10 @@ jobs:
       - name: Build local full-text index and public metadata
         run: |
           python tools/build_canon_rag.py build
+      - name: Build Lu Xin Canon Profile
+        run: |
+          python tools/build_lu_xin_profile.py
+
       - name: Validate local retrieval
         run: |
           python tools/build_canon_rag.py search "陆辛 二十三岁 年龄" --top-k 5 --preview-chars 180
@@ -33,7 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/canon_index_report.json canon/lu_xin.candidates.json
+          git add reports/canon_index_report.json canon/lu_xin.candidates.json canon/lu_xin.profile.json
           if git diff --cached --quiet; then
             echo "No metadata changes"
             exit 0
