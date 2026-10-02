@@ -76,7 +76,7 @@
           "chunk_id": "ch-0034-ck-002",
           "line_start": 2675,
           "line_end": 2696,
-          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作,工资"
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=上班,公司,办公室,工作,工资"
         },
         {
           "chapter_id": "ch-0213",
@@ -84,7 +84,7 @@
           "chunk_id": "ch-0213-ck-002",
           "line_start": 19422,
           "line_end": 19455,
-          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作,同事"
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=上班,公司,办公室,同事,工作"
         },
         {
           "chapter_id": "ch-0166",
@@ -92,7 +92,7 @@
           "chunk_id": "ch-0166-ck-003",
           "line_start": 14387,
           "line_end": 14416,
-          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作,同事"
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=上班,公司,办公室,同事,工作"
         },
         {
           "chapter_id": "ch-0462",
@@ -100,7 +100,7 @@
           "chunk_id": "ch-0462-ck-001",
           "line_start": 49929,
           "line_end": 49958,
-          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,同事,工资"
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=上班,公司,办公室,同事,工资"
         },
         {
           "chapter_id": "ch-0703",
@@ -108,7 +108,7 @@
           "chunk_id": "ch-0703-ck-001",
           "line_start": 80174,
           "line_end": 80205,
-          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,同事,工资"
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=上班,公司,办公室,同事,工资"
         },
         {
           "chapter_id": "ch-0265",
@@ -116,7 +116,7 @@
           "chunk_id": "ch-0265-ck-003",
           "line_start": 25444,
           "line_end": 25474,
-          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作,工资"
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=上班,公司,办公室,工作,工资"
         },
         {
           "chapter_id": "ch-0014",
@@ -124,7 +124,7 @@
           "chunk_id": "ch-0014-ck-002",
           "line_start": 1166,
           "line_end": 1187,
-          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作"
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=上班,公司,办公室,工作"
         },
         {
           "chapter_id": "ch-0034",
@@ -132,7 +132,7 @@
           "chunk_id": "ch-0034-ck-001",
           "line_start": 2645,
           "line_end": 2675,
-          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=公司,办公室,上班,工作"
+          "reason": "陆辛与多个办公室/上班语义同一 chunk; matched=上班,公司,办公室,工作"
         }
       ]
     },
@@ -207,7 +207,7 @@
           "chunk_id": "ch-0860-ck-004",
           "line_start": 102898,
           "line_end": 102929,
-          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=年轻人,安静,认真,笑,公司"
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=公司,安静,年轻人,笑,认真"
         },
         {
           "chapter_id": "ch-0835",
@@ -215,7 +215,7 @@
           "chunk_id": "ch-0835-ck-002",
           "line_start": 98657,
           "line_end": 98692,
-          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=老实,安静,认真,笑"
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=安静,笑,老实,认真"
         },
         {
           "chapter_id": "ch-0201",
@@ -223,7 +223,7 @@
           "chunk_id": "ch-0201-ck-002",
           "line_start": 18054,
           "line_end": 18079,
-          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=年轻人,老实,公司,工作"
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=公司,工作,年轻人,老实"
         },
         {
           "chapter_id": "ch-0849",
@@ -231,7 +231,7 @@
           "chunk_id": "ch-0849-ck-003",
           "line_start": 100787,
           "line_end": 100821,
-          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=老实,笑,公司,工作"
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=公司,工作,笑,老实"
         },
         {
           "chapter_id": "ch-0076",
@@ -239,7 +239,7 @@
           "chunk_id": "ch-0076-ck-002",
           "line_start": 5832,
           "line_end": 5858,
-          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=年轻人,安静,笑,工作"
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=安静,工作,年轻人,笑"
         },
         {
           "chapter_id": "ch-0485",
@@ -247,7 +247,7 @@
           "chunk_id": "ch-0485-ck-002",
           "line_start": 52976,
           "line_end": 53009,
-          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=安静,认真,笑,工作"
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=安静,工作,笑,认真"
         },
         {
           "chapter_id": "ch-0010",
@@ -255,7 +255,7 @@
           "chunk_id": "ch-0010-ck-002",
           "line_start": 824,
           "line_end": 849,
-          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=年轻人,认真,笑,工作"
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=工作,年轻人,笑,认真"
         },
         {
           "chapter_id": "ch-0581",
@@ -263,7 +263,7 @@
           "chunk_id": "ch-0581-ck-003",
           "line_start": 64836,
           "line_end": 64862,
-          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=认真,笑,公司,工作"
+          "reason": "叙事中陆辛与“普通”同一 chunk；仅作为气质证据，不等于固定外貌; matched=公司,工作,笑,认真"
         }
       ],
       "warning": "不能把“普通”直接转换成固定脸型、发型或颜值等级。"
@@ -311,7 +311,7 @@
         "chunk_id": "ch-0059-ck-002",
         "line_start": 4568,
         "line_end": 4591,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,身材,瘦,衣服"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,瘦,眼睛,脸,衣服,身材"
       },
       {
         "chapter_id": "ch-0786",
@@ -319,15 +319,7 @@
         "chunk_id": "ch-0786-ck-003",
         "line_start": 91115,
         "line_end": 91150,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,脸,模样,身材,衣服,外套"
-      },
-      {
-        "chapter_id": "ch-0848",
-        "chapter_title": "第八百四十三章 穿上了衣服的三号",
-        "chunk_id": "ch-0848-ck-004",
-        "line_start": 100664,
-        "line_end": 100699,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=眼睛,脸,模样,身材,瘦,衣服"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=外套,头发,模样,脸,衣服,身材"
       },
       {
         "chapter_id": "ch-0308",
@@ -335,7 +327,7 @@
         "chunk_id": "ch-0308-ck-004",
         "line_start": 30561,
         "line_end": 30579,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,目光,模样,身材,瘦"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,模样,瘦,目光,眼睛,身材"
       },
       {
         "chapter_id": "ch-0883",
@@ -343,7 +335,7 @@
         "chunk_id": "ch-0883-ck-002",
         "line_start": 106886,
         "line_end": 106917,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,模样,身材,瘦"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,模样,瘦,眼睛,脸,身材"
       },
       {
         "chapter_id": "ch-0710",
@@ -351,7 +343,7 @@
         "chunk_id": "ch-0710-ck-003",
         "line_start": 81150,
         "line_end": 81184,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,目光,脸,模样,身材"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,模样,目光,脸,身材"
       },
       {
         "chapter_id": "ch-0301",
@@ -359,7 +351,7 @@
         "chunk_id": "ch-0301-ck-004",
         "line_start": 29782,
         "line_end": 29803,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,模样,瘦"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,模样,瘦,眼睛,脸"
       },
       {
         "chapter_id": "ch-0734",
@@ -367,7 +359,7 @@
         "chunk_id": "ch-0734-ck-007",
         "line_start": 84300,
         "line_end": 84331,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=眼睛,目光,脸,身材,瘦"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=瘦,目光,眼睛,脸,身材"
       },
       {
         "chapter_id": "ch-0201",
@@ -375,7 +367,7 @@
         "chunk_id": "ch-0201-ck-002",
         "line_start": 18054,
         "line_end": 18079,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=目光,脸,身材,个子,瘦"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=个子,瘦,目光,脸,身材"
       },
       {
         "chapter_id": "ch-0775",
@@ -383,7 +375,7 @@
         "chunk_id": "ch-0775-ck-001",
         "line_start": 89415,
         "line_end": 89447,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,目光,脸,模样"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,模样,目光,眼睛,脸"
       },
       {
         "chapter_id": "ch-0149",
@@ -391,7 +383,7 @@
         "chunk_id": "ch-0149-ck-003",
         "line_start": 12526,
         "line_end": 12554,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,模样,身材"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,模样,眼睛,脸,身材"
       },
       {
         "chapter_id": "ch-0612",
@@ -399,7 +391,15 @@
         "chunk_id": "ch-0612-ck-001",
         "line_start": 68799,
         "line_end": 68831,
-        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,模样,衣服"
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,模样,眼睛,脸,衣服"
+      },
+      {
+        "chapter_id": "ch-0370",
+        "chapter_title": "第三百六十六章 背负神明力量的人",
+        "chunk_id": "ch-0370-ck-001",
+        "line_start": 37873,
+        "line_end": 37895,
+        "reason": "外貌相关词与陆辛同一 chunk；需要 Canon Agent 阅读正文后才能提取具体描述; matched=头发,眼睛,脸,衣服,身材"
       }
     ],
     "allowed_use": "供 Canon Agent 定向读取，提取文本明确的外貌描述。",
