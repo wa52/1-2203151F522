@@ -1,0 +1,505 @@
+{
+  "schema_version": "character-canon-contract/1",
+  "character": {
+    "id": "CHAR-HANBING",
+    "name": "韩冰"
+  },
+  "provenance": {
+    "source_profile": "canon/han_bing.profile.json",
+    "source_profile_schema": "generic-character-profile/1",
+    "source_profile_sha256": "f0a3dd4844ce75e74f261680ab906751a1689d91006b8bb61aad958fc38e103b",
+    "contains_novel_passages": false
+  },
+  "locked_facts": [],
+  "soft_constraints": [
+    {
+      "feature": "recurring_work_context",
+      "instruction": "原著证据中该角色附近跨多个章节反复出现工作/组织语境词：报告、工作、教授、任务、信息、办公室、总部、特清部。生成日常形象时应与这一广义职业语境兼容；这些词只作为场景/气质方向，不能自动推导具体职级、制服、年龄或外貌。",
+      "confidence": 0.68,
+      "evidence": [
+        {
+          "chapter_id": "ch-0504",
+          "chapter_title": "第四百九十九章 谈判专家壁虎",
+          "chunk_id": "ch-0504-ck-001",
+          "line_start": 55097,
+          "line_end": 55121
+        },
+        {
+          "chapter_id": "ch-0598",
+          "chapter_title": "第五百九十三章 天价装修清单",
+          "chunk_id": "ch-0598-ck-003",
+          "line_start": 67007,
+          "line_end": 67030
+        },
+        {
+          "chapter_id": "ch-0482",
+          "chapter_title": "第四百七十七章 青港天国计划",
+          "chunk_id": "ch-0482-ck-001",
+          "line_start": 52566,
+          "line_end": 52599
+        },
+        {
+          "chapter_id": "ch-0114",
+          "chapter_title": "第一百一十二章 谁来负责",
+          "chunk_id": "ch-0114-ck-003",
+          "line_start": 9076,
+          "line_end": 9102
+        },
+        {
+          "chapter_id": "ch-0168",
+          "chapter_title": "第一百六十六章 特殊人才引进机制",
+          "chunk_id": "ch-0168-ck-001",
+          "line_start": 14560,
+          "line_end": 14588
+        },
+        {
+          "chapter_id": "ch-0474",
+          "chapter_title": "第四百六十九章 169号——眼虫污染事件",
+          "chunk_id": "ch-0474-ck-004",
+          "line_start": 51566,
+          "line_end": 51591
+        },
+        {
+          "chapter_id": "ch-0298",
+          "chapter_title": "第二百九十四章 紧急通报",
+          "chunk_id": "ch-0298-ck-004",
+          "line_start": 29476,
+          "line_end": 29498
+        },
+        {
+          "chapter_id": "ch-0873",
+          "chapter_title": "第八百六十八章 远距离打击",
+          "chunk_id": "ch-0873-ck-001",
+          "line_start": 104716,
+          "line_end": 104743
+        }
+      ],
+      "evidence_semantics": "lexical-context-only"
+    }
+  ],
+  "unresolved_visual_features": [
+    "age",
+    "face_shape",
+    "hairstyle",
+    "eye_shape",
+    "body_proportions",
+    "height",
+    "default_clothing",
+    "attractiveness",
+    "default_expression",
+    "default_posture"
+  ],
+  "review_candidates": {
+    "demeanor": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "笑",
+          "anchor_count": 8
+        },
+        {
+          "term": "沉默",
+          "anchor_count": 6
+        },
+        {
+          "term": "认真",
+          "anchor_count": 5
+        },
+        {
+          "term": "严肃",
+          "anchor_count": 4
+        },
+        {
+          "term": "紧张",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0480",
+          "chapter_title": "第四百七十五章 只是一种保险",
+          "chunk_id": "ch-0480-ck-001",
+          "line_start": 52307,
+          "line_end": 52341
+        },
+        {
+          "chapter_id": "ch-0531",
+          "chapter_title": "第五百二十六章 天和军事基地",
+          "chunk_id": "ch-0531-ck-001",
+          "line_start": 58307,
+          "line_end": 58334
+        },
+        {
+          "chapter_id": "ch-0577",
+          "chapter_title": "第五百七十二章 负零部队",
+          "chunk_id": "ch-0577-ck-001",
+          "line_start": 64336,
+          "line_end": 64370
+        },
+        {
+          "chapter_id": "ch-0579",
+          "chapter_title": "第五百七十四章 财大气粗的夏虫",
+          "chunk_id": "ch-0579-ck-002",
+          "line_start": 64583,
+          "line_end": 64620
+        },
+        {
+          "chapter_id": "ch-0482",
+          "chapter_title": "第四百七十七章 青港天国计划",
+          "chunk_id": "ch-0482-ck-003",
+          "line_start": 52625,
+          "line_end": 52654
+        },
+        {
+          "chapter_id": "ch-0479",
+          "chapter_title": "第四百七十四章 喜欢这样的生活",
+          "chunk_id": "ch-0479-ck-003",
+          "line_start": 52238,
+          "line_end": 52275
+        },
+        {
+          "chapter_id": "ch-0298",
+          "chapter_title": "第二百九十四章 紧急通报",
+          "chunk_id": "ch-0298-ck-002",
+          "line_start": 29407,
+          "line_end": 29443
+        },
+        {
+          "chapter_id": "ch-0167",
+          "chapter_title": "第一百六十五章 任务报告",
+          "chunk_id": "ch-0167-ck-002",
+          "line_start": 14471,
+          "line_end": 14503
+        },
+        {
+          "chapter_id": "ch-0211",
+          "chapter_title": "第二百零九章 另一半问题",
+          "chunk_id": "ch-0211-ck-003",
+          "line_start": 19221,
+          "line_end": 19253
+        },
+        {
+          "chapter_id": "ch-0121",
+          "chapter_title": "第一百一十九章 出差申请",
+          "chunk_id": "ch-0121-ck-003",
+          "line_start": 9751,
+          "line_end": 9781
+        }
+      ]
+    },
+    "appearance": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "脸",
+          "anchor_count": 11
+        },
+        {
+          "term": "眼睛",
+          "anchor_count": 10
+        },
+        {
+          "term": "女孩",
+          "anchor_count": 8
+        },
+        {
+          "term": "目光",
+          "anchor_count": 6
+        },
+        {
+          "term": "头发",
+          "anchor_count": 4
+        },
+        {
+          "term": "模样",
+          "anchor_count": 4
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0480",
+          "chapter_title": "第四百七十五章 只是一种保险",
+          "chunk_id": "ch-0480-ck-003",
+          "line_start": 52378,
+          "line_end": 52412
+        },
+        {
+          "chapter_id": "ch-0476",
+          "chapter_title": "第四百七十一章 意外的访客",
+          "chunk_id": "ch-0476-ck-004",
+          "line_start": 51855,
+          "line_end": 51897
+        },
+        {
+          "chapter_id": "ch-0514",
+          "chapter_title": "第五百零九章 单兵小队成立",
+          "chunk_id": "ch-0514-ck-003",
+          "line_start": 56372,
+          "line_end": 56403
+        },
+        {
+          "chapter_id": "ch-0480",
+          "chapter_title": "第四百七十五章 只是一种保险",
+          "chunk_id": "ch-0480-ck-004",
+          "line_start": 52412,
+          "line_end": 52432
+        },
+        {
+          "chapter_id": "ch-0526",
+          "chapter_title": "第五百二十一章 群爷的账本",
+          "chunk_id": "ch-0526-ck-001",
+          "line_start": 57767,
+          "line_end": 57795
+        },
+        {
+          "chapter_id": "ch-0561",
+          "chapter_title": "第五百五十六章 你就是怪物",
+          "chunk_id": "ch-0561-ck-004",
+          "line_start": 62194,
+          "line_end": 62220
+        },
+        {
+          "chapter_id": "ch-0477",
+          "chapter_title": "第四百七十二章 我们特清部不收礼",
+          "chunk_id": "ch-0477-ck-002",
+          "line_start": 51937,
+          "line_end": 51975
+        },
+        {
+          "chapter_id": "ch-0520",
+          "chapter_title": "第五百一十五章 未知的颤栗",
+          "chunk_id": "ch-0520-ck-003",
+          "line_start": 57025,
+          "line_end": 57056
+        },
+        {
+          "chapter_id": "ch-0535",
+          "chapter_title": "第五百三十章 黑沼城污染关键",
+          "chunk_id": "ch-0535-ck-003",
+          "line_start": 58831,
+          "line_end": 58857
+        },
+        {
+          "chapter_id": "ch-0511",
+          "chapter_title": "第五百零六章 被偷走了睡眠的城市",
+          "chunk_id": "ch-0511-ck-002",
+          "line_start": 55973,
+          "line_end": 56006
+        },
+        {
+          "chapter_id": "ch-0544",
+          "chapter_title": "第五百三十九章 幕后黑手",
+          "chunk_id": "ch-0544-ck-003",
+          "line_start": 59953,
+          "line_end": 59985
+        },
+        {
+          "chapter_id": "ch-0096",
+          "chapter_title": "第九十四章 漂浮的女孩",
+          "chunk_id": "ch-0096-ck-002",
+          "line_start": 7460,
+          "line_end": 7492
+        }
+      ]
+    },
+    "clothing": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "眼镜",
+          "anchor_count": 3
+        },
+        {
+          "term": "衣服",
+          "anchor_count": 3
+        },
+        {
+          "term": "鞋",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0567",
+          "chapter_title": "第五百六十二章 拔除黑沼城的黑草",
+          "chunk_id": "ch-0567-ck-002",
+          "line_start": 62977,
+          "line_end": 63007
+        },
+        {
+          "chapter_id": "ch-0572",
+          "chapter_title": "第五百六十七章 邪神降临了",
+          "chunk_id": "ch-0572-ck-005",
+          "line_start": 63793,
+          "line_end": 63824
+        },
+        {
+          "chapter_id": "ch-0171",
+          "chapter_title": "第一百六十九章 “抓鬼”任务",
+          "chunk_id": "ch-0171-ck-003",
+          "line_start": 14928,
+          "line_end": 14953
+        },
+        {
+          "chapter_id": "ch-0241",
+          "chapter_title": "第二百三十九章 进击的娃娃",
+          "chunk_id": "ch-0241-ck-002",
+          "line_start": 22508,
+          "line_end": 22542
+        },
+        {
+          "chapter_id": "ch-0629",
+          "chapter_title": "第六百二十四章 俱乐部最靠谱的人",
+          "chunk_id": "ch-0629-ck-003",
+          "line_start": 71022,
+          "line_end": 71054
+        },
+        {
+          "chapter_id": "ch-0480",
+          "chapter_title": "第四百七十五章 只是一种保险",
+          "chunk_id": "ch-0480-ck-001",
+          "line_start": 52307,
+          "line_end": 52341
+        },
+        {
+          "chapter_id": "ch-0520",
+          "chapter_title": "第五百一十五章 未知的颤栗",
+          "chunk_id": "ch-0520-ck-003",
+          "line_start": 57025,
+          "line_end": 57056
+        },
+        {
+          "chapter_id": "ch-0535",
+          "chapter_title": "第五百三十章 黑沼城污染关键",
+          "chunk_id": "ch-0535-ck-003",
+          "line_start": 58831,
+          "line_end": 58857
+        },
+        {
+          "chapter_id": "ch-0476",
+          "chapter_title": "第四百七十一章 意外的访客",
+          "chunk_id": "ch-0476-ck-004",
+          "line_start": 51855,
+          "line_end": 51897
+        },
+        {
+          "chapter_id": "ch-0477",
+          "chapter_title": "第四百七十二章 我们特清部不收礼",
+          "chunk_id": "ch-0477-ck-001",
+          "line_start": 51901,
+          "line_end": 51937
+        }
+      ]
+    },
+    "relationship_context": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "陆辛",
+          "anchor_count": 10
+        },
+        {
+          "term": "妹妹",
+          "anchor_count": 6
+        },
+        {
+          "term": "家人",
+          "anchor_count": 4
+        },
+        {
+          "term": "朋友",
+          "anchor_count": 4
+        },
+        {
+          "term": "父亲",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0510",
+          "chapter_title": "第五百零五章 治疗自己的最好办法",
+          "chunk_id": "ch-0510-ck-004",
+          "line_start": 55894,
+          "line_end": 55927
+        },
+        {
+          "chapter_id": "ch-0482",
+          "chapter_title": "第四百七十七章 青港天国计划",
+          "chunk_id": "ch-0482-ck-003",
+          "line_start": 52625,
+          "line_end": 52654
+        },
+        {
+          "chapter_id": "ch-0477",
+          "chapter_title": "第四百七十二章 我们特清部不收礼",
+          "chunk_id": "ch-0477-ck-002",
+          "line_start": 51937,
+          "line_end": 51975
+        },
+        {
+          "chapter_id": "ch-0520",
+          "chapter_title": "第五百一十五章 未知的颤栗",
+          "chunk_id": "ch-0520-ck-001",
+          "line_start": 56959,
+          "line_end": 56990
+        },
+        {
+          "chapter_id": "ch-0171",
+          "chapter_title": "第一百六十九章 “抓鬼”任务",
+          "chunk_id": "ch-0171-ck-004",
+          "line_start": 14953,
+          "line_end": 14978
+        },
+        {
+          "chapter_id": "ch-0568",
+          "chapter_title": "第五百六十三章 事情还是闹大了",
+          "chunk_id": "ch-0568-ck-005",
+          "line_start": 63308,
+          "line_end": 63333
+        },
+        {
+          "chapter_id": "ch-0577",
+          "chapter_title": "第五百七十二章 负零部队",
+          "chunk_id": "ch-0577-ck-001",
+          "line_start": 64336,
+          "line_end": 64370
+        },
+        {
+          "chapter_id": "ch-0526",
+          "chapter_title": "第五百二十一章 群爷的账本",
+          "chunk_id": "ch-0526-ck-003",
+          "line_start": 57822,
+          "line_end": 57852
+        },
+        {
+          "chapter_id": "ch-0114",
+          "chapter_title": "第一百一十二章 谁来负责",
+          "chunk_id": "ch-0114-ck-003",
+          "line_start": 9076,
+          "line_end": 9102
+        },
+        {
+          "chapter_id": "ch-0526",
+          "chapter_title": "第五百二十一章 群爷的账本",
+          "chunk_id": "ch-0526-ck-001",
+          "line_start": 57767,
+          "line_end": 57795
+        }
+      ]
+    }
+  },
+  "forbidden_interpretations": [
+    "不能从角色重要性推导颜值、英雄感或固定镜头语言。",
+    "不能把战斗/异常场景中的临时表演当成默认气质。",
+    "不能把职业或组织词直接转换成固定服装，除非正文有明确反复证据。",
+    "没有明确正文描述前，不锁定年龄、脸型、发型、眼型、身材、身高和默认服装。"
+  ],
+  "acceptance_rules": [
+    "No visual feature is locked from lexical co-occurrence alone.",
+    "Soft recurring_work_context is broad staging guidance, not a literal rank or costume fact.",
+    "Appearance/clothing/demeanor review candidates require source-chunk review before promotion.",
+    "Unresolved visual features remain modifiable.",
+    "No novel passages are embedded in this contract; only evidence pointers are exported."
+  ]
+}

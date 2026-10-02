@@ -1,0 +1,541 @@
+{
+  "schema_version": "character-canon-contract/1",
+  "character": {
+    "id": "CHAR-BIHU",
+    "name": "壁虎"
+  },
+  "provenance": {
+    "source_profile": "canon/bi_hu.profile.json",
+    "source_profile_schema": "generic-character-profile/1",
+    "source_profile_sha256": "1b4ea543e6ef41d61da23de67267a638fda3f78c02b6b6030412b93cdcb7ac2a",
+    "contains_novel_passages": false
+  },
+  "locked_facts": [],
+  "soft_constraints": [
+    {
+      "feature": "recurring_work_context",
+      "instruction": "原著证据中该角色附近跨多个章节反复出现工作/组织语境词：工作、任务、会议、信息、特清部、培训、报告、教授。生成日常形象时应与这一广义职业语境兼容；这些词只作为场景/气质方向，不能自动推导具体职级、制服、年龄或外貌。",
+      "confidence": 0.68,
+      "evidence": [
+        {
+          "chapter_id": "ch-0410",
+          "chapter_title": "第四百零六章 青港出击",
+          "chunk_id": "ch-0410-ck-005",
+          "line_start": 43187,
+          "line_end": 43216
+        },
+        {
+          "chapter_id": "ch-0145",
+          "chapter_title": "第一百四十三章 无解级别能力",
+          "chunk_id": "ch-0145-ck-001",
+          "line_start": 12060,
+          "line_end": 12095
+        },
+        {
+          "chapter_id": "ch-0378",
+          "chapter_title": "第三百七十四章 召唤潜伏者",
+          "chunk_id": "ch-0378-ck-001",
+          "line_start": 38883,
+          "line_end": 38910
+        },
+        {
+          "chapter_id": "ch-0873",
+          "chapter_title": "第八百六十八章 远距离打击",
+          "chunk_id": "ch-0873-ck-002",
+          "line_start": 104743,
+          "line_end": 104779
+        },
+        {
+          "chapter_id": "ch-0489",
+          "chapter_title": "第四百八十四章 一千九百六十二万六千一百七十六元",
+          "chunk_id": "ch-0489-ck-001",
+          "line_start": 53411,
+          "line_end": 53435
+        },
+        {
+          "chapter_id": "ch-0115",
+          "chapter_title": "第一百一十三章 他很紧张",
+          "chunk_id": "ch-0115-ck-003",
+          "line_start": 9167,
+          "line_end": 9200
+        },
+        {
+          "chapter_id": "ch-0046",
+          "chapter_title": "第四十五章 C级特殊污染源——039",
+          "chunk_id": "ch-0046-ck-002",
+          "line_start": 3597,
+          "line_end": 3623
+        },
+        {
+          "chapter_id": "ch-0115",
+          "chapter_title": "第一百一十三章 他很紧张",
+          "chunk_id": "ch-0115-ck-002",
+          "line_start": 9139,
+          "line_end": 9167
+        }
+      ],
+      "evidence_semantics": "lexical-context-only"
+    }
+  ],
+  "unresolved_visual_features": [
+    "age",
+    "face_shape",
+    "hairstyle",
+    "eye_shape",
+    "body_proportions",
+    "height",
+    "default_clothing",
+    "attractiveness",
+    "default_expression",
+    "default_posture"
+  ],
+  "review_candidates": {
+    "demeanor": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "笑",
+          "anchor_count": 10
+        },
+        {
+          "term": "认真",
+          "anchor_count": 8
+        },
+        {
+          "term": "严肃",
+          "anchor_count": 6
+        },
+        {
+          "term": "平静",
+          "anchor_count": 3
+        },
+        {
+          "term": "微笑",
+          "anchor_count": 3
+        },
+        {
+          "term": "皱眉",
+          "anchor_count": 3
+        },
+        {
+          "term": "紧张",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0514",
+          "chapter_title": "第五百零九章 单兵小队成立",
+          "chunk_id": "ch-0514-ck-002",
+          "line_start": 56334,
+          "line_end": 56372
+        },
+        {
+          "chapter_id": "ch-0513",
+          "chapter_title": "第五百零八章 友好的女王",
+          "chunk_id": "ch-0513-ck-004",
+          "line_start": 56274,
+          "line_end": 56306
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-002",
+          "line_start": 32642,
+          "line_end": 32673
+        },
+        {
+          "chapter_id": "ch-0046",
+          "chapter_title": "第四十五章 C级特殊污染源——039",
+          "chunk_id": "ch-0046-ck-002",
+          "line_start": 3597,
+          "line_end": 3623
+        },
+        {
+          "chapter_id": "ch-0513",
+          "chapter_title": "第五百零八章 友好的女王",
+          "chunk_id": "ch-0513-ck-002",
+          "line_start": 56217,
+          "line_end": 56250
+        },
+        {
+          "chapter_id": "ch-0116",
+          "chapter_title": "第一百一十四章 为了你的安全",
+          "chunk_id": "ch-0116-ck-001",
+          "line_start": 9213,
+          "line_end": 9244
+        },
+        {
+          "chapter_id": "ch-0141",
+          "chapter_title": "第一百三十九章 他现在很正常",
+          "chunk_id": "ch-0141-ck-003",
+          "line_start": 11714,
+          "line_end": 11747
+        },
+        {
+          "chapter_id": "ch-0144",
+          "chapter_title": "第一百四十二章 开心小镇",
+          "chunk_id": "ch-0144-ck-001",
+          "line_start": 11973,
+          "line_end": 12005
+        },
+        {
+          "chapter_id": "ch-0143",
+          "chapter_title": "第一百四十一章 85号公路尽头",
+          "chunk_id": "ch-0143-ck-002",
+          "line_start": 11910,
+          "line_end": 11940
+        },
+        {
+          "chapter_id": "ch-0576",
+          "chapter_title": "第五百七十一章 升职的夏虫",
+          "chunk_id": "ch-0576-ck-004",
+          "line_start": 64309,
+          "line_end": 64332
+        }
+      ]
+    },
+    "appearance": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "脸",
+          "anchor_count": 11
+        },
+        {
+          "term": "女孩",
+          "anchor_count": 8
+        },
+        {
+          "term": "眼睛",
+          "anchor_count": 8
+        },
+        {
+          "term": "目光",
+          "anchor_count": 7
+        },
+        {
+          "term": "身材",
+          "anchor_count": 6
+        },
+        {
+          "term": "模样",
+          "anchor_count": 5
+        },
+        {
+          "term": "男人",
+          "anchor_count": 5
+        },
+        {
+          "term": "年轻",
+          "anchor_count": 4
+        },
+        {
+          "term": "头发",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0710",
+          "chapter_title": "第七百零五章 一个导弹下来青港全灭的课程",
+          "chunk_id": "ch-0710-ck-002",
+          "line_start": 81113,
+          "line_end": 81150
+        },
+        {
+          "chapter_id": "ch-0055",
+          "chapter_title": "第五十四章 防止失控绝招（壁虎版）",
+          "chunk_id": "ch-0055-ck-002",
+          "line_start": 4267,
+          "line_end": 4297
+        },
+        {
+          "chapter_id": "ch-0710",
+          "chapter_title": "第七百零五章 一个导弹下来青港全灭的课程",
+          "chunk_id": "ch-0710-ck-003",
+          "line_start": 81150,
+          "line_end": 81184
+        },
+        {
+          "chapter_id": "ch-0523",
+          "chapter_title": "第五百一十八章 我家大哥很牛的",
+          "chunk_id": "ch-0523-ck-002",
+          "line_start": 57446,
+          "line_end": 57472
+        },
+        {
+          "chapter_id": "ch-0138",
+          "chapter_title": "第一百三十六章 第三把枪",
+          "chunk_id": "ch-0138-ck-003",
+          "line_start": 11398,
+          "line_end": 11433
+        },
+        {
+          "chapter_id": "ch-0139",
+          "chapter_title": "第一百三十七章 大家讲道理",
+          "chunk_id": "ch-0139-ck-001",
+          "line_start": 11459,
+          "line_end": 11491
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-004",
+          "line_start": 20017,
+          "line_end": 20044
+        },
+        {
+          "chapter_id": "ch-0323",
+          "chapter_title": "第三百一十九章 代号1021——血肉怪物",
+          "chunk_id": "ch-0323-ck-001",
+          "line_start": 32170,
+          "line_end": 32201
+        },
+        {
+          "chapter_id": "ch-0514",
+          "chapter_title": "第五百零九章 单兵小队成立",
+          "chunk_id": "ch-0514-ck-003",
+          "line_start": 56372,
+          "line_end": 56403
+        },
+        {
+          "chapter_id": "ch-0522",
+          "chapter_title": "第五百一十七章 精神污染天堂",
+          "chunk_id": "ch-0522-ck-003",
+          "line_start": 57361,
+          "line_end": 57389
+        },
+        {
+          "chapter_id": "ch-0132",
+          "chapter_title": "第一百三十章 不需要计划",
+          "chunk_id": "ch-0132-ck-003",
+          "line_start": 10848,
+          "line_end": 10871
+        },
+        {
+          "chapter_id": "ch-0523",
+          "chapter_title": "第五百一十八章 我家大哥很牛的",
+          "chunk_id": "ch-0523-ck-003",
+          "line_start": 57472,
+          "line_end": 57500
+        }
+      ]
+    },
+    "clothing": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "衣服",
+          "anchor_count": 5
+        },
+        {
+          "term": "制服",
+          "anchor_count": 3
+        },
+        {
+          "term": "西装",
+          "anchor_count": 3
+        },
+        {
+          "term": "鞋",
+          "anchor_count": 3
+        },
+        {
+          "term": "风衣",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-004",
+          "line_start": 20017,
+          "line_end": 20044
+        },
+        {
+          "chapter_id": "ch-0141",
+          "chapter_title": "第一百三十九章 他现在很正常",
+          "chunk_id": "ch-0141-ck-002",
+          "line_start": 11686,
+          "line_end": 11714
+        },
+        {
+          "chapter_id": "ch-0055",
+          "chapter_title": "第五十四章 防止失控绝招（壁虎版）",
+          "chunk_id": "ch-0055-ck-003",
+          "line_start": 4297,
+          "line_end": 4317
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-004",
+          "line_start": 32705,
+          "line_end": 32736
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-003",
+          "line_start": 32673,
+          "line_end": 32705
+        },
+        {
+          "chapter_id": "ch-0335",
+          "chapter_title": "第三百三十一章 反向污染",
+          "chunk_id": "ch-0335-ck-002",
+          "line_start": 33512,
+          "line_end": 33540
+        },
+        {
+          "chapter_id": "ch-0338",
+          "chapter_title": "第三百三十四章 满院的壁虎",
+          "chunk_id": "ch-0338-ck-004",
+          "line_start": 33884,
+          "line_end": 33894
+        },
+        {
+          "chapter_id": "ch-0523",
+          "chapter_title": "第五百一十八章 我家大哥很牛的",
+          "chunk_id": "ch-0523-ck-002",
+          "line_start": 57446,
+          "line_end": 57472
+        },
+        {
+          "chapter_id": "ch-0047",
+          "chapter_title": "第四十六章 工作机器",
+          "chunk_id": "ch-0047-ck-002",
+          "line_start": 3675,
+          "line_end": 3699
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-001",
+          "line_start": 32614,
+          "line_end": 32642
+        }
+      ]
+    },
+    "relationship_context": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "家人",
+          "anchor_count": 10
+        },
+        {
+          "term": "陆辛",
+          "anchor_count": 10
+        },
+        {
+          "term": "妹妹",
+          "anchor_count": 9
+        },
+        {
+          "term": "朋友",
+          "anchor_count": 5
+        },
+        {
+          "term": "父亲",
+          "anchor_count": 3
+        },
+        {
+          "term": "队友",
+          "anchor_count": 3
+        },
+        {
+          "term": "领导",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0340",
+          "chapter_title": "第三百三十六章 神经病人的思想",
+          "chunk_id": "ch-0340-ck-001",
+          "line_start": 34007,
+          "line_end": 34042
+        },
+        {
+          "chapter_id": "ch-0142",
+          "chapter_title": "第一百四十章 我只是能力有点怪",
+          "chunk_id": "ch-0142-ck-002",
+          "line_start": 11801,
+          "line_end": 11832
+        },
+        {
+          "chapter_id": "ch-0126",
+          "chapter_title": "第一百二十四章 出城！出城！出城！",
+          "chunk_id": "ch-0126-ck-003",
+          "line_start": 10208,
+          "line_end": 10231
+        },
+        {
+          "chapter_id": "ch-0772",
+          "chapter_title": "第七百六十七章 夜之囚徒的权柄",
+          "chunk_id": "ch-0772-ck-004",
+          "line_start": 89102,
+          "line_end": 89134
+        },
+        {
+          "chapter_id": "ch-0127",
+          "chapter_title": "第一百二十五章 直接看到了",
+          "chunk_id": "ch-0127-ck-002",
+          "line_start": 10270,
+          "line_end": 10295
+        },
+        {
+          "chapter_id": "ch-0378",
+          "chapter_title": "第三百七十四章 召唤潜伏者",
+          "chunk_id": "ch-0378-ck-002",
+          "line_start": 38910,
+          "line_end": 38941
+        },
+        {
+          "chapter_id": "ch-0142",
+          "chapter_title": "第一百四十章 我只是能力有点怪",
+          "chunk_id": "ch-0142-ck-003",
+          "line_start": 11832,
+          "line_end": 11863
+        },
+        {
+          "chapter_id": "ch-0045",
+          "chapter_title": "第四十四章 究竟什么颜色",
+          "chunk_id": "ch-0045-ck-001",
+          "line_start": 3474,
+          "line_end": 3495
+        },
+        {
+          "chapter_id": "ch-0549",
+          "chapter_title": "第五百四十四章 找出来，审问它",
+          "chunk_id": "ch-0549-ck-001",
+          "line_start": 60528,
+          "line_end": 60556
+        },
+        {
+          "chapter_id": "ch-0751",
+          "chapter_title": "第七百四十六章 史上最靠谱的副队长",
+          "chunk_id": "ch-0751-ck-004",
+          "line_start": 86502,
+          "line_end": 86522
+        }
+      ]
+    }
+  },
+  "forbidden_interpretations": [
+    "不能从角色重要性推导颜值、英雄感或固定镜头语言。",
+    "不能把战斗/异常场景中的临时表演当成默认气质。",
+    "不能把职业或组织词直接转换成固定服装，除非正文有明确反复证据。",
+    "没有明确正文描述前，不锁定年龄、脸型、发型、眼型、身材、身高和默认服装。"
+  ],
+  "acceptance_rules": [
+    "No visual feature is locked from lexical co-occurrence alone.",
+    "Soft recurring_work_context is broad staging guidance, not a literal rank or costume fact.",
+    "Appearance/clothing/demeanor review candidates require source-chunk review before promotion.",
+    "Unresolved visual features remain modifiable.",
+    "No novel passages are embedded in this contract; only evidence pointers are exported."
+  ]
+}

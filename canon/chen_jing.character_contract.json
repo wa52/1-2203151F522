@@ -1,0 +1,541 @@
+{
+  "schema_version": "character-canon-contract/1",
+  "character": {
+    "id": "CHAR-CHENJING",
+    "name": "陈菁"
+  },
+  "provenance": {
+    "source_profile": "canon/chen_jing.profile.json",
+    "source_profile_schema": "generic-character-profile/1",
+    "source_profile_sha256": "7e6d7e48468e8a3684e6631755b13443638e7a5d1972463031571d4ed054646c",
+    "contains_novel_passages": false
+  },
+  "locked_facts": [],
+  "soft_constraints": [
+    {
+      "feature": "recurring_work_context",
+      "instruction": "原著证据中该角色附近跨多个章节反复出现工作/组织语境词：工作、特清部、组长、调查、领导、任务、会议、信息。生成日常形象时应与这一广义职业语境兼容；这些词只作为场景/气质方向，不能自动推导具体职级、制服、年龄或外貌。",
+      "confidence": 0.68,
+      "evidence": [
+        {
+          "chapter_id": "ch-0389",
+          "chapter_title": "第三百八十五章 正常工作的死人",
+          "chunk_id": "ch-0389-ck-002",
+          "line_start": 40254,
+          "line_end": 40284
+        },
+        {
+          "chapter_id": "ch-0408",
+          "chapter_title": "第四百零四章 黑暗中的孤岛",
+          "chunk_id": "ch-0408-ck-001",
+          "line_start": 42797,
+          "line_end": 42832
+        },
+        {
+          "chapter_id": "ch-0386",
+          "chapter_title": "第三百八十二章 挑选队员",
+          "chunk_id": "ch-0386-ck-001",
+          "line_start": 39872,
+          "line_end": 39900
+        },
+        {
+          "chapter_id": "ch-0390",
+          "chapter_title": "第三百八十六章 微笑的小镇",
+          "chunk_id": "ch-0390-ck-001",
+          "line_start": 40338,
+          "line_end": 40366
+        },
+        {
+          "chapter_id": "ch-0489",
+          "chapter_title": "第四百八十四章 一千九百六十二万六千一百七十六元",
+          "chunk_id": "ch-0489-ck-001",
+          "line_start": 53411,
+          "line_end": 53435
+        },
+        {
+          "chapter_id": "ch-0163",
+          "chapter_title": "第一百六十一章 压力排谴绝招（陆辛版）",
+          "chunk_id": "ch-0163-ck-002",
+          "line_start": 14035,
+          "line_end": 14065
+        },
+        {
+          "chapter_id": "ch-0225",
+          "chapter_title": "第二百二十三章 双线任务",
+          "chunk_id": "ch-0225-ck-002",
+          "line_start": 20784,
+          "line_end": 20814
+        },
+        {
+          "chapter_id": "ch-0263",
+          "chapter_title": "第二百五十九章 请假探亲",
+          "chunk_id": "ch-0263-ck-004",
+          "line_start": 25220,
+          "line_end": 25248
+        }
+      ],
+      "evidence_semantics": "lexical-context-only"
+    }
+  ],
+  "unresolved_visual_features": [
+    "age",
+    "face_shape",
+    "hairstyle",
+    "eye_shape",
+    "body_proportions",
+    "height",
+    "default_clothing",
+    "attractiveness",
+    "default_expression",
+    "default_posture"
+  ],
+  "review_candidates": {
+    "demeanor": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "笑",
+          "anchor_count": 8
+        },
+        {
+          "term": "沉默",
+          "anchor_count": 7
+        },
+        {
+          "term": "认真",
+          "anchor_count": 7
+        },
+        {
+          "term": "紧张",
+          "anchor_count": 5
+        },
+        {
+          "term": "微笑",
+          "anchor_count": 3
+        },
+        {
+          "term": "警惕",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-002",
+          "line_start": 32642,
+          "line_end": 32673
+        },
+        {
+          "chapter_id": "ch-0325",
+          "chapter_title": "第三百二十一章 神会趋向于完美",
+          "chunk_id": "ch-0325-ck-002",
+          "line_start": 32386,
+          "line_end": 32409
+        },
+        {
+          "chapter_id": "ch-0120",
+          "chapter_title": "第一百一十八章 当年的事",
+          "chunk_id": "ch-0120-ck-003",
+          "line_start": 9640,
+          "line_end": 9672
+        },
+        {
+          "chapter_id": "ch-0220",
+          "chapter_title": "第二百一十八章 挺不正常的",
+          "chunk_id": "ch-0220-ck-001",
+          "line_start": 20187,
+          "line_end": 20222
+        },
+        {
+          "chapter_id": "ch-0326",
+          "chapter_title": "第三百二十二章 我只是去探亲而已",
+          "chunk_id": "ch-0326-ck-002",
+          "line_start": 32499,
+          "line_end": 32531
+        },
+        {
+          "chapter_id": "ch-0229",
+          "chapter_title": "第二百二十七章 压力疏导与排谴课程",
+          "chunk_id": "ch-0229-ck-001",
+          "line_start": 21168,
+          "line_end": 21201
+        },
+        {
+          "chapter_id": "ch-0014",
+          "chapter_title": "第十三章 工作积极性",
+          "chunk_id": "ch-0014-ck-001",
+          "line_start": 1140,
+          "line_end": 1166
+        },
+        {
+          "chapter_id": "ch-0217",
+          "chapter_title": "第二百一十五章 还没开始，就结束了",
+          "chunk_id": "ch-0217-ck-002",
+          "line_start": 19856,
+          "line_end": 19885
+        },
+        {
+          "chapter_id": "ch-0244",
+          "chapter_title": "第二百四十二章 关键物品",
+          "chunk_id": "ch-0244-ck-005",
+          "line_start": 22957,
+          "line_end": 22986
+        },
+        {
+          "chapter_id": "ch-0124",
+          "chapter_title": "第一百二十二章 保密等级",
+          "chunk_id": "ch-0124-ck-001",
+          "line_start": 9951,
+          "line_end": 9986
+        }
+      ]
+    },
+    "appearance": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "脸",
+          "anchor_count": 11
+        },
+        {
+          "term": "身材",
+          "anchor_count": 8
+        },
+        {
+          "term": "女人",
+          "anchor_count": 7
+        },
+        {
+          "term": "目光",
+          "anchor_count": 7
+        },
+        {
+          "term": "眼睛",
+          "anchor_count": 6
+        },
+        {
+          "term": "女孩",
+          "anchor_count": 5
+        },
+        {
+          "term": "头发",
+          "anchor_count": 4
+        },
+        {
+          "term": "男人",
+          "anchor_count": 4
+        },
+        {
+          "term": "高挑",
+          "anchor_count": 4
+        },
+        {
+          "term": "年龄",
+          "anchor_count": 3
+        },
+        {
+          "term": "模样",
+          "anchor_count": 3
+        },
+        {
+          "term": "漂亮",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0325",
+          "chapter_title": "第三百二十一章 神会趋向于完美",
+          "chunk_id": "ch-0325-ck-005",
+          "line_start": 32451,
+          "line_end": 32472
+        },
+        {
+          "chapter_id": "ch-0120",
+          "chapter_title": "第一百一十八章 当年的事",
+          "chunk_id": "ch-0120-ck-002",
+          "line_start": 9614,
+          "line_end": 9640
+        },
+        {
+          "chapter_id": "ch-0233",
+          "chapter_title": "第二百三十一章 信不信我",
+          "chunk_id": "ch-0233-ck-001",
+          "line_start": 21614,
+          "line_end": 21645
+        },
+        {
+          "chapter_id": "ch-0343",
+          "chapter_title": "第三百三十九章 哥哥，找到她了",
+          "chunk_id": "ch-0343-ck-002",
+          "line_start": 34395,
+          "line_end": 34428
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-004",
+          "line_start": 20017,
+          "line_end": 20044
+        },
+        {
+          "chapter_id": "ch-0062",
+          "chapter_title": "第六十一章 城外能力者",
+          "chunk_id": "ch-0062-ck-002",
+          "line_start": 4796,
+          "line_end": 4823
+        },
+        {
+          "chapter_id": "ch-0323",
+          "chapter_title": "第三百一十九章 代号1021——血肉怪物",
+          "chunk_id": "ch-0323-ck-001",
+          "line_start": 32170,
+          "line_end": 32201
+        },
+        {
+          "chapter_id": "ch-0219",
+          "chapter_title": "第二百一十七章 一级警报",
+          "chunk_id": "ch-0219-ck-001",
+          "line_start": 20050,
+          "line_end": 20078
+        },
+        {
+          "chapter_id": "ch-0331",
+          "chapter_title": "第三百二十七章 情报搜集",
+          "chunk_id": "ch-0331-ck-002",
+          "line_start": 33106,
+          "line_end": 33134
+        },
+        {
+          "chapter_id": "ch-0331",
+          "chapter_title": "第三百二十七章 情报搜集",
+          "chunk_id": "ch-0331-ck-003",
+          "line_start": 33134,
+          "line_end": 33156
+        },
+        {
+          "chapter_id": "ch-0431",
+          "chapter_title": "第四百二十七章 一箱子心脏",
+          "chunk_id": "ch-0431-ck-003",
+          "line_start": 45863,
+          "line_end": 45896
+        },
+        {
+          "chapter_id": "ch-0243",
+          "chapter_title": "第二百四十一章 第二阶段执行",
+          "chunk_id": "ch-0243-ck-003",
+          "line_start": 22772,
+          "line_end": 22805
+        }
+      ]
+    },
+    "clothing": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "西装",
+          "anchor_count": 7
+        },
+        {
+          "term": "鞋",
+          "anchor_count": 6
+        },
+        {
+          "term": "衣服",
+          "anchor_count": 5
+        },
+        {
+          "term": "高跟鞋",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0216",
+          "chapter_title": "第二百一十四章 是她？",
+          "chunk_id": "ch-0216-ck-001",
+          "line_start": 19746,
+          "line_end": 19774
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-004",
+          "line_start": 20017,
+          "line_end": 20044
+        },
+        {
+          "chapter_id": "ch-0120",
+          "chapter_title": "第一百一十八章 当年的事",
+          "chunk_id": "ch-0120-ck-002",
+          "line_start": 9614,
+          "line_end": 9640
+        },
+        {
+          "chapter_id": "ch-0220",
+          "chapter_title": "第二百一十八章 挺不正常的",
+          "chunk_id": "ch-0220-ck-004",
+          "line_start": 20272,
+          "line_end": 20303
+        },
+        {
+          "chapter_id": "ch-0087",
+          "chapter_title": "第八十五章 屠杀性武器",
+          "chunk_id": "ch-0087-ck-002",
+          "line_start": 6685,
+          "line_end": 6707
+        },
+        {
+          "chapter_id": "ch-0119",
+          "chapter_title": "第一百一十七章 逃走的实验室",
+          "chunk_id": "ch-0119-ck-001",
+          "line_start": 9519,
+          "line_end": 9533
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-004",
+          "line_start": 32705,
+          "line_end": 32736
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-001",
+          "line_start": 32614,
+          "line_end": 32642
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-003",
+          "line_start": 32673,
+          "line_end": 32705
+        },
+        {
+          "chapter_id": "ch-0323",
+          "chapter_title": "第三百一十九章 代号1021——血肉怪物",
+          "chunk_id": "ch-0323-ck-001",
+          "line_start": 32170,
+          "line_end": 32201
+        }
+      ]
+    },
+    "relationship_context": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "recurring_terms": [
+        {
+          "term": "陆辛",
+          "anchor_count": 10
+        },
+        {
+          "term": "妹妹",
+          "anchor_count": 8
+        },
+        {
+          "term": "家人",
+          "anchor_count": 5
+        },
+        {
+          "term": "领导",
+          "anchor_count": 5
+        },
+        {
+          "term": "父亲",
+          "anchor_count": 4
+        },
+        {
+          "term": "同事",
+          "anchor_count": 3
+        }
+      ],
+      "evidence": [
+        {
+          "chapter_id": "ch-0343",
+          "chapter_title": "第三百三十九章 哥哥，找到她了",
+          "chunk_id": "ch-0343-ck-002",
+          "line_start": 34395,
+          "line_end": 34428
+        },
+        {
+          "chapter_id": "ch-0009",
+          "chapter_title": "第八章 红月亮小学",
+          "chunk_id": "ch-0009-ck-002",
+          "line_start": 715,
+          "line_end": 745
+        },
+        {
+          "chapter_id": "ch-0340",
+          "chapter_title": "第三百三十六章 神经病人的思想",
+          "chunk_id": "ch-0340-ck-001",
+          "line_start": 34007,
+          "line_end": 34042
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-001",
+          "line_start": 19927,
+          "line_end": 19956
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-002",
+          "line_start": 19956,
+          "line_end": 19987
+        },
+        {
+          "chapter_id": "ch-0772",
+          "chapter_title": "第七百六十七章 夜之囚徒的权柄",
+          "chunk_id": "ch-0772-ck-003",
+          "line_start": 89071,
+          "line_end": 89102
+        },
+        {
+          "chapter_id": "ch-0416",
+          "chapter_title": "第四百一十二章 真不是我干的",
+          "chunk_id": "ch-0416-ck-001",
+          "line_start": 43871,
+          "line_end": 43902
+        },
+        {
+          "chapter_id": "ch-0784",
+          "chapter_title": "第七百八十九章 两个亿还是要的",
+          "chunk_id": "ch-0784-ck-001",
+          "line_start": 90771,
+          "line_end": 90807
+        },
+        {
+          "chapter_id": "ch-0216",
+          "chapter_title": "第二百一十四章 是她？",
+          "chunk_id": "ch-0216-ck-003",
+          "line_start": 19798,
+          "line_end": 19826
+        },
+        {
+          "chapter_id": "ch-0124",
+          "chapter_title": "第一百二十二章 保密等级",
+          "chunk_id": "ch-0124-ck-001",
+          "line_start": 9951,
+          "line_end": 9986
+        }
+      ]
+    }
+  },
+  "forbidden_interpretations": [
+    "不能从角色重要性推导颜值、英雄感或固定镜头语言。",
+    "不能把战斗/异常场景中的临时表演当成默认气质。",
+    "不能把职业或组织词直接转换成固定服装，除非正文有明确反复证据。",
+    "没有明确正文描述前，不锁定年龄、脸型、发型、眼型、身材、身高和默认服装。"
+  ],
+  "acceptance_rules": [
+    "No visual feature is locked from lexical co-occurrence alone.",
+    "Soft recurring_work_context is broad staging guidance, not a literal rank or costume fact.",
+    "Appearance/clothing/demeanor review candidates require source-chunk review before promotion.",
+    "Unresolved visual features remain modifiable.",
+    "No novel passages are embedded in this contract; only evidence pointers are exported."
+  ]
+}
