@@ -1,0 +1,244 @@
+{
+  "schema_version": "character-canon-contract/1",
+  "character": {
+    "id": "CHAR-LUXIN",
+    "name": "陆辛"
+  },
+  "provenance": {
+    "source_profile": "canon/lu_xin.profile.json",
+    "source_profile_schema": "0.1",
+    "source_profile_sha256": "1c005e72d52d8ab9fd36ae1fb63c327670c29402a9e9bc4581430c0b3cdfd7c9",
+    "contains_novel_passages": false
+  },
+  "locked_facts": [
+    {
+      "feature": "age",
+      "value": 23,
+      "source_fact_id": "age",
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "chapter_id": "ch-0197",
+          "chapter_title": "第一百九十五章 单兵的秘密",
+          "chunk_id": "ch-0197-ck-001",
+          "line_start": 17595,
+          "line_end": 17622
+        },
+        {
+          "chapter_id": "ch-0006",
+          "chapter_title": "第五章 D级特殊污染源——036",
+          "chunk_id": "ch-0006-ck-002",
+          "line_start": 481,
+          "line_end": 504
+        },
+        {
+          "chapter_id": "ch-0045",
+          "chapter_title": "第四十四章 究竟什么颜色",
+          "chunk_id": "ch-0045-ck-003",
+          "line_start": 3524,
+          "line_end": 3556
+        },
+        {
+          "chapter_id": "ch-0010",
+          "chapter_title": "第九章 特别行动组——编外人员",
+          "chunk_id": "ch-0010-ck-001",
+          "line_start": 799,
+          "line_end": 824
+        },
+        {
+          "chapter_id": "ch-0068",
+          "chapter_title": "第六十七章 恐惧情绪",
+          "chunk_id": "ch-0068-ck-002",
+          "line_start": 5258,
+          "line_end": 5281
+        },
+        {
+          "chapter_id": "ch-0324",
+          "chapter_title": "第三百二十章 终于找到他了",
+          "chunk_id": "ch-0324-ck-004",
+          "line_start": 32331,
+          "line_end": 32355
+        }
+      ]
+    },
+    {
+      "feature": "daily_role_context",
+      "value": "company_office_worker",
+      "source_fact_id": "office_work",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "chapter_id": "ch-0034",
+          "chapter_title": "第三十三章 信息通报",
+          "chunk_id": "ch-0034-ck-002",
+          "line_start": 2675,
+          "line_end": 2696
+        },
+        {
+          "chapter_id": "ch-0213",
+          "chapter_title": "第二百一十一章 熬出头了",
+          "chunk_id": "ch-0213-ck-002",
+          "line_start": 19422,
+          "line_end": 19455
+        },
+        {
+          "chapter_id": "ch-0166",
+          "chapter_title": "第一百六十四章 那个带枪上班的男人回来了",
+          "chunk_id": "ch-0166-ck-003",
+          "line_start": 14387,
+          "line_end": 14416
+        },
+        {
+          "chapter_id": "ch-0462",
+          "chapter_title": "第四百五十七章 最佳员工",
+          "chunk_id": "ch-0462-ck-001",
+          "line_start": 49929,
+          "line_end": 49958
+        },
+        {
+          "chapter_id": "ch-0703",
+          "chapter_title": "第六百九十八章 体检是一件大事",
+          "chunk_id": "ch-0703-ck-001",
+          "line_start": 80174,
+          "line_end": 80205
+        },
+        {
+          "chapter_id": "ch-0265",
+          "chapter_title": "第二百六十一章 你可千万不能走",
+          "chunk_id": "ch-0265-ck-003",
+          "line_start": 25444,
+          "line_end": 25474
+        },
+        {
+          "chapter_id": "ch-0014",
+          "chapter_title": "第十三章 工作积极性",
+          "chunk_id": "ch-0014-ck-002",
+          "line_start": 1166,
+          "line_end": 1187
+        },
+        {
+          "chapter_id": "ch-0034",
+          "chapter_title": "第三十三章 信息通报",
+          "chunk_id": "ch-0034-ck-001",
+          "line_start": 2645,
+          "line_end": 2675
+        }
+      ]
+    }
+  ],
+  "soft_constraints": [
+    {
+      "feature": "ordinary_presentation",
+      "instruction": "日常形象应保持普通、低主角光环；不能把“普通”直接翻译成固定脸型或颜值等级。",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "chapter_id": "ch-0860",
+          "chapter_title": "第八百五十五章 如有反抗，立时击毙",
+          "chunk_id": "ch-0860-ck-004",
+          "line_start": 102898,
+          "line_end": 102929
+        },
+        {
+          "chapter_id": "ch-0835",
+          "chapter_title": "第八百三十章 魔术手法",
+          "chunk_id": "ch-0835-ck-002",
+          "line_start": 98657,
+          "line_end": 98692
+        },
+        {
+          "chapter_id": "ch-0201",
+          "chapter_title": "第一百九十九章 前途无量的年轻人",
+          "chunk_id": "ch-0201-ck-002",
+          "line_start": 18054,
+          "line_end": 18079
+        },
+        {
+          "chapter_id": "ch-0849",
+          "chapter_title": "第八百四十四章 温馨的家庭",
+          "chunk_id": "ch-0849-ck-003",
+          "line_start": 100787,
+          "line_end": 100821
+        },
+        {
+          "chapter_id": "ch-0076",
+          "chapter_title": "第七十五章 污染与被污染",
+          "chunk_id": "ch-0076-ck-002",
+          "line_start": 5832,
+          "line_end": 5858
+        },
+        {
+          "chapter_id": "ch-0485",
+          "chapter_title": "第四百八十章 娃娃学坏了",
+          "chunk_id": "ch-0485-ck-002",
+          "line_start": 52976,
+          "line_end": 53009
+        },
+        {
+          "chapter_id": "ch-0010",
+          "chapter_title": "第九章 特别行动组——编外人员",
+          "chunk_id": "ch-0010-ck-002",
+          "line_start": 824,
+          "line_end": 849
+        },
+        {
+          "chapter_id": "ch-0581",
+          "chapter_title": "第五百七十六章 火种开采公司",
+          "chunk_id": "ch-0581-ck-003",
+          "line_start": 64836,
+          "line_end": 64862
+        }
+      ]
+    },
+    {
+      "feature": "calm_in_home_scene",
+      "instruction": "家庭异常场景中的表演应偏克制、平静；这不是“没有情感”。",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-001",
+          "line_start": 20,
+          "line_end": 45
+        },
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-002",
+          "line_start": 45,
+          "line_end": 63
+        },
+        {
+          "chapter_id": "ch-0002",
+          "chapter_title": "第一章 回家",
+          "chunk_id": "ch-0002-ck-004",
+          "line_start": 84,
+          "line_end": 102
+        }
+      ]
+    }
+  ],
+  "unresolved_visual_features": [
+    "face_shape",
+    "hairstyle",
+    "eye_shape",
+    "body_proportions",
+    "height",
+    "default_clothing",
+    "attractiveness"
+  ],
+  "forbidden_interpretations": [
+    "不能因为主角身份自动强化成英雄式构图或强者脸。",
+    "不能把单个高压/战斗场景中的危险感当成日常固定气质。",
+    "不能把第一章平静反应概括成没有情感。",
+    "没有具体原文证据前，不锁定发型、脸型、眼型、身材和默认服装。",
+    "家人的场景可见性必须按具体观察者与章节处理，不能从单一视点推出全局规则。"
+  ],
+  "acceptance_rules": [
+    "Every locked fact must retain at least one chapter/chunk/line evidence anchor.",
+    "Unresolved visual features remain modifiable until a reviewed Canon fact locks them.",
+    "Soft constraints guide visual direction but never become literal appearance facts automatically.",
+    "No novel passages are embedded in this contract; only evidence pointers are exported."
+  ]
+}
