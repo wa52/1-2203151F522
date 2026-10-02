@@ -261,6 +261,29 @@ def cmd_build(args: argparse.Namespace) -> None:
     }, ensure_ascii=False))
 
 
+def cmd_show(args: argparse.Namespace) -> None:
+    for row in load_index(args.index):
+        if row["chunk_id"] != args.chunk_id:
+            continue
+        text = row["text"].replace("\n", " ")
+        if args.focus:
+            pos = text.find(args.focus)
+            if pos >= 0:
+                half = max(80, args.preview_chars // 2)
+                start = max(0, pos - half)
+                end = min(len(text), pos + len(args.focus) + half)
+                text = text[start:end]
+        else:
+            text = text[: args.preview_chars]
+        print(
+            f'{row["chunk_id"]} {row["chapter_title"]} '
+            f'L{row["line_start"]}-{row["line_end"]}'
+        )
+        print(text[: args.preview_chars])
+        return
+    raise SystemExit(f"chunk not found: {args.chunk_id}")
+
+
 def cmd_search(args: argparse.Namespace) -> None:
     results = bm25_search(args.index, args.query, args.top_k)
     for row in results:
@@ -293,6 +316,13 @@ def main() -> None:
     search.add_argument("--top-k", type=int, default=8)
     search.add_argument("--preview-chars", type=int, default=220)
     search.set_defaults(func=cmd_search)
+
+    show = sub.add_parser("show")
+    show.add_argument("chunk_id")
+    show.add_argument("--index", type=Path, default=Path("rag/private/chunks.jsonl"))
+    show.add_argument("--focus", default="陆辛")
+    show.add_argument("--preview-chars", type=int, default=420)
+    show.set_defaults(func=cmd_show)
 
     args = parser.parse_args()
     args.func(args)
