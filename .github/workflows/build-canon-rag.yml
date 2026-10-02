@@ -24,8 +24,11 @@ jobs:
           python tools/build_canon_rag.py build
       - name: Validate local retrieval
         run: |
-          python tools/build_canon_rag.py search "陆辛 办公室 工作" --top-k 3 --preview-chars 80
-          python tools/build_canon_rag.py search "陆辛 外貌 眼睛 头发 衣服" --top-k 3 --preview-chars 80
+          python tools/build_canon_rag.py search "陆辛 二十三岁 年龄" --top-k 5 --preview-chars 180
+          python tools/build_canon_rag.py search "陆辛 普通 年轻人 长相 模样" --top-k 5 --preview-chars 180
+          python tools/build_canon_rag.py search "陆辛 公司 办公室 同事 上班 工作" --top-k 5 --preview-chars 180
+          python tools/build_canon_rag.py search "陆辛 礼貌 客气 平静 安静 认真" --top-k 5 --preview-chars 180
+          python tools/build_canon_rag.py search "陆辛 妹妹 妈妈 爸爸 家人 回家" --top-k 5 --preview-chars 180
       - name: Commit metadata only
         run: |
           git config user.name "github-actions[bot]"
