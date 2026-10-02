@@ -1,0 +1,1112 @@
+{
+  "schema_version": "generic-character-profile/1",
+  "character_id": "CHAR-CHENJING",
+  "name": "陈菁",
+  "source": {
+    "corpus": "cleaned/novel.cleaned.txt",
+    "index": "rag/private/chunks.jsonl",
+    "contains_novel_passages": false
+  },
+  "identity_presence": {
+    "status": "TEXT_CONFIRMED_IN_COPY",
+    "evidence": [
+      {
+        "chapter_id": "ch-0084",
+        "chapter_title": "第八十三章 精神寄生物品",
+        "chunk_id": "ch-0084-ck-002",
+        "line_start": 6481,
+        "line_end": 6508,
+        "matched_terms": [
+          "陈菁"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0124",
+        "chapter_title": "第一百二十二章 保密等级",
+        "chunk_id": "ch-0124-ck-001",
+        "line_start": 9951,
+        "line_end": 9986,
+        "matched_terms": [
+          "陈菁"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0082",
+        "chapter_title": "第八十一章 那幅画，好美",
+        "chunk_id": "ch-0082-ck-002",
+        "line_start": 6314,
+        "line_end": 6335,
+        "matched_terms": [
+          "陈菁"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0120",
+        "chapter_title": "第一百一十八章 当年的事",
+        "chunk_id": "ch-0120-ck-002",
+        "line_start": 9614,
+        "line_end": 9640,
+        "matched_terms": [
+          "陈菁"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0120",
+        "chapter_title": "第一百一十八章 当年的事",
+        "chunk_id": "ch-0120-ck-003",
+        "line_start": 9640,
+        "line_end": 9672,
+        "matched_terms": [
+          "陈菁"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0327",
+        "chapter_title": "第三百二十三章 十分钟后出发",
+        "chunk_id": "ch-0327-ck-001",
+        "line_start": 32614,
+        "line_end": 32642,
+        "matched_terms": [
+          "陈菁"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0329",
+        "chapter_title": "第三百二十五章 乖巧的小怪物",
+        "chunk_id": "ch-0329-ck-003",
+        "line_start": 32911,
+        "line_end": 32934,
+        "matched_terms": [
+          "陈菁"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0342",
+        "chapter_title": "第三百三十八章 十二阶魔方",
+        "chunk_id": "ch-0342-ck-002",
+        "line_start": 34281,
+        "line_end": 34313,
+        "matched_terms": [
+          "陈菁"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      }
+    ]
+  },
+  "review_categories": {
+    "role_context": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0389",
+          "chapter_title": "第三百八十五章 正常工作的死人",
+          "chunk_id": "ch-0389-ck-002",
+          "line_start": 40254,
+          "line_end": 40284,
+          "matched_terms": [
+            "信息",
+            "工作",
+            "总部",
+            "特清部",
+            "组长",
+            "联络",
+            "训练",
+            "调查"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0408",
+          "chapter_title": "第四百零四章 黑暗中的孤岛",
+          "chunk_id": "ch-0408-ck-001",
+          "line_start": 42797,
+          "line_end": 42832,
+          "matched_terms": [
+            "任务",
+            "会议",
+            "信息",
+            "办公室",
+            "总部",
+            "报告",
+            "联络",
+            "调查"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0386",
+          "chapter_title": "第三百八十二章 挑选队员",
+          "chunk_id": "ch-0386-ck-001",
+          "line_start": 39872,
+          "line_end": 39900,
+          "matched_terms": [
+            "会议",
+            "信息",
+            "博士",
+            "工作",
+            "特清部",
+            "组长",
+            "调查",
+            "领导"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0390",
+          "chapter_title": "第三百八十六章 微笑的小镇",
+          "chunk_id": "ch-0390-ck-001",
+          "line_start": 40338,
+          "line_end": 40366,
+          "matched_terms": [
+            "信息",
+            "工作",
+            "总部",
+            "特清部",
+            "组长",
+            "训练",
+            "调查",
+            "领导"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0489",
+          "chapter_title": "第四百八十四章 一千九百六十二万六千一百七十六元",
+          "chunk_id": "ch-0489-ck-001",
+          "line_start": 53411,
+          "line_end": 53435,
+          "matched_terms": [
+            "任务",
+            "会议",
+            "培训",
+            "教授",
+            "特清部",
+            "联络",
+            "训练",
+            "调查"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0163",
+          "chapter_title": "第一百六十一章 压力排谴绝招（陆辛版）",
+          "chunk_id": "ch-0163-ck-002",
+          "line_start": 14035,
+          "line_end": 14065,
+          "matched_terms": [
+            "任务",
+            "工作",
+            "报告",
+            "特清部",
+            "组长",
+            "队长",
+            "领导"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0225",
+          "chapter_title": "第二百二十三章 双线任务",
+          "chunk_id": "ch-0225-ck-002",
+          "line_start": 20784,
+          "line_end": 20814,
+          "matched_terms": [
+            "任务",
+            "会议",
+            "工作",
+            "报告",
+            "教授",
+            "特清部",
+            "领导"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0263",
+          "chapter_title": "第二百五十九章 请假探亲",
+          "chunk_id": "ch-0263-ck-004",
+          "line_start": 25220,
+          "line_end": 25248,
+          "matched_terms": [
+            "任务",
+            "信息",
+            "培训",
+            "工作",
+            "报告",
+            "特清部",
+            "领导"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0377",
+          "chapter_title": "第三百七十三章 实验体回收计划完成",
+          "chunk_id": "ch-0377-ck-003",
+          "line_start": 38835,
+          "line_end": 38857,
+          "matched_terms": [
+            "博士",
+            "培训",
+            "工作",
+            "总部",
+            "教授",
+            "组长",
+            "领导"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0260",
+          "chapter_title": "第二百五十六章 孤儿院老院长",
+          "chunk_id": "ch-0260-ck-001",
+          "line_start": 24744,
+          "line_end": 24765,
+          "matched_terms": [
+            "会议",
+            "报告",
+            "教授",
+            "特别行动组",
+            "组长",
+            "调查",
+            "部长"
+          ],
+          "reason": "陈菁附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "工作",
+          "anchor_count": 7
+        },
+        {
+          "term": "特清部",
+          "anchor_count": 7
+        },
+        {
+          "term": "组长",
+          "anchor_count": 6
+        },
+        {
+          "term": "调查",
+          "anchor_count": 6
+        },
+        {
+          "term": "领导",
+          "anchor_count": 6
+        },
+        {
+          "term": "任务",
+          "anchor_count": 5
+        },
+        {
+          "term": "会议",
+          "anchor_count": 5
+        },
+        {
+          "term": "信息",
+          "anchor_count": 5
+        },
+        {
+          "term": "报告",
+          "anchor_count": 5
+        },
+        {
+          "term": "总部",
+          "anchor_count": 4
+        },
+        {
+          "term": "教授",
+          "anchor_count": 4
+        },
+        {
+          "term": "培训",
+          "anchor_count": 3
+        },
+        {
+          "term": "联络",
+          "anchor_count": 3
+        },
+        {
+          "term": "训练",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "demeanor": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-002",
+          "line_start": 32642,
+          "line_end": 32673,
+          "matched_terms": [
+            "微笑",
+            "温和",
+            "皱眉",
+            "笑",
+            "认真"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0325",
+          "chapter_title": "第三百二十一章 神会趋向于完美",
+          "chunk_id": "ch-0325-ck-002",
+          "line_start": 32386,
+          "line_end": 32409,
+          "matched_terms": [
+            "冷淡",
+            "沉默",
+            "温和",
+            "笑",
+            "认真"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0120",
+          "chapter_title": "第一百一十八章 当年的事",
+          "chunk_id": "ch-0120-ck-003",
+          "line_start": 9640,
+          "line_end": 9672,
+          "matched_terms": [
+            "微笑",
+            "沉默",
+            "笑",
+            "认真"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0220",
+          "chapter_title": "第二百一十八章 挺不正常的",
+          "chunk_id": "ch-0220-ck-001",
+          "line_start": 20187,
+          "line_end": 20222,
+          "matched_terms": [
+            "沉默",
+            "笑",
+            "紧张",
+            "认真"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0326",
+          "chapter_title": "第三百二十二章 我只是去探亲而已",
+          "chunk_id": "ch-0326-ck-002",
+          "line_start": 32499,
+          "line_end": 32531,
+          "matched_terms": [
+            "皱眉",
+            "笑",
+            "紧张",
+            "警惕"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0229",
+          "chapter_title": "第二百二十七章 压力疏导与排谴课程",
+          "chunk_id": "ch-0229-ck-001",
+          "line_start": 21168,
+          "line_end": 21201,
+          "matched_terms": [
+            "沉默",
+            "笑",
+            "紧张",
+            "认真"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0014",
+          "chapter_title": "第十三章 工作积极性",
+          "chunk_id": "ch-0014-ck-001",
+          "line_start": 1140,
+          "line_end": 1166,
+          "matched_terms": [
+            "冷静",
+            "客气",
+            "紧张",
+            "认真"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0217",
+          "chapter_title": "第二百一十五章 还没开始，就结束了",
+          "chunk_id": "ch-0217-ck-002",
+          "line_start": 19856,
+          "line_end": 19885,
+          "matched_terms": [
+            "客气",
+            "微笑",
+            "沉默",
+            "笑"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0244",
+          "chapter_title": "第二百四十二章 关键物品",
+          "chunk_id": "ch-0244-ck-005",
+          "line_start": 22957,
+          "line_end": 22986,
+          "matched_terms": [
+            "沉默",
+            "笑",
+            "紧张",
+            "警惕"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0124",
+          "chapter_title": "第一百二十二章 保密等级",
+          "chunk_id": "ch-0124-ck-001",
+          "line_start": 9951,
+          "line_end": 9986,
+          "matched_terms": [
+            "沉默",
+            "警惕",
+            "认真"
+          ],
+          "reason": "陈菁附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "笑",
+          "anchor_count": 8
+        },
+        {
+          "term": "沉默",
+          "anchor_count": 7
+        },
+        {
+          "term": "认真",
+          "anchor_count": 7
+        },
+        {
+          "term": "紧张",
+          "anchor_count": 5
+        },
+        {
+          "term": "微笑",
+          "anchor_count": 3
+        },
+        {
+          "term": "警惕",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "appearance": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0325",
+          "chapter_title": "第三百二十一章 神会趋向于完美",
+          "chunk_id": "ch-0325-ck-005",
+          "line_start": 32451,
+          "line_end": 32472,
+          "matched_terms": [
+            "头发",
+            "女人",
+            "年轻",
+            "年龄",
+            "男人",
+            "瘦",
+            "胖",
+            "脸",
+            "身材"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0120",
+          "chapter_title": "第一百一十八章 当年的事",
+          "chunk_id": "ch-0120-ck-002",
+          "line_start": 9614,
+          "line_end": 9640,
+          "matched_terms": [
+            "个子",
+            "女人",
+            "女孩",
+            "模样",
+            "目光",
+            "脸",
+            "身材",
+            "高挑"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0233",
+          "chapter_title": "第二百三十一章 信不信我",
+          "chunk_id": "ch-0233-ck-001",
+          "line_start": 21614,
+          "line_end": 21645,
+          "matched_terms": [
+            "女人",
+            "年轻",
+            "目光",
+            "眼睛",
+            "脸",
+            "身材"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0343",
+          "chapter_title": "第三百三十九章 哥哥，找到她了",
+          "chunk_id": "ch-0343-ck-002",
+          "line_start": 34395,
+          "line_end": 34428,
+          "matched_terms": [
+            "女人",
+            "女孩",
+            "模样",
+            "目光",
+            "脸",
+            "身材"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-004",
+          "line_start": 20017,
+          "line_end": 20044,
+          "matched_terms": [
+            "头发",
+            "女孩",
+            "年龄",
+            "模样",
+            "身材",
+            "高挑"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0062",
+          "chapter_title": "第六十一章 城外能力者",
+          "chunk_id": "ch-0062-ck-002",
+          "line_start": 4796,
+          "line_end": 4823,
+          "matched_terms": [
+            "女人",
+            "目光",
+            "脸",
+            "身材",
+            "高挑"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0323",
+          "chapter_title": "第三百一十九章 代号1021——血肉怪物",
+          "chunk_id": "ch-0323-ck-001",
+          "line_start": 32170,
+          "line_end": 32201,
+          "matched_terms": [
+            "头发",
+            "女孩",
+            "年龄",
+            "漂亮",
+            "脸"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0219",
+          "chapter_title": "第二百一十七章 一级警报",
+          "chunk_id": "ch-0219-ck-001",
+          "line_start": 20050,
+          "line_end": 20078,
+          "matched_terms": [
+            "女孩",
+            "漂亮",
+            "目光",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0331",
+          "chapter_title": "第三百二十七章 情报搜集",
+          "chunk_id": "ch-0331-ck-002",
+          "line_start": 33106,
+          "line_end": 33134,
+          "matched_terms": [
+            "目光",
+            "眼睛",
+            "脸",
+            "身材",
+            "高挑"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0331",
+          "chapter_title": "第三百二十七章 情报搜集",
+          "chunk_id": "ch-0331-ck-003",
+          "line_start": 33134,
+          "line_end": 33156,
+          "matched_terms": [
+            "女人",
+            "男人",
+            "眼睛",
+            "脸",
+            "身材"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0431",
+          "chapter_title": "第四百二十七章 一箱子心脏",
+          "chunk_id": "ch-0431-ck-003",
+          "line_start": 45863,
+          "line_end": 45896,
+          "matched_terms": [
+            "女人",
+            "漂亮",
+            "男人",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0243",
+          "chapter_title": "第二百四十一章 第二阶段执行",
+          "chunk_id": "ch-0243-ck-003",
+          "line_start": 22772,
+          "line_end": 22805,
+          "matched_terms": [
+            "头发",
+            "男人",
+            "目光",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "陈菁附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "脸",
+          "anchor_count": 11
+        },
+        {
+          "term": "身材",
+          "anchor_count": 8
+        },
+        {
+          "term": "女人",
+          "anchor_count": 7
+        },
+        {
+          "term": "目光",
+          "anchor_count": 7
+        },
+        {
+          "term": "眼睛",
+          "anchor_count": 6
+        },
+        {
+          "term": "女孩",
+          "anchor_count": 5
+        },
+        {
+          "term": "头发",
+          "anchor_count": 4
+        },
+        {
+          "term": "男人",
+          "anchor_count": 4
+        },
+        {
+          "term": "高挑",
+          "anchor_count": 4
+        },
+        {
+          "term": "年龄",
+          "anchor_count": 3
+        },
+        {
+          "term": "模样",
+          "anchor_count": 3
+        },
+        {
+          "term": "漂亮",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "clothing": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0216",
+          "chapter_title": "第二百一十四章 是她？",
+          "chunk_id": "ch-0216-ck-001",
+          "line_start": 19746,
+          "line_end": 19774,
+          "matched_terms": [
+            "衬衫",
+            "西装",
+            "鞋",
+            "高跟鞋"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-004",
+          "line_start": 20017,
+          "line_end": 20044,
+          "matched_terms": [
+            "衣服",
+            "衣着",
+            "西装",
+            "风衣"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0120",
+          "chapter_title": "第一百一十八章 当年的事",
+          "chunk_id": "ch-0120-ck-002",
+          "line_start": 9614,
+          "line_end": 9640,
+          "matched_terms": [
+            "西装",
+            "鞋",
+            "高跟鞋"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0220",
+          "chapter_title": "第二百一十八章 挺不正常的",
+          "chunk_id": "ch-0220-ck-004",
+          "line_start": 20272,
+          "line_end": 20303,
+          "matched_terms": [
+            "衣服",
+            "裙子",
+            "鞋"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0087",
+          "chapter_title": "第八十五章 屠杀性武器",
+          "chunk_id": "ch-0087-ck-002",
+          "line_start": 6685,
+          "line_end": 6707,
+          "matched_terms": [
+            "衣服",
+            "衬衫",
+            "西装"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0119",
+          "chapter_title": "第一百一十七章 逃走的实验室",
+          "chunk_id": "ch-0119-ck-001",
+          "line_start": 9519,
+          "line_end": 9533,
+          "matched_terms": [
+            "西装",
+            "鞋",
+            "高跟鞋"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-004",
+          "line_start": 32705,
+          "line_end": 32736,
+          "matched_terms": [
+            "制服",
+            "衣服",
+            "鞋"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-001",
+          "line_start": 32614,
+          "line_end": 32642,
+          "matched_terms": [
+            "衣服",
+            "西装"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-003",
+          "line_start": 32673,
+          "line_end": 32705,
+          "matched_terms": [
+            "制服",
+            "鞋"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0323",
+          "chapter_title": "第三百一十九章 代号1021——血肉怪物",
+          "chunk_id": "ch-0323-ck-001",
+          "line_start": 32170,
+          "line_end": 32201,
+          "matched_terms": [
+            "裙子",
+            "西装"
+          ],
+          "reason": "陈菁附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "西装",
+          "anchor_count": 7
+        },
+        {
+          "term": "鞋",
+          "anchor_count": 6
+        },
+        {
+          "term": "衣服",
+          "anchor_count": 5
+        },
+        {
+          "term": "高跟鞋",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "relationship_context": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0343",
+          "chapter_title": "第三百三十九章 哥哥，找到她了",
+          "chunk_id": "ch-0343-ck-002",
+          "line_start": 34395,
+          "line_end": 34428,
+          "matched_terms": [
+            "同事",
+            "同伴",
+            "妹妹",
+            "队友",
+            "陆辛"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0009",
+          "chapter_title": "第八章 红月亮小学",
+          "chunk_id": "ch-0009-ck-002",
+          "line_start": 715,
+          "line_end": 745,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "母亲",
+            "父亲",
+            "陆辛"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0340",
+          "chapter_title": "第三百三十六章 神经病人的思想",
+          "chunk_id": "ch-0340-ck-001",
+          "line_start": 34007,
+          "line_end": 34042,
+          "matched_terms": [
+            "妹妹",
+            "朋友",
+            "队友",
+            "陆辛",
+            "领导"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-001",
+          "line_start": 19927,
+          "line_end": 19956,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "陆辛",
+            "领导"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-002",
+          "line_start": 19956,
+          "line_end": 19987,
+          "matched_terms": [
+            "同事",
+            "妹妹",
+            "家人",
+            "陆辛"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0772",
+          "chapter_title": "第七百六十七章 夜之囚徒的权柄",
+          "chunk_id": "ch-0772-ck-003",
+          "line_start": 89071,
+          "line_end": 89102,
+          "matched_terms": [
+            "下属",
+            "父亲",
+            "陆辛",
+            "领导"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0416",
+          "chapter_title": "第四百一十二章 真不是我干的",
+          "chunk_id": "ch-0416-ck-001",
+          "line_start": 43871,
+          "line_end": 43902,
+          "matched_terms": [
+            "同事",
+            "妹妹",
+            "父亲",
+            "陆辛"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0784",
+          "chapter_title": "第七百八十九章 两个亿还是要的",
+          "chunk_id": "ch-0784-ck-001",
+          "line_start": 90771,
+          "line_end": 90807,
+          "matched_terms": [
+            "哥哥",
+            "妹妹",
+            "父亲",
+            "陆辛"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0216",
+          "chapter_title": "第二百一十四章 是她？",
+          "chunk_id": "ch-0216-ck-003",
+          "line_start": 19798,
+          "line_end": 19826,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "陆辛",
+            "领导"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0124",
+          "chapter_title": "第一百二十二章 保密等级",
+          "chunk_id": "ch-0124-ck-001",
+          "line_start": 9951,
+          "line_end": 9986,
+          "matched_terms": [
+            "家人",
+            "陆辛",
+            "领导"
+          ],
+          "reason": "陈菁附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "陆辛",
+          "anchor_count": 10
+        },
+        {
+          "term": "妹妹",
+          "anchor_count": 8
+        },
+        {
+          "term": "家人",
+          "anchor_count": 5
+        },
+        {
+          "term": "领导",
+          "anchor_count": 5
+        },
+        {
+          "term": "父亲",
+          "anchor_count": 4
+        },
+        {
+          "term": "同事",
+          "anchor_count": 3
+        }
+      ]
+    }
+  },
+  "visual_policy": {
+    "not_yet_locked": [
+      "age",
+      "face_shape",
+      "hairstyle",
+      "eye_shape",
+      "body_proportions",
+      "height",
+      "default_clothing",
+      "attractiveness",
+      "default_expression",
+      "default_posture"
+    ],
+    "rule": "No appearance feature becomes Canon from term co-occurrence alone."
+  },
+  "forbidden_inferences": [
+    "不能从角色重要性推导颜值、英雄感或固定镜头语言。",
+    "不能把战斗/异常场景中的临时表演当成默认气质。",
+    "不能把职业或组织词直接转换成固定服装，除非正文有明确反复证据。",
+    "没有明确正文描述前，不锁定年龄、脸型、发型、眼型、身材、身高和默认服装。"
+  ],
+  "next_review": [
+    "Canon Agent读取 role_context / demeanor / appearance / clothing 最强证据 chunk。",
+    "只把正文明确描述、且与角色主体关系清楚的事实提升为 Canon。",
+    "冲突描述必须保留章节/时期范围，不能强行合并。"
+  ],
+  "output_hint": "canon/chen_jing.character_contract.json"
+}

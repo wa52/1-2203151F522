@@ -1,0 +1,1006 @@
+{
+  "schema_version": "generic-character-profile/1",
+  "character_id": "CHAR-HANBING",
+  "name": "韩冰",
+  "source": {
+    "corpus": "cleaned/novel.cleaned.txt",
+    "index": "rag/private/chunks.jsonl",
+    "contains_novel_passages": false
+  },
+  "identity_presence": {
+    "status": "TEXT_CONFIRMED_IN_COPY",
+    "evidence": [
+      {
+        "chapter_id": "ch-0479",
+        "chapter_title": "第四百七十四章 喜欢这样的生活",
+        "chunk_id": "ch-0479-ck-003",
+        "line_start": 52238,
+        "line_end": 52275,
+        "matched_terms": [
+          "韩冰"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0479",
+        "chapter_title": "第四百七十四章 喜欢这样的生活",
+        "chunk_id": "ch-0479-ck-002",
+        "line_start": 52206,
+        "line_end": 52238,
+        "matched_terms": [
+          "韩冰"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0561",
+        "chapter_title": "第五百五十六章 你就是怪物",
+        "chunk_id": "ch-0561-ck-004",
+        "line_start": 62194,
+        "line_end": 62220,
+        "matched_terms": [
+          "韩冰"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0561",
+        "chapter_title": "第五百五十六章 你就是怪物",
+        "chunk_id": "ch-0561-ck-005",
+        "line_start": 62220,
+        "line_end": 62250,
+        "matched_terms": [
+          "韩冰"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0580",
+        "chapter_title": "第五百七十五章 代号“地狱使者”",
+        "chunk_id": "ch-0580-ck-001",
+        "line_start": 64687,
+        "line_end": 64712,
+        "matched_terms": [
+          "韩冰"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0298",
+        "chapter_title": "第二百九十四章 紧急通报",
+        "chunk_id": "ch-0298-ck-002",
+        "line_start": 29407,
+        "line_end": 29443,
+        "matched_terms": [
+          "韩冰"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0477",
+        "chapter_title": "第四百七十二章 我们特清部不收礼",
+        "chunk_id": "ch-0477-ck-002",
+        "line_start": 51937,
+        "line_end": 51975,
+        "matched_terms": [
+          "韩冰"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0561",
+        "chapter_title": "第五百五十六章 你就是怪物",
+        "chunk_id": "ch-0561-ck-003",
+        "line_start": 62158,
+        "line_end": 62194,
+        "matched_terms": [
+          "韩冰"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      }
+    ]
+  },
+  "review_categories": {
+    "role_context": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0504",
+          "chapter_title": "第四百九十九章 谈判专家壁虎",
+          "chunk_id": "ch-0504-ck-001",
+          "line_start": 55097,
+          "line_end": 55121,
+          "matched_terms": [
+            "任务",
+            "培训",
+            "工作",
+            "总部",
+            "报告",
+            "教授",
+            "特清部",
+            "训练",
+            "领导"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0598",
+          "chapter_title": "第五百九十三章 天价装修清单",
+          "chunk_id": "ch-0598-ck-003",
+          "line_start": 67007,
+          "line_end": 67030,
+          "matched_terms": [
+            "任务",
+            "办公室",
+            "总部",
+            "报告",
+            "教授",
+            "特清部",
+            "部长"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0482",
+          "chapter_title": "第四百七十七章 青港天国计划",
+          "chunk_id": "ch-0482-ck-001",
+          "line_start": 52566,
+          "line_end": 52599,
+          "matched_terms": [
+            "会议",
+            "办公室",
+            "工作",
+            "教授",
+            "特清部",
+            "部长"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0114",
+          "chapter_title": "第一百一十二章 谁来负责",
+          "chunk_id": "ch-0114-ck-003",
+          "line_start": 9076,
+          "line_end": 9102,
+          "matched_terms": [
+            "任务",
+            "会议",
+            "工作",
+            "总部",
+            "报告",
+            "调查"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0168",
+          "chapter_title": "第一百六十六章 特殊人才引进机制",
+          "chunk_id": "ch-0168-ck-001",
+          "line_start": 14560,
+          "line_end": 14588,
+          "matched_terms": [
+            "任务",
+            "会议",
+            "信息",
+            "培训",
+            "工作",
+            "报告"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0474",
+          "chapter_title": "第四百六十九章 169号——眼虫污染事件",
+          "chunk_id": "ch-0474-ck-004",
+          "line_start": 51566,
+          "line_end": 51591,
+          "matched_terms": [
+            "任务",
+            "信息",
+            "办公室",
+            "报告",
+            "教授",
+            "负责人"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0298",
+          "chapter_title": "第二百九十四章 紧急通报",
+          "chunk_id": "ch-0298-ck-004",
+          "line_start": 29476,
+          "line_end": 29498,
+          "matched_terms": [
+            "信息",
+            "办公室",
+            "工作",
+            "报告",
+            "教授",
+            "部长"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0873",
+          "chapter_title": "第八百六十八章 远距离打击",
+          "chunk_id": "ch-0873-ck-001",
+          "line_start": 104716,
+          "line_end": 104743,
+          "matched_terms": [
+            "信息",
+            "工作",
+            "报告",
+            "教授",
+            "特清部",
+            "队长"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0056",
+          "chapter_title": "第五十五章 月蚀研究院",
+          "chunk_id": "ch-0056-ck-002",
+          "line_start": 4344,
+          "line_end": 4369,
+          "matched_terms": [
+            "任务",
+            "办公室",
+            "培训",
+            "总部",
+            "教授"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0099",
+          "chapter_title": "第九十七章 静静看着",
+          "chunk_id": "ch-0099-ck-002",
+          "line_start": 7719,
+          "line_end": 7751,
+          "matched_terms": [
+            "信息",
+            "工作",
+            "总部",
+            "报告",
+            "调查"
+          ],
+          "reason": "韩冰附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "报告",
+          "anchor_count": 8
+        },
+        {
+          "term": "工作",
+          "anchor_count": 7
+        },
+        {
+          "term": "教授",
+          "anchor_count": 7
+        },
+        {
+          "term": "任务",
+          "anchor_count": 6
+        },
+        {
+          "term": "信息",
+          "anchor_count": 5
+        },
+        {
+          "term": "办公室",
+          "anchor_count": 5
+        },
+        {
+          "term": "总部",
+          "anchor_count": 5
+        },
+        {
+          "term": "特清部",
+          "anchor_count": 4
+        },
+        {
+          "term": "会议",
+          "anchor_count": 3
+        },
+        {
+          "term": "培训",
+          "anchor_count": 3
+        },
+        {
+          "term": "部长",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "demeanor": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0480",
+          "chapter_title": "第四百七十五章 只是一种保险",
+          "chunk_id": "ch-0480-ck-001",
+          "line_start": 52307,
+          "line_end": 52341,
+          "matched_terms": [
+            "冷静",
+            "微笑",
+            "沉默",
+            "笑"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0531",
+          "chapter_title": "第五百二十六章 天和军事基地",
+          "chunk_id": "ch-0531-ck-001",
+          "line_start": 58307,
+          "line_end": 58334,
+          "matched_terms": [
+            "严肃",
+            "笑",
+            "警惕",
+            "认真"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0577",
+          "chapter_title": "第五百七十二章 负零部队",
+          "chunk_id": "ch-0577-ck-001",
+          "line_start": 64336,
+          "line_end": 64370,
+          "matched_terms": [
+            "严肃",
+            "笑",
+            "警惕",
+            "认真"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0579",
+          "chapter_title": "第五百七十四章 财大气粗的夏虫",
+          "chunk_id": "ch-0579-ck-002",
+          "line_start": 64583,
+          "line_end": 64620,
+          "matched_terms": [
+            "严肃",
+            "沉默",
+            "皱眉",
+            "笑"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0482",
+          "chapter_title": "第四百七十七章 青港天国计划",
+          "chunk_id": "ch-0482-ck-003",
+          "line_start": 52625,
+          "line_end": 52654,
+          "matched_terms": [
+            "严肃",
+            "微笑",
+            "笑",
+            "认真"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0479",
+          "chapter_title": "第四百七十四章 喜欢这样的生活",
+          "chunk_id": "ch-0479-ck-003",
+          "line_start": 52238,
+          "line_end": 52275,
+          "matched_terms": [
+            "沉默",
+            "笑",
+            "认真"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0298",
+          "chapter_title": "第二百九十四章 紧急通报",
+          "chunk_id": "ch-0298-ck-002",
+          "line_start": 29407,
+          "line_end": 29443,
+          "matched_terms": [
+            "沉默",
+            "笑",
+            "紧张"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0167",
+          "chapter_title": "第一百六十五章 任务报告",
+          "chunk_id": "ch-0167-ck-002",
+          "line_start": 14471,
+          "line_end": 14503,
+          "matched_terms": [
+            "客气",
+            "平静",
+            "沉默"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0211",
+          "chapter_title": "第二百零九章 另一半问题",
+          "chunk_id": "ch-0211-ck-003",
+          "line_start": 19221,
+          "line_end": 19253,
+          "matched_terms": [
+            "紧张",
+            "认真",
+            "谨慎"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0121",
+          "chapter_title": "第一百一十九章 出差申请",
+          "chunk_id": "ch-0121-ck-003",
+          "line_start": 9751,
+          "line_end": 9781,
+          "matched_terms": [
+            "沉默",
+            "笑",
+            "紧张"
+          ],
+          "reason": "韩冰附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "笑",
+          "anchor_count": 8
+        },
+        {
+          "term": "沉默",
+          "anchor_count": 6
+        },
+        {
+          "term": "认真",
+          "anchor_count": 5
+        },
+        {
+          "term": "严肃",
+          "anchor_count": 4
+        },
+        {
+          "term": "紧张",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "appearance": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0480",
+          "chapter_title": "第四百七十五章 只是一种保险",
+          "chunk_id": "ch-0480-ck-003",
+          "line_start": 52378,
+          "line_end": 52412,
+          "matched_terms": [
+            "头发",
+            "女孩",
+            "漂亮",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0476",
+          "chapter_title": "第四百七十一章 意外的访客",
+          "chunk_id": "ch-0476-ck-004",
+          "line_start": 51855,
+          "line_end": 51897,
+          "matched_terms": [
+            "头发",
+            "女孩",
+            "模样",
+            "瘦",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0514",
+          "chapter_title": "第五百零九章 单兵小队成立",
+          "chunk_id": "ch-0514-ck-003",
+          "line_start": 56372,
+          "line_end": 56403,
+          "matched_terms": [
+            "女人",
+            "女孩",
+            "目光",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0480",
+          "chapter_title": "第四百七十五章 只是一种保险",
+          "chunk_id": "ch-0480-ck-004",
+          "line_start": 52412,
+          "line_end": 52432,
+          "matched_terms": [
+            "女孩",
+            "瘦",
+            "眼睛",
+            "脸",
+            "身材"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0526",
+          "chapter_title": "第五百二十一章 群爷的账本",
+          "chunk_id": "ch-0526-ck-001",
+          "line_start": 57767,
+          "line_end": 57795,
+          "matched_terms": [
+            "女孩",
+            "年纪",
+            "年龄",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0561",
+          "chapter_title": "第五百五十六章 你就是怪物",
+          "chunk_id": "ch-0561-ck-004",
+          "line_start": 62194,
+          "line_end": 62220,
+          "matched_terms": [
+            "头发",
+            "目光",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0477",
+          "chapter_title": "第四百七十二章 我们特清部不收礼",
+          "chunk_id": "ch-0477-ck-002",
+          "line_start": 51937,
+          "line_end": 51975,
+          "matched_terms": [
+            "女孩",
+            "目光",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0520",
+          "chapter_title": "第五百一十五章 未知的颤栗",
+          "chunk_id": "ch-0520-ck-003",
+          "line_start": 57025,
+          "line_end": 57056,
+          "matched_terms": [
+            "女孩",
+            "男人",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0535",
+          "chapter_title": "第五百三十章 黑沼城污染关键",
+          "chunk_id": "ch-0535-ck-003",
+          "line_start": 58831,
+          "line_end": 58857,
+          "matched_terms": [
+            "模样",
+            "男人",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0511",
+          "chapter_title": "第五百零六章 被偷走了睡眠的城市",
+          "chunk_id": "ch-0511-ck-002",
+          "line_start": 55973,
+          "line_end": 56006,
+          "matched_terms": [
+            "发型",
+            "头发",
+            "目光",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0544",
+          "chapter_title": "第五百三十九章 幕后黑手",
+          "chunk_id": "ch-0544-ck-003",
+          "line_start": 59953,
+          "line_end": 59985,
+          "matched_terms": [
+            "模样",
+            "目光",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0096",
+          "chapter_title": "第九十四章 漂浮的女孩",
+          "chunk_id": "ch-0096-ck-002",
+          "line_start": 7460,
+          "line_end": 7492,
+          "matched_terms": [
+            "女孩",
+            "模样",
+            "目光",
+            "眼睛"
+          ],
+          "reason": "韩冰附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "脸",
+          "anchor_count": 11
+        },
+        {
+          "term": "眼睛",
+          "anchor_count": 10
+        },
+        {
+          "term": "女孩",
+          "anchor_count": 8
+        },
+        {
+          "term": "目光",
+          "anchor_count": 6
+        },
+        {
+          "term": "头发",
+          "anchor_count": 4
+        },
+        {
+          "term": "模样",
+          "anchor_count": 4
+        }
+      ]
+    },
+    "clothing": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0567",
+          "chapter_title": "第五百六十二章 拔除黑沼城的黑草",
+          "chunk_id": "ch-0567-ck-002",
+          "line_start": 62977,
+          "line_end": 63007,
+          "matched_terms": [
+            "西装",
+            "鞋",
+            "高跟鞋"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0572",
+          "chapter_title": "第五百六十七章 邪神降临了",
+          "chunk_id": "ch-0572-ck-005",
+          "line_start": 63793,
+          "line_end": 63824,
+          "matched_terms": [
+            "眼镜",
+            "短裙",
+            "西装"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0171",
+          "chapter_title": "第一百六十九章 “抓鬼”任务",
+          "chunk_id": "ch-0171-ck-003",
+          "line_start": 14928,
+          "line_end": 14953,
+          "matched_terms": [
+            "制服",
+            "外套"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0241",
+          "chapter_title": "第二百三十九章 进击的娃娃",
+          "chunk_id": "ch-0241-ck-002",
+          "line_start": 22508,
+          "line_end": 22542,
+          "matched_terms": [
+            "眼镜",
+            "裙子"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0629",
+          "chapter_title": "第六百二十四章 俱乐部最靠谱的人",
+          "chunk_id": "ch-0629-ck-003",
+          "line_start": 71022,
+          "line_end": 71054,
+          "matched_terms": [
+            "衣服",
+            "鞋"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0480",
+          "chapter_title": "第四百七十五章 只是一种保险",
+          "chunk_id": "ch-0480-ck-001",
+          "line_start": 52307,
+          "line_end": 52341,
+          "matched_terms": [
+            "外套"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0520",
+          "chapter_title": "第五百一十五章 未知的颤栗",
+          "chunk_id": "ch-0520-ck-003",
+          "line_start": 57025,
+          "line_end": 57056,
+          "matched_terms": [
+            "衣服"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0535",
+          "chapter_title": "第五百三十章 黑沼城污染关键",
+          "chunk_id": "ch-0535-ck-003",
+          "line_start": 58831,
+          "line_end": 58857,
+          "matched_terms": [
+            "衣服"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0476",
+          "chapter_title": "第四百七十一章 意外的访客",
+          "chunk_id": "ch-0476-ck-004",
+          "line_start": 51855,
+          "line_end": 51897,
+          "matched_terms": [
+            "眼镜"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0477",
+          "chapter_title": "第四百七十二章 我们特清部不收礼",
+          "chunk_id": "ch-0477-ck-001",
+          "line_start": 51901,
+          "line_end": 51937,
+          "matched_terms": [
+            "鞋"
+          ],
+          "reason": "韩冰附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "眼镜",
+          "anchor_count": 3
+        },
+        {
+          "term": "衣服",
+          "anchor_count": 3
+        },
+        {
+          "term": "鞋",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "relationship_context": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0510",
+          "chapter_title": "第五百零五章 治疗自己的最好办法",
+          "chunk_id": "ch-0510-ck-004",
+          "line_start": 55894,
+          "line_end": 55927,
+          "matched_terms": [
+            "哥哥",
+            "妹妹",
+            "家人",
+            "陆辛"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0482",
+          "chapter_title": "第四百七十七章 青港天国计划",
+          "chunk_id": "ch-0482-ck-003",
+          "line_start": 52625,
+          "line_end": 52654,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "父亲",
+            "陆辛"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0477",
+          "chapter_title": "第四百七十二章 我们特清部不收礼",
+          "chunk_id": "ch-0477-ck-002",
+          "line_start": 51937,
+          "line_end": 51975,
+          "matched_terms": [
+            "同事",
+            "朋友",
+            "陆辛"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0520",
+          "chapter_title": "第五百一十五章 未知的颤栗",
+          "chunk_id": "ch-0520-ck-001",
+          "line_start": 56959,
+          "line_end": 56990,
+          "matched_terms": [
+            "家人",
+            "队友",
+            "陆辛"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0171",
+          "chapter_title": "第一百六十九章 “抓鬼”任务",
+          "chunk_id": "ch-0171-ck-004",
+          "line_start": 14953,
+          "line_end": 14978,
+          "matched_terms": [
+            "妹妹",
+            "朋友",
+            "陆辛"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0568",
+          "chapter_title": "第五百六十三章 事情还是闹大了",
+          "chunk_id": "ch-0568-ck-005",
+          "line_start": 63308,
+          "line_end": 63333,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "陆辛"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0577",
+          "chapter_title": "第五百七十二章 负零部队",
+          "chunk_id": "ch-0577-ck-001",
+          "line_start": 64336,
+          "line_end": 64370,
+          "matched_terms": [
+            "朋友",
+            "陆辛",
+            "领导"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0526",
+          "chapter_title": "第五百二十一章 群爷的账本",
+          "chunk_id": "ch-0526-ck-003",
+          "line_start": 57822,
+          "line_end": 57852,
+          "matched_terms": [
+            "朋友",
+            "父亲",
+            "陆辛"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0114",
+          "chapter_title": "第一百一十二章 谁来负责",
+          "chunk_id": "ch-0114-ck-003",
+          "line_start": 9076,
+          "line_end": 9102,
+          "matched_terms": [
+            "妹妹",
+            "父亲",
+            "陆辛"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0526",
+          "chapter_title": "第五百二十一章 群爷的账本",
+          "chunk_id": "ch-0526-ck-001",
+          "line_start": 57767,
+          "line_end": 57795,
+          "matched_terms": [
+            "妹妹",
+            "姐姐",
+            "陆辛"
+          ],
+          "reason": "韩冰附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "陆辛",
+          "anchor_count": 10
+        },
+        {
+          "term": "妹妹",
+          "anchor_count": 6
+        },
+        {
+          "term": "家人",
+          "anchor_count": 4
+        },
+        {
+          "term": "朋友",
+          "anchor_count": 4
+        },
+        {
+          "term": "父亲",
+          "anchor_count": 3
+        }
+      ]
+    }
+  },
+  "visual_policy": {
+    "not_yet_locked": [
+      "age",
+      "face_shape",
+      "hairstyle",
+      "eye_shape",
+      "body_proportions",
+      "height",
+      "default_clothing",
+      "attractiveness",
+      "default_expression",
+      "default_posture"
+    ],
+    "rule": "No appearance feature becomes Canon from term co-occurrence alone."
+  },
+  "forbidden_inferences": [
+    "不能从角色重要性推导颜值、英雄感或固定镜头语言。",
+    "不能把战斗/异常场景中的临时表演当成默认气质。",
+    "不能把职业或组织词直接转换成固定服装，除非正文有明确反复证据。",
+    "没有明确正文描述前，不锁定年龄、脸型、发型、眼型、身材、身高和默认服装。"
+  ],
+  "next_review": [
+    "Canon Agent读取 role_context / demeanor / appearance / clothing 最强证据 chunk。",
+    "只把正文明确描述、且与角色主体关系清楚的事实提升为 Canon。",
+    "冲突描述必须保留章节/时期范围，不能强行合并。"
+  ],
+  "output_hint": "canon/han_bing.character_contract.json"
+}

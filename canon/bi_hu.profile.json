@@ -1,0 +1,1077 @@
+{
+  "schema_version": "generic-character-profile/1",
+  "character_id": "CHAR-BIHU",
+  "name": "壁虎",
+  "source": {
+    "corpus": "cleaned/novel.cleaned.txt",
+    "index": "rag/private/chunks.jsonl",
+    "contains_novel_passages": false
+  },
+  "identity_presence": {
+    "status": "TEXT_CONFIRMED_IN_COPY",
+    "evidence": [
+      {
+        "chapter_id": "ch-0342",
+        "chapter_title": "第三百三十八章 十二阶魔方",
+        "chunk_id": "ch-0342-ck-001",
+        "line_start": 34252,
+        "line_end": 34281,
+        "matched_terms": [
+          "壁虎"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0162",
+        "chapter_title": "第一百六十章 支援小队入场",
+        "chunk_id": "ch-0162-ck-003",
+        "line_start": 13940,
+        "line_end": 13971,
+        "matched_terms": [
+          "壁虎"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0545",
+        "chapter_title": "第五百四十章 最可爱的妹妹",
+        "chunk_id": "ch-0545-ck-003",
+        "line_start": 60073,
+        "line_end": 60104,
+        "matched_terms": [
+          "壁虎"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0046",
+        "chapter_title": "第四十五章 C级特殊污染源——039",
+        "chunk_id": "ch-0046-ck-001",
+        "line_start": 3560,
+        "line_end": 3597,
+        "matched_terms": [
+          "壁虎"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0113",
+        "chapter_title": "第一百一十一章 非常的简单",
+        "chunk_id": "ch-0113-ck-002",
+        "line_start": 8957,
+        "line_end": 8991,
+        "matched_terms": [
+          "壁虎"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0125",
+        "chapter_title": "第一百二十三章 尽量不要伤害他",
+        "chunk_id": "ch-0125-ck-001",
+        "line_start": 10066,
+        "line_end": 10099,
+        "matched_terms": [
+          "壁虎"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0145",
+        "chapter_title": "第一百四十三章 无解级别能力",
+        "chunk_id": "ch-0145-ck-001",
+        "line_start": 12060,
+        "line_end": 12095,
+        "matched_terms": [
+          "壁虎"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      },
+      {
+        "chapter_id": "ch-0514",
+        "chapter_title": "第五百零九章 单兵小队成立",
+        "chunk_id": "ch-0514-ck-003",
+        "line_start": 56372,
+        "line_end": 56403,
+        "matched_terms": [
+          "壁虎"
+        ],
+        "reason": "角色名在该 chunk 中重复出现"
+      }
+    ]
+  },
+  "review_categories": {
+    "role_context": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0410",
+          "chapter_title": "第四百零六章 青港出击",
+          "chunk_id": "ch-0410-ck-005",
+          "line_start": 43187,
+          "line_end": 43216,
+          "matched_terms": [
+            "任务",
+            "会议",
+            "办公室",
+            "工作",
+            "教授",
+            "特清部",
+            "调查"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0145",
+          "chapter_title": "第一百四十三章 无解级别能力",
+          "chunk_id": "ch-0145-ck-001",
+          "line_start": 12060,
+          "line_end": 12095,
+          "matched_terms": [
+            "任务",
+            "信息",
+            "培训",
+            "工作",
+            "总部",
+            "调查"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0378",
+          "chapter_title": "第三百七十四章 召唤潜伏者",
+          "chunk_id": "ch-0378-ck-001",
+          "line_start": 38883,
+          "line_end": 38910,
+          "matched_terms": [
+            "任务",
+            "会议",
+            "博士",
+            "工作",
+            "组长",
+            "队长"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0873",
+          "chapter_title": "第八百六十八章 远距离打击",
+          "chunk_id": "ch-0873-ck-002",
+          "line_start": 104743,
+          "line_end": 104779,
+          "matched_terms": [
+            "任务",
+            "信息",
+            "工作",
+            "特清部",
+            "队长",
+            "领导"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0489",
+          "chapter_title": "第四百八十四章 一千九百六十二万六千一百七十六元",
+          "chunk_id": "ch-0489-ck-001",
+          "line_start": 53411,
+          "line_end": 53435,
+          "matched_terms": [
+            "会议",
+            "培训",
+            "工作",
+            "教授",
+            "特清部",
+            "训练"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0115",
+          "chapter_title": "第一百一十三章 他很紧张",
+          "chunk_id": "ch-0115-ck-003",
+          "line_start": 9167,
+          "line_end": 9200,
+          "matched_terms": [
+            "任务",
+            "会议",
+            "工作",
+            "报告",
+            "特别行动组"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0046",
+          "chapter_title": "第四十五章 C级特殊污染源——039",
+          "chunk_id": "ch-0046-ck-002",
+          "line_start": 3597,
+          "line_end": 3623,
+          "matched_terms": [
+            "任务",
+            "信息",
+            "办公室",
+            "特别行动组",
+            "负责人"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0115",
+          "chapter_title": "第一百一十三章 他很紧张",
+          "chunk_id": "ch-0115-ck-002",
+          "line_start": 9139,
+          "line_end": 9167,
+          "matched_terms": [
+            "任务",
+            "会议",
+            "信息",
+            "工作",
+            "报告"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0752",
+          "chapter_title": "第七百四十七章 找回那三年的记忆",
+          "chunk_id": "ch-0752-ck-001",
+          "line_start": 86526,
+          "line_end": 86564,
+          "matched_terms": [
+            "工作",
+            "教授",
+            "特清部",
+            "部长",
+            "队长"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0054",
+          "chapter_title": "第五十三章 工作报告",
+          "chunk_id": "ch-0054-ck-003",
+          "line_start": 4209,
+          "line_end": 4236,
+          "matched_terms": [
+            "会议",
+            "命令",
+            "培训",
+            "工作",
+            "报告"
+          ],
+          "reason": "壁虎附近出现role_context相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "工作",
+          "anchor_count": 9
+        },
+        {
+          "term": "任务",
+          "anchor_count": 7
+        },
+        {
+          "term": "会议",
+          "anchor_count": 6
+        },
+        {
+          "term": "信息",
+          "anchor_count": 4
+        },
+        {
+          "term": "特清部",
+          "anchor_count": 4
+        },
+        {
+          "term": "培训",
+          "anchor_count": 3
+        },
+        {
+          "term": "报告",
+          "anchor_count": 3
+        },
+        {
+          "term": "教授",
+          "anchor_count": 3
+        },
+        {
+          "term": "队长",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "demeanor": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0514",
+          "chapter_title": "第五百零九章 单兵小队成立",
+          "chunk_id": "ch-0514-ck-002",
+          "line_start": 56334,
+          "line_end": 56372,
+          "matched_terms": [
+            "严肃",
+            "平静",
+            "微笑",
+            "温和",
+            "笑",
+            "认真"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0513",
+          "chapter_title": "第五百零八章 友好的女王",
+          "chunk_id": "ch-0513-ck-004",
+          "line_start": 56274,
+          "line_end": 56306,
+          "matched_terms": [
+            "严肃",
+            "平静",
+            "礼貌",
+            "笑",
+            "紧张",
+            "认真"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-002",
+          "line_start": 32642,
+          "line_end": 32673,
+          "matched_terms": [
+            "微笑",
+            "温和",
+            "皱眉",
+            "笑",
+            "认真"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0046",
+          "chapter_title": "第四十五章 C级特殊污染源——039",
+          "chunk_id": "ch-0046-ck-002",
+          "line_start": 3597,
+          "line_end": 3623,
+          "matched_terms": [
+            "冷静",
+            "沉默",
+            "礼貌",
+            "笑",
+            "认真"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0513",
+          "chapter_title": "第五百零八章 友好的女王",
+          "chunk_id": "ch-0513-ck-002",
+          "line_start": 56217,
+          "line_end": 56250,
+          "matched_terms": [
+            "严肃",
+            "客气",
+            "笑",
+            "警惕"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0116",
+          "chapter_title": "第一百一十四章 为了你的安全",
+          "chunk_id": "ch-0116-ck-001",
+          "line_start": 9213,
+          "line_end": 9244,
+          "matched_terms": [
+            "严肃",
+            "平静",
+            "笑",
+            "认真"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0141",
+          "chapter_title": "第一百三十九章 他现在很正常",
+          "chunk_id": "ch-0141-ck-003",
+          "line_start": 11714,
+          "line_end": 11747,
+          "matched_terms": [
+            "严肃",
+            "冷淡",
+            "笑",
+            "紧张"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0144",
+          "chapter_title": "第一百四十二章 开心小镇",
+          "chunk_id": "ch-0144-ck-001",
+          "line_start": 11973,
+          "line_end": 12005,
+          "matched_terms": [
+            "微笑",
+            "皱眉",
+            "笑",
+            "认真"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0143",
+          "chapter_title": "第一百四十一章 85号公路尽头",
+          "chunk_id": "ch-0143-ck-002",
+          "line_start": 11910,
+          "line_end": 11940,
+          "matched_terms": [
+            "笑",
+            "紧张",
+            "警惕",
+            "认真"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0576",
+          "chapter_title": "第五百七十一章 升职的夏虫",
+          "chunk_id": "ch-0576-ck-004",
+          "line_start": 64309,
+          "line_end": 64332,
+          "matched_terms": [
+            "严肃",
+            "皱眉",
+            "笑",
+            "认真"
+          ],
+          "reason": "壁虎附近出现demeanor相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "笑",
+          "anchor_count": 10
+        },
+        {
+          "term": "认真",
+          "anchor_count": 8
+        },
+        {
+          "term": "严肃",
+          "anchor_count": 6
+        },
+        {
+          "term": "平静",
+          "anchor_count": 3
+        },
+        {
+          "term": "微笑",
+          "anchor_count": 3
+        },
+        {
+          "term": "皱眉",
+          "anchor_count": 3
+        },
+        {
+          "term": "紧张",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "appearance": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0710",
+          "chapter_title": "第七百零五章 一个导弹下来青港全灭的课程",
+          "chunk_id": "ch-0710-ck-002",
+          "line_start": 81113,
+          "line_end": 81150,
+          "matched_terms": [
+            "女孩",
+            "男人",
+            "目光",
+            "眼睛",
+            "脸",
+            "高挑"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0055",
+          "chapter_title": "第五十四章 防止失控绝招（壁虎版）",
+          "chunk_id": "ch-0055-ck-002",
+          "line_start": 4267,
+          "line_end": 4297,
+          "matched_terms": [
+            "女孩",
+            "年轻",
+            "模样",
+            "目光",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0710",
+          "chapter_title": "第七百零五章 一个导弹下来青港全灭的课程",
+          "chunk_id": "ch-0710-ck-003",
+          "line_start": 81150,
+          "line_end": 81184,
+          "matched_terms": [
+            "头发",
+            "女孩",
+            "模样",
+            "目光",
+            "脸",
+            "身材"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0523",
+          "chapter_title": "第五百一十八章 我家大哥很牛的",
+          "chunk_id": "ch-0523-ck-002",
+          "line_start": 57446,
+          "line_end": 57472,
+          "matched_terms": [
+            "年轻",
+            "男人",
+            "目光",
+            "眼睛",
+            "脸",
+            "身材"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0138",
+          "chapter_title": "第一百三十六章 第三把枪",
+          "chunk_id": "ch-0138-ck-003",
+          "line_start": 11398,
+          "line_end": 11433,
+          "matched_terms": [
+            "年轻",
+            "男人",
+            "眼睛",
+            "胖",
+            "脸",
+            "身材"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0139",
+          "chapter_title": "第一百三十七章 大家讲道理",
+          "chunk_id": "ch-0139-ck-001",
+          "line_start": 11459,
+          "line_end": 11491,
+          "matched_terms": [
+            "女人",
+            "年纪",
+            "模样",
+            "目光",
+            "脸",
+            "身材"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-004",
+          "line_start": 20017,
+          "line_end": 20044,
+          "matched_terms": [
+            "头发",
+            "女孩",
+            "年龄",
+            "模样",
+            "身材",
+            "高挑"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0323",
+          "chapter_title": "第三百一十九章 代号1021——血肉怪物",
+          "chunk_id": "ch-0323-ck-001",
+          "line_start": 32170,
+          "line_end": 32201,
+          "matched_terms": [
+            "头发",
+            "女孩",
+            "年龄",
+            "漂亮",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0514",
+          "chapter_title": "第五百零九章 单兵小队成立",
+          "chunk_id": "ch-0514-ck-003",
+          "line_start": 56372,
+          "line_end": 56403,
+          "matched_terms": [
+            "女人",
+            "女孩",
+            "目光",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0522",
+          "chapter_title": "第五百一十七章 精神污染天堂",
+          "chunk_id": "ch-0522-ck-003",
+          "line_start": 57361,
+          "line_end": 57389,
+          "matched_terms": [
+            "女孩",
+            "模样",
+            "男人",
+            "眼睛",
+            "脸"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0132",
+          "chapter_title": "第一百三十章 不需要计划",
+          "chunk_id": "ch-0132-ck-003",
+          "line_start": 10848,
+          "line_end": 10871,
+          "matched_terms": [
+            "女孩",
+            "年轻",
+            "目光",
+            "脸",
+            "身材"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0523",
+          "chapter_title": "第五百一十八章 我家大哥很牛的",
+          "chunk_id": "ch-0523-ck-003",
+          "line_start": 57472,
+          "line_end": 57500,
+          "matched_terms": [
+            "男人",
+            "瘦",
+            "眼睛",
+            "胖",
+            "脸"
+          ],
+          "reason": "壁虎附近出现appearance相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "脸",
+          "anchor_count": 11
+        },
+        {
+          "term": "女孩",
+          "anchor_count": 8
+        },
+        {
+          "term": "眼睛",
+          "anchor_count": 8
+        },
+        {
+          "term": "目光",
+          "anchor_count": 7
+        },
+        {
+          "term": "身材",
+          "anchor_count": 6
+        },
+        {
+          "term": "模样",
+          "anchor_count": 5
+        },
+        {
+          "term": "男人",
+          "anchor_count": 5
+        },
+        {
+          "term": "年轻",
+          "anchor_count": 4
+        },
+        {
+          "term": "头发",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "clothing": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0218",
+          "chapter_title": "第二百一十六章 她从天上掉了下来",
+          "chunk_id": "ch-0218-ck-004",
+          "line_start": 20017,
+          "line_end": 20044,
+          "matched_terms": [
+            "衣服",
+            "衣着",
+            "西装",
+            "风衣"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0141",
+          "chapter_title": "第一百三十九章 他现在很正常",
+          "chunk_id": "ch-0141-ck-002",
+          "line_start": 11686,
+          "line_end": 11714,
+          "matched_terms": [
+            "短裙",
+            "裙子",
+            "裤子"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0055",
+          "chapter_title": "第五十四章 防止失控绝招（壁虎版）",
+          "chunk_id": "ch-0055-ck-003",
+          "line_start": 4297,
+          "line_end": 4317,
+          "matched_terms": [
+            "裙子",
+            "鞋",
+            "风衣"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-004",
+          "line_start": 32705,
+          "line_end": 32736,
+          "matched_terms": [
+            "制服",
+            "衣服",
+            "鞋"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-003",
+          "line_start": 32673,
+          "line_end": 32705,
+          "matched_terms": [
+            "制服",
+            "鞋"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0335",
+          "chapter_title": "第三百三十一章 反向污染",
+          "chunk_id": "ch-0335-ck-002",
+          "line_start": 33512,
+          "line_end": 33540,
+          "matched_terms": [
+            "短裙",
+            "衣服"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0338",
+          "chapter_title": "第三百三十四章 满院的壁虎",
+          "chunk_id": "ch-0338-ck-004",
+          "line_start": 33884,
+          "line_end": 33894,
+          "matched_terms": [
+            "制服",
+            "衣服"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0523",
+          "chapter_title": "第五百一十八章 我家大哥很牛的",
+          "chunk_id": "ch-0523-ck-002",
+          "line_start": 57446,
+          "line_end": 57472,
+          "matched_terms": [
+            "衬衫",
+            "风衣"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0047",
+          "chapter_title": "第四十六章 工作机器",
+          "chunk_id": "ch-0047-ck-002",
+          "line_start": 3675,
+          "line_end": 3699,
+          "matched_terms": [
+            "衬衫",
+            "西装"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0327",
+          "chapter_title": "第三百二十三章 十分钟后出发",
+          "chunk_id": "ch-0327-ck-001",
+          "line_start": 32614,
+          "line_end": 32642,
+          "matched_terms": [
+            "衣服",
+            "西装"
+          ],
+          "reason": "壁虎附近出现clothing相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "衣服",
+          "anchor_count": 5
+        },
+        {
+          "term": "制服",
+          "anchor_count": 3
+        },
+        {
+          "term": "西装",
+          "anchor_count": 3
+        },
+        {
+          "term": "鞋",
+          "anchor_count": 3
+        },
+        {
+          "term": "风衣",
+          "anchor_count": 3
+        }
+      ]
+    },
+    "relationship_context": {
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "chapter_id": "ch-0340",
+          "chapter_title": "第三百三十六章 神经病人的思想",
+          "chunk_id": "ch-0340-ck-001",
+          "line_start": 34007,
+          "line_end": 34042,
+          "matched_terms": [
+            "同伴",
+            "妹妹",
+            "家人",
+            "朋友",
+            "队友",
+            "陆辛",
+            "领导"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0142",
+          "chapter_title": "第一百四十章 我只是能力有点怪",
+          "chunk_id": "ch-0142-ck-002",
+          "line_start": 11801,
+          "line_end": 11832,
+          "matched_terms": [
+            "同事",
+            "妹妹",
+            "家人",
+            "朋友",
+            "队友",
+            "陆辛"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0126",
+          "chapter_title": "第一百二十四章 出城！出城！出城！",
+          "chunk_id": "ch-0126-ck-003",
+          "line_start": 10208,
+          "line_end": 10231,
+          "matched_terms": [
+            "同事",
+            "妹妹",
+            "家人",
+            "朋友",
+            "陆辛"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0772",
+          "chapter_title": "第七百六十七章 夜之囚徒的权柄",
+          "chunk_id": "ch-0772-ck-004",
+          "line_start": 89102,
+          "line_end": 89134,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "父亲",
+            "陆辛",
+            "领导"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0127",
+          "chapter_title": "第一百二十五章 直接看到了",
+          "chunk_id": "ch-0127-ck-002",
+          "line_start": 10270,
+          "line_end": 10295,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "父亲",
+            "陆辛"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0378",
+          "chapter_title": "第三百七十四章 召唤潜伏者",
+          "chunk_id": "ch-0378-ck-002",
+          "line_start": 38910,
+          "line_end": 38941,
+          "matched_terms": [
+            "家人",
+            "队友",
+            "陆辛",
+            "领导"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0142",
+          "chapter_title": "第一百四十章 我只是能力有点怪",
+          "chunk_id": "ch-0142-ck-003",
+          "line_start": 11832,
+          "line_end": 11863,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "朋友",
+            "陆辛"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0045",
+          "chapter_title": "第四十四章 究竟什么颜色",
+          "chunk_id": "ch-0045-ck-001",
+          "line_start": 3474,
+          "line_end": 3495,
+          "matched_terms": [
+            "妹妹",
+            "姐姐",
+            "家人",
+            "陆辛"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0549",
+          "chapter_title": "第五百四十四章 找出来，审问它",
+          "chunk_id": "ch-0549-ck-001",
+          "line_start": 60528,
+          "line_end": 60556,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "朋友",
+            "陆辛"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        },
+        {
+          "chapter_id": "ch-0751",
+          "chapter_title": "第七百四十六章 史上最靠谱的副队长",
+          "chunk_id": "ch-0751-ck-004",
+          "line_start": 86502,
+          "line_end": 86522,
+          "matched_terms": [
+            "妹妹",
+            "家人",
+            "父亲",
+            "陆辛"
+          ],
+          "reason": "壁虎附近出现relationship_context相关词；仅作为定向 Canon 审查证据"
+        }
+      ],
+      "recurring_terms": [
+        {
+          "term": "家人",
+          "anchor_count": 10
+        },
+        {
+          "term": "陆辛",
+          "anchor_count": 10
+        },
+        {
+          "term": "妹妹",
+          "anchor_count": 9
+        },
+        {
+          "term": "朋友",
+          "anchor_count": 5
+        },
+        {
+          "term": "父亲",
+          "anchor_count": 3
+        },
+        {
+          "term": "队友",
+          "anchor_count": 3
+        },
+        {
+          "term": "领导",
+          "anchor_count": 3
+        }
+      ]
+    }
+  },
+  "visual_policy": {
+    "not_yet_locked": [
+      "age",
+      "face_shape",
+      "hairstyle",
+      "eye_shape",
+      "body_proportions",
+      "height",
+      "default_clothing",
+      "attractiveness",
+      "default_expression",
+      "default_posture"
+    ],
+    "rule": "No appearance feature becomes Canon from term co-occurrence alone."
+  },
+  "forbidden_inferences": [
+    "不能从角色重要性推导颜值、英雄感或固定镜头语言。",
+    "不能把战斗/异常场景中的临时表演当成默认气质。",
+    "不能把职业或组织词直接转换成固定服装，除非正文有明确反复证据。",
+    "没有明确正文描述前，不锁定年龄、脸型、发型、眼型、身材、身高和默认服装。"
+  ],
+  "next_review": [
+    "Canon Agent读取 role_context / demeanor / appearance / clothing 最强证据 chunk。",
+    "只把正文明确描述、且与角色主体关系清楚的事实提升为 Canon。",
+    "冲突描述必须保留章节/时期范围，不能强行合并。"
+  ],
+  "output_hint": "canon/bi_hu.character_contract.json"
+}
