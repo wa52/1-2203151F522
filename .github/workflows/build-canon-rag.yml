@@ -1,0 +1,39 @@
+name: Build Canon RAG metadata
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "cleaned/novel.cleaned.txt"
+      - "tools/build_canon_rag.py"
+      - ".github/workflows/build-canon-rag.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build local full-text index and public metadata
+        run: |
+          python tools/build_canon_rag.py build
+      - name: Validate local retrieval
+        run: |
+          python tools/build_canon_rag.py search "陆辛 办公室 工作" --top-k 3 --preview-chars 80
+          python tools/build_canon_rag.py search "陆辛 外貌 眼睛 头发 衣服" --top-k 3 --preview-chars 80
+      - name: Commit metadata only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/canon_index_report.json canon/lu_xin.candidates.json
+          if git diff --cached --quiet; then
+            echo "No metadata changes"
+            exit 0
+          fi
+          git commit -m "Build Canon RAG metadata for Lu Xin"
+          git push
