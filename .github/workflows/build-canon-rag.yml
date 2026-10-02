@@ -11,6 +11,7 @@ on:
       - "tools/discover_characters.py"
       - "tools/build_character_drafts.py"
       - "tools/build_generic_character_profile.py"
+      - "tools/export_generic_character_contract.py"
       - ".github/workflows/build-canon-rag.yml"
 
 permissions:
@@ -46,7 +47,12 @@ jobs:
         run: |
           python tools/build_generic_character_profile.py --character "陈菁" --character-id CHAR-CHENJING --slug chen_jing --output canon/chen_jing.profile.json
           python tools/build_generic_character_profile.py --character "韩冰" --character-id CHAR-HANBING --slug han_bing --output canon/han_bing.profile.json
-          python tools/build_generic_character_profile.py --character "壁虎" --character-id CHAR-BIHU --slug bi_hu --output canon/bi_hu.profile.json
+          python tools/build_generic_character_profile.py --character "壁虎" --character-id CHAR-BIHU --slug bi_hu --output canon/bi_hu.profile.json canon/chen_jing.character_contract.json canon/han_bing.character_contract.json canon/bi_hu.character_contract.json
+      - name: Export next major-character contracts
+        run: |
+          python tools/export_generic_character_contract.py --profile canon/chen_jing.profile.json --output canon/chen_jing.character_contract.json
+          python tools/export_generic_character_contract.py --profile canon/han_bing.profile.json --output canon/han_bing.character_contract.json
+          python tools/export_generic_character_contract.py --profile canon/bi_hu.profile.json --output canon/bi_hu.character_contract.json
 
       - name: Validate local retrieval
         run: |
