@@ -1,0 +1,35 @@
+name: Clean novel text
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "*.zip"
+      - "tools/clean_novel.py"
+      - ".github/workflows/clean-novel.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Clean source TXT
+        run: |
+          python tools/clean_novel.py 1-2203151F522.zip
+      - name: Commit generated clean text and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cleaned reports
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+            exit 0
+          fi
+          git commit -m "Clean novel text and generate report"
+          git push
