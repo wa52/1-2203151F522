@@ -13,6 +13,14 @@
     "dropped_url_or_domain": 2
   },
   "suspicious_sample_count": 6,
+  "validation": {
+    "line_count": 109994,
+    "chapter_heading_count": 0,
+    "replacement_char_count": 0,
+    "disallowed_control_count": 109994,
+    "remaining_suspicious_line_count": 0,
+    "remaining_suspicious": []
+  },
   "output": "cleaned/novel.cleaned.txt",
   "output_sha256": "bc3e797d6f9376d009f5ece43779c55d1775ec24320dd1b116b9b5b1ccf0aa8c",
   "policy": "conservative cleanup: source archive unchanged; no story rewriting"
