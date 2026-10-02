@@ -141,6 +141,21 @@ def index_report(chapters: list[Chapter], chunks: list[Chunk]) -> dict:
     }
 
 
+def proximity_hits(text: str, subject: str, terms: list[str], radius: int = 180) -> list[str]:
+    hits = set()
+    start = 0
+    while True:
+        pos = text.find(subject, start)
+        if pos < 0:
+            break
+        left = max(0, pos - radius)
+        right = min(len(text), pos + len(subject) + radius)
+        window = text[left:right]
+        hits.update(term for term in terms if term in window)
+        start = pos + len(subject)
+    return sorted(hits)
+
+
 def build_character_candidates(chunks: list[Chunk], character: str, limit: int = 120) -> dict:
     rows = []
     for chunk in chunks:
@@ -149,7 +164,7 @@ def build_character_candidates(chunks: list[Chunk], character: str, limit: int =
         matched = {}
         score = chunk.text.count(character) * 4
         for category, terms in CATEGORY_TERMS.items():
-            hits = sorted({term for term in terms if term in chunk.text})
+            hits = proximity_hits(chunk.text, character, terms)
             if hits:
                 matched[category] = hits
                 score += len(hits) * (3 if category != "identity" else 1)
