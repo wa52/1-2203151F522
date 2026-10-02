@@ -253,6 +253,33 @@ def clean_text(text: str) -> tuple[str, dict, list[dict]]:
     return result, dict(stats), samples
 
 
+CHAPTER_HEADING_RE = re.compile(
+    r"(?m)^\\s*(?:第[零〇一二三四五六七八九十百千万两\\d]+章(?:\\s|$)|引子(?:\\s|$)|序章(?:\\s|$)|番外(?:\\s|$))"
+)
+
+
+def validate_cleaned_text(text: str) -> dict:
+    remaining = []
+    for line_no, line in enumerate(text.splitlines(), start=1):
+        reasons = remaining_suspicious(line)
+        if reasons:
+            remaining.append({"line": line_no, "reason": ",".join(reasons)})
+    controls = sum(
+        1
+        for ch in text
+        if unicodedata.category(ch) in {"Cc", "Cf", "Cs"}
+        and ch not in {"\\n", "\\t"}
+    )
+    return {
+        "line_count": len(text.splitlines()),
+        "chapter_heading_count": len(CHAPTER_HEADING_RE.findall(text)),
+        "replacement_char_count": text.count("\\ufffd"),
+        "disallowed_control_count": controls,
+        "remaining_suspicious_line_count": len(remaining),
+        "remaining_suspicious": remaining[:20],
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("zip_path", type=Path)
@@ -269,6 +296,7 @@ def main() -> None:
 
     decoded, encoding, invalid_bytes = decode_text(raw)
     cleaned, stats, samples = clean_text(decoded)
+    validation = validate_cleaned_text(cleaned)
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.report.parent.mkdir(parents=True, exist_ok=True)
@@ -287,6 +315,7 @@ def main() -> None:
         "chars_after": len(cleaned),
         "removed_chars_or_lines": stats,
         "suspicious_sample_count": len(samples),
+        "validation": validation,
         "output": str(args.out),
         "output_sha256": sha256_bytes(cleaned.encode("utf-8")),
         "policy": "conservative cleanup: source archive unchanged; no story rewriting",
