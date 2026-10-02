@@ -1,16 +1,19 @@
 {
   "source_zip": "1-2203151F522.zip",
   "source_zip_sha256": "611a8b71474f1e03e395334f060ebfe42ccc157d46c2725193b1e9b88325a1c3",
-  "member_name": "í╢┤╙║∞╘┬┐¬╩╝í╖ú¿╨ú╢╘░µ╚½▒╛ú⌐╫≈╒▀ú║║┌╔╜└╧╣φ.txt",
+  "member_name_raw": "í╢┤╙║∞╘┬┐¬╩╝í╖ú¿╨ú╢╘░µ╚½▒╛ú⌐╫≈╒▀ú║║┌╔╜└╧╣φ.txt",
+  "member_name_repaired": "《从红月开始》（校对版全本）作者：黑山老鬼.txt",
   "member_bytes": 6677263,
-  "detected_encoding": "gb18030-replace",
+  "detected_encoding": "gb18030",
+  "invalid_source_bytes": {},
   "chars_before": 3450232,
-  "chars_after": 3340110,
+  "chars_after": 3339746,
   "removed_chars_or_lines": {
+    "dropped_decorative_separator": 4,
     "dropped_url_or_domain": 2
   },
   "suspicious_sample_count": 6,
   "output": "cleaned/novel.cleaned.txt",
-  "output_sha256": "051d0c9973bd9ce859a16b47871b7d15b0a5fd9a940c44c5e6706d748a599870",
+  "output_sha256": "bc3e797d6f9376d009f5ece43779c55d1775ec24320dd1b116b9b5b1ccf0aa8c",
   "policy": "conservative cleanup: source archive unchanged; no story rewriting"
 }
