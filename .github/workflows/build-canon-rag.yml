@@ -47,7 +47,7 @@ jobs:
         run: |
           python tools/build_generic_character_profile.py --character "陈菁" --character-id CHAR-CHENJING --slug chen_jing --output canon/chen_jing.profile.json
           python tools/build_generic_character_profile.py --character "韩冰" --character-id CHAR-HANBING --slug han_bing --output canon/han_bing.profile.json
-          python tools/build_generic_character_profile.py --character "壁虎" --character-id CHAR-BIHU --slug bi_hu --output canon/bi_hu.profile.json canon/chen_jing.character_contract.json canon/han_bing.character_contract.json canon/bi_hu.character_contract.json
+          python tools/build_generic_character_profile.py --character "壁虎" --character-id CHAR-BIHU --slug bi_hu --output canon/bi_hu.profile.json
       - name: Export next major-character contracts
         run: |
           python tools/export_generic_character_contract.py --profile canon/chen_jing.profile.json --output canon/chen_jing.character_contract.json
@@ -69,7 +69,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/canon_index_report.json canon/lu_xin.candidates.json canon/lu_xin.profile.json canon/lu_xin.character_contract.json canon/character_discovery.json canon/character_drafts.json canon/chen_jing.profile.json canon/han_bing.profile.json canon/bi_hu.profile.json
+          git add reports/canon_index_report.json canon/lu_xin.candidates.json canon/lu_xin.profile.json canon/lu_xin.character_contract.json canon/character_discovery.json canon/character_drafts.json canon/chen_jing.profile.json canon/han_bing.profile.json canon/bi_hu.profile.json canon/chen_jing.character_contract.json canon/han_bing.character_contract.json canon/bi_hu.character_contract.json
           if git diff --cached --quiet; then
             echo "No metadata changes"
             exit 0
