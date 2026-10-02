@@ -29,6 +29,21 @@ def contains_any(text: str, terms: list[str]) -> bool:
     return any(term in text for term in terms)
 
 
+def nearby_terms(text: str, subject: str, terms: list[str], radius: int = 180) -> list[str]:
+    hits = set()
+    start = 0
+    while True:
+        pos = text.find(subject, start)
+        if pos < 0:
+            break
+        left = max(0, pos - radius)
+        right = min(len(text), pos + len(subject) + radius)
+        window = text[left:right]
+        hits.update(term for term in terms if term in window)
+        start = pos + len(subject)
+    return sorted(hits)
+
+
 def evidence(
     chunks: list[dict],
     *,
@@ -45,7 +60,7 @@ def evidence(
         text = row["text"]
         if any(term not in text for term in required):
             continue
-        hits = [term for term in any_terms if term in text]
+        hits = nearby_terms(text, "陆辛", any_terms) if "陆辛" in required else [term for term in any_terms if term in text]
         if len(hits) < min_any:
             continue
         rows.append((len(hits), text.count("陆辛"), row, hits))
