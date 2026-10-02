@@ -1,0 +1,1212 @@
+{
+  "schema_version": "character-discovery/1",
+  "method": "cross-chapter-name-frequency-plus-nearby-dialogue-action-context",
+  "policy": [
+    "Discovery output is never Canon.",
+    "Every candidate requires Canon review before registry creation.",
+    "No novel passages are copied into this public metadata file."
+  ],
+  "candidate_count": 80,
+  "candidates": [
+    {
+      "name": "那么",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 488,
+      "chapter_count": 323,
+      "action_context_count": 81,
+      "action_context_ratio": 0.166,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0010",
+        "chapter_title": "第九章 特别行动组——编外人员",
+        "chunk_id": "ch-0010-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "不过",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 445,
+      "chapter_count": 320,
+      "action_context_count": 88,
+      "action_context_ratio": 0.1978,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0003",
+        "chapter_title": "第二章 街角咖啡店",
+        "chunk_id": "ch-0003-ck-004"
+      },
+      "review_required": true
+    },
+    {
+      "name": "笑道",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 316,
+      "chapter_count": 215,
+      "action_context_count": 401,
+      "action_context_ratio": 1.269,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0005",
+        "chapter_title": "第四章 一级精神怪物",
+        "chunk_id": "ch-0005-ck-004"
+      },
+      "review_required": true
+    },
+    {
+      "name": "另外",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 285,
+      "chapter_count": 213,
+      "action_context_count": 42,
+      "action_context_ratio": 0.1474,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0021",
+        "chapter_title": "第二十章 工作重点",
+        "chunk_id": "ch-0021-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "当然",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 231,
+      "chapter_count": 183,
+      "action_context_count": 42,
+      "action_context_ratio": 0.1818,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0002",
+        "chapter_title": "第一章 回家",
+        "chunk_id": "ch-0002-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "于是",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 242,
+      "chapter_count": 182,
+      "action_context_count": 48,
+      "action_context_ratio": 0.1983,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0017",
+        "chapter_title": "第十六章 怪事",
+        "chunk_id": "ch-0017-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "轻声道",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 243,
+      "chapter_count": 179,
+      "action_context_count": 130,
+      "action_context_ratio": 0.535,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0011",
+        "chapter_title": "第十章 好多的玩具",
+        "chunk_id": "ch-0011-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "说着",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 208,
+      "chapter_count": 169,
+      "action_context_count": 264,
+      "action_context_ratio": 1.2692,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0002",
+        "chapter_title": "第一章 回家",
+        "chunk_id": "ch-0002-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "是的",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 227,
+      "chapter_count": 168,
+      "action_context_count": 110,
+      "action_context_ratio": 0.4846,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0002",
+        "chapter_title": "第一章 回家",
+        "chunk_id": "ch-0002-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "或者说",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 213,
+      "chapter_count": 163,
+      "action_context_count": 24,
+      "action_context_ratio": 0.1127,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0007",
+        "chapter_title": "第六章 精神异变者",
+        "chunk_id": "ch-0007-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "低声道",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 208,
+      "chapter_count": 157,
+      "action_context_count": 75,
+      "action_context_ratio": 0.3606,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0016",
+        "chapter_title": "第十五章 生意照做",
+        "chunk_id": "ch-0016-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "毕竟",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 190,
+      "chapter_count": 157,
+      "action_context_count": 14,
+      "action_context_ratio": 0.0737,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0008",
+        "chapter_title": "第七章 我和我的家人",
+        "chunk_id": "ch-0008-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "只不过",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 176,
+      "chapter_count": 149,
+      "action_context_count": 10,
+      "action_context_ratio": 0.0568,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0006",
+        "chapter_title": "第五章 D级特殊污染源——036",
+        "chunk_id": "ch-0006-ck-004"
+      },
+      "review_required": true
+    },
+    {
+      "name": "而且",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 167,
+      "chapter_count": 141,
+      "action_context_count": 16,
+      "action_context_ratio": 0.0958,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0018",
+        "chapter_title": "第十七章 无止境复仇",
+        "chunk_id": "ch-0018-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "当然了",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 150,
+      "chapter_count": 131,
+      "action_context_count": 23,
+      "action_context_ratio": 0.1533,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0012",
+        "chapter_title": "第十一章 一家人",
+        "chunk_id": "ch-0012-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "下一刻",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 188,
+      "chapter_count": 120,
+      "action_context_count": 19,
+      "action_context_ratio": 0.1011,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0005",
+        "chapter_title": "第四章 一级精神怪物",
+        "chunk_id": "ch-0005-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "但如今",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 125,
+      "chapter_count": 106,
+      "action_context_count": 5,
+      "action_context_ratio": 0.04,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0027",
+        "chapter_title": "第二十六章 污染源本体",
+        "chunk_id": "ch-0027-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "好的",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 131,
+      "chapter_count": 99,
+      "action_context_count": 61,
+      "action_context_ratio": 0.4656,
+      "score": 100.0,
+      "first_seen": {
+        "chapter_id": "ch-0003",
+        "chapter_title": "第二章 街角咖啡店",
+        "chunk_id": "ch-0003-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "看起来",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 101,
+      "chapter_count": 95,
+      "action_context_count": 14,
+      "action_context_ratio": 0.1386,
+      "score": 98.48,
+      "first_seen": {
+        "chapter_id": "ch-0004",
+        "chapter_title": "第三章 你的咖啡还没喝",
+        "chunk_id": "ch-0004-ck-004"
+      },
+      "review_required": true
+    },
+    {
+      "name": "哗啦",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 112,
+      "chapter_count": 93,
+      "action_context_count": 15,
+      "action_context_ratio": 0.1339,
+      "score": 97.91,
+      "first_seen": {
+        "chapter_id": "ch-0012",
+        "chapter_title": "第十一章 一家人",
+        "chunk_id": "ch-0012-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "陆辛",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 72,
+      "chapter_count": 52,
+      "action_context_count": 129,
+      "action_context_ratio": 1.7917,
+      "score": 94.56,
+      "first_seen": {
+        "chapter_id": "ch-0003",
+        "chapter_title": "第二章 街角咖啡店",
+        "chunk_id": "ch-0003-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "陆辛道",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 118,
+      "chapter_count": 82,
+      "action_context_count": 29,
+      "action_context_ratio": 0.2458,
+      "score": 93.39,
+      "first_seen": {
+        "chapter_id": "ch-0006",
+        "chapter_title": "第五章 D级特殊污染源——036",
+        "chunk_id": "ch-0006-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "甚至",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 99,
+      "chapter_count": 86,
+      "action_context_count": 18,
+      "action_context_ratio": 0.1818,
+      "score": 91.62,
+      "first_seen": {
+        "chapter_id": "ch-0033",
+        "chapter_title": "第三十二章 我们的责任",
+        "chunk_id": "ch-0033-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "或许",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 102,
+      "chapter_count": 82,
+      "action_context_count": 17,
+      "action_context_ratio": 0.1667,
+      "score": 87.91,
+      "first_seen": {
+        "chapter_id": "ch-0010",
+        "chapter_title": "第九章 特别行动组——编外人员",
+        "chunk_id": "ch-0010-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "如今",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 103,
+      "chapter_count": 82,
+      "action_context_count": 11,
+      "action_context_ratio": 0.1068,
+      "score": 85.89,
+      "first_seen": {
+        "chapter_id": "ch-0025",
+        "chapter_title": "第二十四章 人形果实树",
+        "chunk_id": "ch-0025-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "其实",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 77,
+      "chapter_count": 68,
+      "action_context_count": 34,
+      "action_context_ratio": 0.4416,
+      "score": 79.26,
+      "first_seen": {
+        "chapter_id": "ch-0008",
+        "chapter_title": "第七章 我和我的家人",
+        "chunk_id": "ch-0008-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "哗啦啦",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 94,
+      "chapter_count": 77,
+      "action_context_count": 6,
+      "action_context_ratio": 0.0638,
+      "score": 78.92,
+      "first_seen": {
+        "chapter_id": "ch-0006",
+        "chapter_title": "第五章 D级特殊污染源——036",
+        "chunk_id": "ch-0006-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "才道",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 77,
+      "chapter_count": 67,
+      "action_context_count": 35,
+      "action_context_ratio": 0.4545,
+      "score": 78.71,
+      "first_seen": {
+        "chapter_id": "ch-0033",
+        "chapter_title": "第三十二章 我们的责任",
+        "chunk_id": "ch-0033-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "这一刻",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 85,
+      "chapter_count": 74,
+      "action_context_count": 14,
+      "action_context_ratio": 0.1647,
+      "score": 78.3,
+      "first_seen": {
+        "chapter_id": "ch-0005",
+        "chapter_title": "第四章 一级精神怪物",
+        "chunk_id": "ch-0005-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "紧接着",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 85,
+      "chapter_count": 75,
+      "action_context_count": 7,
+      "action_context_ratio": 0.0824,
+      "score": 76.75,
+      "first_seen": {
+        "chapter_id": "ch-0028",
+        "chapter_title": "第二十七章 那我是谁？",
+        "chunk_id": "ch-0028-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "一边说",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 70,
+      "chapter_count": 64,
+      "action_context_count": 26,
+      "action_context_ratio": 0.3714,
+      "score": 72.3,
+      "first_seen": {
+        "chapter_id": "ch-0039",
+        "chapter_title": "第三十八章 入职检测",
+        "chunk_id": "ch-0039-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "因此",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 74,
+      "chapter_count": 70,
+      "action_context_count": 6,
+      "action_context_ratio": 0.0811,
+      "score": 71.02,
+      "first_seen": {
+        "chapter_id": "ch-0009",
+        "chapter_title": "第八章 红月亮小学",
+        "chunk_id": "ch-0009-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "这一次",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 68,
+      "chapter_count": 61,
+      "action_context_count": 19,
+      "action_context_ratio": 0.2794,
+      "score": 66.99,
+      "first_seen": {
+        "chapter_id": "ch-0039",
+        "chapter_title": "第三十八章 入职检测",
+        "chunk_id": "ch-0039-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "走吧",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 65,
+      "chapter_count": 56,
+      "action_context_count": 20,
+      "action_context_ratio": 0.3077,
+      "score": 62.6,
+      "first_seen": {
+        "chapter_id": "ch-0009",
+        "chapter_title": "第八章 红月亮小学",
+        "chunk_id": "ch-0009-ck-004"
+      },
+      "review_required": true
+    },
+    {
+      "name": "不对",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 64,
+      "chapter_count": 57,
+      "action_context_count": 12,
+      "action_context_ratio": 0.1875,
+      "score": 60.62,
+      "first_seen": {
+        "chapter_id": "ch-0041",
+        "chapter_title": "第四十章 理论上讲",
+        "chunk_id": "ch-0041-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "对啊",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 64,
+      "chapter_count": 49,
+      "action_context_count": 27,
+      "action_context_ratio": 0.4219,
+      "score": 58.67,
+      "first_seen": {
+        "chapter_id": "ch-0039",
+        "chapter_title": "第三十八章 入职检测",
+        "chunk_id": "ch-0039-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "尤其是",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 62,
+      "chapter_count": 57,
+      "action_context_count": 5,
+      "action_context_ratio": 0.0806,
+      "score": 58.01,
+      "first_seen": {
+        "chapter_id": "ch-0010",
+        "chapter_title": "第九章 特别行动组——编外人员",
+        "chunk_id": "ch-0010-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "又道",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 54,
+      "chapter_count": 51,
+      "action_context_count": 20,
+      "action_context_ratio": 0.3704,
+      "score": 57.22,
+      "first_seen": {
+        "chapter_id": "ch-0035",
+        "chapter_title": "第三十四章 041号分析报告",
+        "chunk_id": "ch-0035-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "单兵",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 59,
+      "chapter_count": 51,
+      "action_context_count": 14,
+      "action_context_ratio": 0.2373,
+      "score": 55.52,
+      "first_seen": {
+        "chapter_id": "ch-0045",
+        "chapter_title": "第四十四章 究竟什么颜色",
+        "chunk_id": "ch-0045-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "好吧",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 54,
+      "chapter_count": 49,
+      "action_context_count": 19,
+      "action_context_ratio": 0.3519,
+      "score": 55.07,
+      "first_seen": {
+        "chapter_id": "ch-0039",
+        "chapter_title": "第三十八章 入职检测",
+        "chunk_id": "ch-0039-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "壁虎",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 51,
+      "chapter_count": 39,
+      "action_context_count": 45,
+      "action_context_ratio": 0.8824,
+      "score": 54.93,
+      "first_seen": {
+        "chapter_id": "ch-0004",
+        "chapter_title": "第三章 你的咖啡还没喝",
+        "chunk_id": "ch-0004-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "慢慢的",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 55,
+      "chapter_count": 48,
+      "action_context_count": 20,
+      "action_context_ratio": 0.3636,
+      "score": 54.6,
+      "first_seen": {
+        "chapter_id": "ch-0117",
+        "chapter_title": "第一百一十五章 家庭会议",
+        "chunk_id": "ch-0117-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "同时",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 54,
+      "chapter_count": 51,
+      "action_context_count": 11,
+      "action_context_ratio": 0.2037,
+      "score": 54.07,
+      "first_seen": {
+        "chapter_id": "ch-0023",
+        "chapter_title": "第二十二章 红月之下",
+        "chunk_id": "ch-0023-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "啊这",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 62,
+      "chapter_count": 50,
+      "action_context_count": 11,
+      "action_context_ratio": 0.1774,
+      "score": 53.81,
+      "first_seen": {
+        "chapter_id": "ch-0049",
+        "chapter_title": "第四十八章 这就叫专业",
+        "chunk_id": "ch-0049-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "可是",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 53,
+      "chapter_count": 50,
+      "action_context_count": 8,
+      "action_context_ratio": 0.1509,
+      "score": 52.04,
+      "first_seen": {
+        "chapter_id": "ch-0004",
+        "chapter_title": "第三章 你的咖啡还没喝",
+        "chunk_id": "ch-0004-ck-004"
+      },
+      "review_required": true
+    },
+    {
+      "name": "顿了顿",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 48,
+      "chapter_count": 45,
+      "action_context_count": 20,
+      "action_context_ratio": 0.4167,
+      "score": 51.34,
+      "first_seen": {
+        "chapter_id": "ch-0033",
+        "chapter_title": "第三十二章 我们的责任",
+        "chunk_id": "ch-0033-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "叫道",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 40,
+      "chapter_count": 36,
+      "action_context_count": 43,
+      "action_context_ratio": 1.075,
+      "score": 50.65,
+      "first_seen": {
+        "chapter_id": "ch-0020",
+        "chapter_title": "第十九章 精神污染调查",
+        "chunk_id": "ch-0020-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "真的",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 47,
+      "chapter_count": 44,
+      "action_context_count": 19,
+      "action_context_ratio": 0.4043,
+      "score": 50.01,
+      "first_seen": {
+        "chapter_id": "ch-0014",
+        "chapter_title": "第十三章 工作积极性",
+        "chunk_id": "ch-0014-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "旋即",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 54,
+      "chapter_count": 48,
+      "action_context_count": 5,
+      "action_context_ratio": 0.0926,
+      "score": 49.27,
+      "first_seen": {
+        "chapter_id": "ch-0081",
+        "chapter_title": "第八十章 工作流程没问题",
+        "chunk_id": "ch-0081-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "似乎",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 47,
+      "chapter_count": 46,
+      "action_context_count": 11,
+      "action_context_ratio": 0.234,
+      "score": 49.01,
+      "first_seen": {
+        "chapter_id": "ch-0073",
+        "chapter_title": "第七十二章 相视一笑",
+        "chunk_id": "ch-0073-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "好了",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 50,
+      "chapter_count": 45,
+      "action_context_count": 12,
+      "action_context_ratio": 0.24,
+      "score": 48.7,
+      "first_seen": {
+        "chapter_id": "ch-0036",
+        "chapter_title": "第三十五章 小鹿老师",
+        "chunk_id": "ch-0036-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "的一声",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 51,
+      "chapter_count": 47,
+      "action_context_count": 6,
+      "action_context_ratio": 0.1176,
+      "score": 48.48,
+      "first_seen": {
+        "chapter_id": "ch-0005",
+        "chapter_title": "第四章 一级精神怪物",
+        "chunk_id": "ch-0005-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "为什么",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 51,
+      "chapter_count": 40,
+      "action_context_count": 22,
+      "action_context_ratio": 0.4314,
+      "score": 47.78,
+      "first_seen": {
+        "chapter_id": "ch-0013",
+        "chapter_title": "第十二章 工作最重要了",
+        "chunk_id": "ch-0013-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "以及",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 51,
+      "chapter_count": 45,
+      "action_context_count": 8,
+      "action_context_ratio": 0.1569,
+      "score": 47.38,
+      "first_seen": {
+        "chapter_id": "ch-0043",
+        "chapter_title": "第四十二章 太正常了",
+        "chunk_id": "ch-0043-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "比如",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 58,
+      "chapter_count": 45,
+      "action_context_count": 5,
+      "action_context_ratio": 0.0862,
+      "score": 46.89,
+      "first_seen": {
+        "chapter_id": "ch-0033",
+        "chapter_title": "第三十二章 我们的责任",
+        "chunk_id": "ch-0033-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "事实上",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 50,
+      "chapter_count": 46,
+      "action_context_count": 4,
+      "action_context_ratio": 0.08,
+      "score": 46.8,
+      "first_seen": {
+        "chapter_id": "ch-0020",
+        "chapter_title": "第十九章 精神污染调查",
+        "chunk_id": "ch-0020-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "看样子",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 45,
+      "chapter_count": 44,
+      "action_context_count": 9,
+      "action_context_ratio": 0.2,
+      "score": 46.35,
+      "first_seen": {
+        "chapter_id": "ch-0057",
+        "chapter_title": "第五十六章 值得感恩的生活",
+        "chunk_id": "ch-0057-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "小陆哥",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 60,
+      "chapter_count": 38,
+      "action_context_count": 21,
+      "action_context_ratio": 0.35,
+      "score": 46.35,
+      "first_seen": {
+        "chapter_id": "ch-0014",
+        "chapter_title": "第十三章 工作积极性",
+        "chunk_id": "ch-0014-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "没事",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 50,
+      "chapter_count": 40,
+      "action_context_count": 18,
+      "action_context_ratio": 0.36,
+      "score": 46.3,
+      "first_seen": {
+        "chapter_id": "ch-0054",
+        "chapter_title": "第五十三章 工作报告",
+        "chunk_id": "ch-0054-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "你好",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 50,
+      "chapter_count": 39,
+      "action_context_count": 19,
+      "action_context_ratio": 0.38,
+      "score": 45.75,
+      "first_seen": {
+        "chapter_id": "ch-0034",
+        "chapter_title": "第三十三章 信息通报",
+        "chunk_id": "ch-0034-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "而这",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 51,
+      "chapter_count": 45,
+      "action_context_count": 3,
+      "action_context_ratio": 0.0588,
+      "score": 45.63,
+      "first_seen": {
+        "chapter_id": "ch-0008",
+        "chapter_title": "第七章 我和我的家人",
+        "chunk_id": "ch-0008-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "笑着道",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 48,
+      "chapter_count": 42,
+      "action_context_count": 11,
+      "action_context_ratio": 0.2292,
+      "score": 45.49,
+      "first_seen": {
+        "chapter_id": "ch-0009",
+        "chapter_title": "第八章 红月亮小学",
+        "chunk_id": "ch-0009-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "频道里",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 47,
+      "chapter_count": 36,
+      "action_context_count": 26,
+      "action_context_ratio": 0.5532,
+      "score": 45.26,
+      "first_seen": {
+        "chapter_id": "ch-0022",
+        "chapter_title": "第二十一章 水下作业",
+        "chunk_id": "ch-0022-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "好一会",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 40,
+      "chapter_count": 37,
+      "action_context_count": 25,
+      "action_context_ratio": 0.625,
+      "score": 45.25,
+      "first_seen": {
+        "chapter_id": "ch-0080",
+        "chapter_title": "第七十九章 责任要划清",
+        "chunk_id": "ch-0080-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "第一",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 44,
+      "chapter_count": 42,
+      "action_context_count": 11,
+      "action_context_ratio": 0.25,
+      "score": 45.17,
+      "first_seen": {
+        "chapter_id": "ch-0010",
+        "chapter_title": "第九章 特别行动组——编外人员",
+        "chunk_id": "ch-0010-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "最后",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 51,
+      "chapter_count": 42,
+      "action_context_count": 9,
+      "action_context_ratio": 0.1765,
+      "score": 45.03,
+      "first_seen": {
+        "chapter_id": "ch-0083",
+        "chapter_title": "第八十二章 意志扭曲",
+        "chunk_id": "ch-0083-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "九号",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 68,
+      "chapter_count": 35,
+      "action_context_count": 23,
+      "action_context_ratio": 0.3382,
+      "score": 44.99,
+      "first_seen": {
+        "chapter_id": "ch-0559",
+        "chapter_title": "第五百五十四章 行刑台",
+        "chunk_id": "ch-0559-ck-004"
+      },
+      "review_required": true
+    },
+    {
+      "name": "兄弟",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 54,
+      "chapter_count": 39,
+      "action_context_count": 15,
+      "action_context_ratio": 0.2778,
+      "score": 44.67,
+      "first_seen": {
+        "chapter_id": "ch-0038",
+        "chapter_title": "第三十七章 安静的晚餐",
+        "chunk_id": "ch-0038-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "哎呀",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 44,
+      "chapter_count": 41,
+      "action_context_count": 12,
+      "action_context_ratio": 0.2727,
+      "score": 44.62,
+      "first_seen": {
+        "chapter_id": "ch-0005",
+        "chapter_title": "第四章 一级精神怪物",
+        "chunk_id": "ch-0005-ck-004"
+      },
+      "review_required": true
+    },
+    {
+      "name": "很快",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 45,
+      "chapter_count": 41,
+      "action_context_count": 6,
+      "action_context_ratio": 0.1333,
+      "score": 42.6,
+      "first_seen": {
+        "chapter_id": "ch-0029",
+        "chapter_title": "第二十八章 逻辑链与核心关键",
+        "chunk_id": "ch-0029-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "不好",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 42,
+      "chapter_count": 40,
+      "action_context_count": 9,
+      "action_context_ratio": 0.2143,
+      "score": 42.51,
+      "first_seen": {
+        "chapter_id": "ch-0004",
+        "chapter_title": "第三章 你的咖啡还没喝",
+        "chunk_id": "ch-0004-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "只可惜",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 45,
+      "chapter_count": 42,
+      "action_context_count": 3,
+      "action_context_ratio": 0.0667,
+      "score": 42.45,
+      "first_seen": {
+        "chapter_id": "ch-0044",
+        "chapter_title": "第四十三章 青港的怪物",
+        "chunk_id": "ch-0044-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "没关系",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 42,
+      "chapter_count": 36,
+      "action_context_count": 19,
+      "action_context_ratio": 0.4524,
+      "score": 42.41,
+      "first_seen": {
+        "chapter_id": "ch-0033",
+        "chapter_title": "第三十二章 我们的责任",
+        "chunk_id": "ch-0033-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "怎么了",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 43,
+      "chapter_count": 36,
+      "action_context_count": 16,
+      "action_context_ratio": 0.3721,
+      "score": 41.44,
+      "first_seen": {
+        "chapter_id": "ch-0028",
+        "chapter_title": "第二十七章 那我是谁？",
+        "chunk_id": "ch-0028-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "这是",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 38,
+      "chapter_count": 36,
+      "action_context_count": 14,
+      "action_context_ratio": 0.3684,
+      "score": 40.34,
+      "first_seen": {
+        "chapter_id": "ch-0027",
+        "chapter_title": "第二十六章 污染源本体",
+        "chunk_id": "ch-0027-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "一声",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 38,
+      "chapter_count": 37,
+      "action_context_count": 11,
+      "action_context_ratio": 0.2895,
+      "score": 40.19,
+      "first_seen": {
+        "chapter_id": "ch-0004",
+        "chapter_title": "第三章 你的咖啡还没喝",
+        "chunk_id": "ch-0004-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "很明显",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 38,
+      "chapter_count": 38,
+      "action_context_count": 8,
+      "action_context_ratio": 0.2105,
+      "score": 40.04,
+      "first_seen": {
+        "chapter_id": "ch-0084",
+        "chapter_title": "第八十三章 精神寄生物品",
+        "chunk_id": "ch-0084-ck-001"
+      },
+      "review_required": true
+    },
+    {
+      "name": "按理说",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 41,
+      "chapter_count": 39,
+      "action_context_count": 3,
+      "action_context_ratio": 0.0732,
+      "score": 39.43,
+      "first_seen": {
+        "chapter_id": "ch-0072",
+        "chapter_title": "第七十一章 严重被污染者",
+        "chunk_id": "ch-0072-ck-002"
+      },
+      "review_required": true
+    },
+    {
+      "name": "第二",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 40,
+      "chapter_count": 38,
+      "action_context_count": 5,
+      "action_context_ratio": 0.125,
+      "score": 39.15,
+      "first_seen": {
+        "chapter_id": "ch-0010",
+        "chapter_title": "第九章 特别行动组——编外人员",
+        "chunk_id": "ch-0010-ck-003"
+      },
+      "review_required": true
+    },
+    {
+      "name": "白教授",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 29,
+      "chapter_count": 24,
+      "action_context_count": 43,
+      "action_context_ratio": 1.4828,
+      "score": 38.97,
+      "first_seen": {
+        "chapter_id": "ch-0032",
+        "chapter_title": "第三十一章 失控风险",
+        "chunk_id": "ch-0032-ck-002"
+      },
+      "review_required": true
+    }
+  ]
+}
