@@ -7,6 +7,12 @@ on:
       - "*.zip"
       - "tools/clean_novel.py"
       - ".github/workflows/clean-novel.yml"
+  pull_request:
+    paths:
+      - "*.zip"
+      - "tools/clean_novel.py"
+      - ".github/workflows/clean-novel.yml"
+      - ".trigger-clean"
 
 permissions:
   contents: write
@@ -16,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -32,4 +40,8 @@ jobs:
             exit 0
           fi
           git commit -m "Clean novel text and generate report"
-          git push
+          if [ -n "${{ github.head_ref }}" ]; then
+            git push origin HEAD:${{ github.head_ref }}
+          else
+            git push
+          fi
