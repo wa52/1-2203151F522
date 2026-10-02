@@ -8,7 +8,7 @@
     "Raw 2-3 character frequency alone is not sufficient for character discovery."
   ],
   "candidate_count": 80,
-  "recommended_count": 14,
+  "recommended_count": 13,
   "candidates": [
     {
       "name": "陆辛",
@@ -243,24 +243,6 @@
       },
       "review_required": true,
       "recommended_for_canon_review": false
-    },
-    {
-      "name": "于是他",
-      "status": "DISCOVERY_CANDIDATE",
-      "mention_count": 153,
-      "chapter_count": 135,
-      "subject_action_hits": 9,
-      "self_intro_hits": 0,
-      "surname_like": true,
-      "candidate_kind": "personal_name",
-      "score": 78.24,
-      "first_seen": {
-        "chapter_id": "ch-0081",
-        "chapter_title": "第八十章 工作流程没问题",
-        "chunk_id": "ch-0081-ck-001"
-      },
-      "review_required": true,
-      "recommended_for_canon_review": true
     },
     {
       "name": "直接",
@@ -1446,6 +1428,24 @@
         "chapter_id": "ch-0561",
         "chapter_title": "第五百五十六章 你就是怪物",
         "chunk_id": "ch-0561-ck-006"
+      },
+      "review_required": true,
+      "recommended_for_canon_review": false
+    },
+    {
+      "name": "既然",
+      "status": "DISCOVERY_CANDIDATE",
+      "mention_count": 392,
+      "chapter_count": 284,
+      "subject_action_hits": 2,
+      "self_intro_hits": 0,
+      "surname_like": false,
+      "candidate_kind": "alias_or_codename",
+      "score": 62.0,
+      "first_seen": {
+        "chapter_id": "ch-0548",
+        "chapter_title": "第五百四十三章 这应该叫作“行刑”",
+        "chunk_id": "ch-0548-ck-002"
       },
       "review_required": true,
       "recommended_for_canon_review": false
