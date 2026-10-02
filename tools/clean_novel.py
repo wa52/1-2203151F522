@@ -60,28 +60,74 @@ def choose_txt_member(archive: zipfile.ZipFile) -> zipfile.ZipInfo:
     return max(candidates, key=lambda item: item.file_size)
 
 
-def decode_text(data: bytes) -> tuple[str, str]:
-    for encoding in TEXT_ENCODINGS:
+def repair_zip_member_name(info: zipfile.ZipInfo) -> str:
+    """Repair common legacy ZIP filenames stored as GBK but decoded as CP437."""
+    if info.flag_bits & 0x800:
+        return info.filename
+    try:
+        raw = info.filename.encode("cp437")
+    except UnicodeEncodeError:
+        return info.filename
+    for encoding in ("gb18030", "gbk"):
         try:
-            text = data.decode(encoding)
+            repaired = raw.decode(encoding)
         except UnicodeDecodeError:
             continue
-        # Reject clearly implausible decodes when another encoding may be better.
-        cjk = sum("\u3400" <= ch <= "\u9fff" for ch in text[:200_000])
-        sample = text[:200_000]
-        printable = sum(ch.isprintable() or ch in "\r\n\t" for ch in sample)
-        if sample and printable / len(sample) < 0.96:
+        if repaired.lower().endswith(".txt"):
+            return repaired
+    return info.filename
+
+
+def decode_candidate(data: bytes, encoding: str) -> tuple[str, Counter]:
+    decoded = data.decode(encoding, errors="surrogateescape")
+    invalid = Counter()
+    for ch in decoded:
+        cp = ord(ch)
+        if 0xDC80 <= cp <= 0xDCFF:
+            invalid[f"0x{cp - 0xDC00:02X}"] += 1
+    return decoded, invalid
+
+
+def decode_text(data: bytes) -> tuple[str, str, dict[str, int]]:
+    best: tuple[tuple[int, int, int], str, str, Counter] | None = None
+    sample_limit = 250_000
+
+    for encoding in TEXT_ENCODINGS:
+        try:
+            decoded, invalid = decode_candidate(data, encoding)
+        except (LookupError, UnicodeDecodeError):
             continue
-        if encoding in {"big5"} and cjk < 100:
-            continue
-        return text, encoding
-    # Last-resort path: GB18030 preserves as much source information as possible.
-    return data.decode("gb18030", errors="replace"), "gb18030-replace"
+
+        sample = decoded[:sample_limit]
+        printable = sum(
+            ch.isprintable()
+            or ch in "\r\n\t"
+            or 0xDC80 <= ord(ch) <= 0xDCFF
+            for ch in sample
+        )
+        cjk = sum("\u3400" <= ch <= "\u9fff" for ch in sample)
+        mojibake_hits = sum(sample.count(hint) for hint in MOJIBAKE_HINTS)
+        invalid_count = sum(invalid.values())
+
+        # Lower is better. Prefer fewer undecodable bytes and fewer mojibake hints,
+        # then prefer more CJK for this Chinese novel corpus.
+        score = (invalid_count, mojibake_hits, -cjk)
+        if best is None or score < best[0]:
+            best = (score, decoded, encoding, invalid)
+
+    if best is None:
+        raise UnicodeError("Unable to decode TXT member with supported encodings")
+
+    _, decoded, encoding, invalid = best
+    label = encoding if not invalid else f"{encoding}+surrogateescape"
+    return decoded, label, dict(invalid)
 
 
 def should_remove_char(ch: str) -> bool:
     cp = ord(ch)
     if ch in ZERO_WIDTH or ch == "\ufffd":
+        return True
+    if 0xDC80 <= cp <= 0xDCFF:
         return True
     if any(start <= cp <= end for start, end in BAD_RANGES):
         return True
@@ -115,10 +161,22 @@ def normalize_line(line: str, stats: Counter) -> str:
     return "".join(out).rstrip()
 
 
+def is_decorative_separator(line: str) -> bool:
+    stripped = line.strip()
+    if len(stripped) < 20:
+        return False
+    # Long repeated punctuation-only rows are download-site separators, not prose.
+    if any(ch.isalnum() or "\u3400" <= ch <= "\u9fff" for ch in stripped):
+        return False
+    return len(set(stripped)) <= 3
+
+
 def is_high_confidence_junk_line(line: str) -> str | None:
     stripped = line.strip()
     if not stripped:
         return None
+    if is_decorative_separator(stripped):
+        return "decorative_separator"
     if URL_RE.search(stripped):
         return "url_or_domain"
     for idx, pattern in enumerate(JUNK_LINE_PATTERNS, start=1):
@@ -136,7 +194,6 @@ def remaining_suspicious(line: str) -> list[str]:
         reasons.append("box_or_block")
     if any(unicodedata.category(ch) in {"Co", "Cs"} for ch in line):
         reasons.append("private_or_surrogate")
-    # Excessive symbol runs often indicate damaged separators or copied-site noise.
     if re.search(r"[^\w\u3400-\u9fff，。！？；：、“”‘’（）《》…—\s]{8,}", line):
         reasons.append("long_symbol_run")
     return reasons
@@ -145,6 +202,16 @@ def remaining_suspicious(line: str) -> list[str]:
 def clean_text(text: str) -> tuple[str, dict, list[dict]]:
     stats: Counter = Counter()
     samples: list[dict] = []
+
+    # Surrogateescaped bytes must be handled before Unicode normalization.
+    safe_parts = []
+    for ch in text:
+        if 0xDC80 <= ord(ch) <= 0xDCFF:
+            stats[f"removed_invalid_byte_0x{ord(ch) - 0xDC00:02X}"] += 1
+            continue
+        safe_parts.append(ch)
+    text = "".join(safe_parts)
+
     text = unicodedata.normalize("NFC", text)
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     lines = text.split("\n")
@@ -171,8 +238,8 @@ def clean_text(text: str) -> tuple[str, dict, list[dict]]:
             else:
                 stats["extra_blank_lines_removed"] += 1
             continue
-        blank_run = 0
 
+        blank_run = 0
         reasons = remaining_suspicious(line)
         if reasons and len(samples) < 80:
             samples.append({
@@ -198,8 +265,9 @@ def main() -> None:
     with zipfile.ZipFile(args.zip_path) as archive:
         member = choose_txt_member(archive)
         raw = archive.read(member)
+        repaired_member_name = repair_zip_member_name(member)
 
-    decoded, encoding = decode_text(raw)
+    decoded, encoding, invalid_bytes = decode_text(raw)
     cleaned, stats, samples = clean_text(decoded)
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
@@ -210,9 +278,11 @@ def main() -> None:
     report = {
         "source_zip": args.zip_path.name,
         "source_zip_sha256": sha256_bytes(zip_bytes),
-        "member_name": member.filename,
+        "member_name_raw": member.filename,
+        "member_name_repaired": repaired_member_name,
         "member_bytes": len(raw),
         "detected_encoding": encoding,
+        "invalid_source_bytes": invalid_bytes,
         "chars_before": len(decoded),
         "chars_after": len(cleaned),
         "removed_chars_or_lines": stats,
@@ -221,8 +291,14 @@ def main() -> None:
         "output_sha256": sha256_bytes(cleaned.encode("utf-8")),
         "policy": "conservative cleanup: source archive unchanged; no story rewriting",
     }
-    args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    args.samples.write_text(json.dumps(samples, ensure_ascii=False, indent=2), encoding="utf-8")
+    args.report.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    args.samples.write_text(
+        json.dumps(samples, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 
